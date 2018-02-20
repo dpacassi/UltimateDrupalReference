@@ -176,7 +176,7 @@ They're handy if you *really* just want to have a quick start with Drupal.
 
 ## Video tutorials
 - [Rendering & caching: a journey through the layers](https://www.youtube.com/watch?v=MQGUzubY35I)
-- [Decouple your Twing from PHP and make Frontenders happy!](https://www.youtube.com/watch?v=Z4gMLSD5MAU)
+- [Decouple your Twig from PHP and make Frontenders happy!](https://www.youtube.com/watch?v=Z4gMLSD5MAU)
 
 ## Drupal PaaS
 When it comes to hosting a Drupal site, you can always use any server which supports the system requirements.
