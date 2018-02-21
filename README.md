@@ -7,7 +7,7 @@ This project will try to list you the **best, most promising and most efficient*
 If you would like to have a Drupal 7 version of it, please open a [GitHub issue](../../issues) so we can discuss it. 
 
 ## Contribution guidelines 
-This project lives through new and up-to-date resources from the community, from **you**!
+This project lives through new and up-to-date resources from the community, from **you**!  
 If you would like to add a resource or contribute in any other kind of way, be sure to read our [contribution guidelines](CONTRIBUTING.md).
 
 ## Table of contents
