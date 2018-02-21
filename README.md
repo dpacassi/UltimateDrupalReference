@@ -188,6 +188,13 @@ However, there are a few Drupal specialized PaaS hosting options you might want 
 - [Pantheon](https://pantheon.io/)
 - [Platform.sh](https://platform.sh/)
 
+## Drupal Community
+If you wish to get more involved with the Drupal community, or want to get in contact with Drupal developers, you can use the following platforms.
+- [Drupal.org](https://www.drupal.org) - The main hub of the Drupal community. News, discussions about the development of Drupal core, official documentation, seeking aid 
+with specific modules, job marketplace and everything Drupal.
+- [Slack](https://www.drupal.org/slack) - A list of Drupal related Slack channels.
+- [Meetups](https://www.meetup.com/topics/drupal/) - Participate in Drupal meetups in your area and meet the community face to face.
+
 ## Credits
 - [David Pacassi Torrico](https://www.drupal.org/u/dpacassi) - Project maintainer
 - [Liip](https://www.liip.ch/) - Support
