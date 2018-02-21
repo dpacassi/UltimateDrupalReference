@@ -43,7 +43,7 @@ If you would like to add a resource or contribute in any other kind of way, be s
 - [License](#license)
 
 ## Installing Drupal
-There are different ways of how to get install Drupal.
+There are different ways of installing Drupal.
 You can either install it directly on your local machine (or any server) or you can also work with a VM if you prefer.
 If you really just want to catch a *quick glimpse* about a specific Drupal distribution, module or theme, then you don't even
 need to install anything! Check out the next section for details.
