@@ -11,9 +11,12 @@ This project lives through new and up-to-date resources from the community, from
 If you would like to add a resource or contribute in any other kind of way, be sure to read our [contribution guidelines](CONTRIBUTING.md).
 
 ## Table of contents
-- [Evaluate Drupal projects without installing Drupal](#evaluate-drupal-projects-without-installing-drupal)
-- [Local environment](#local-environment)
 - [Installing Drupal](#installing-drupal)
+  - [Evaluate Drupal projects without installing Drupal](#evaluate-drupal-projects-without-installing-drupal)
+  - [Drupal requirements](#drupal-requirements)
+  - [Official installation page](#official-installation-page)
+  - [Drupal VMs](#drupal-vms)
+  - [Composer](#composer)
 - [Distributions](#distributions)
 - [Modules](#modules)
   - [Commerce](#commerce)
@@ -39,21 +42,30 @@ If you would like to add a resource or contribute in any other kind of way, be s
 - [Credits](#credits)
 - [License](#license)
 
-## Evaluate Drupal projects without installing Drupal
-Do you just want to catch a *quick glimpse* about a specific Drupal distribution, module or theme? Are you currently on
-another machine than on your development machine?
-Try [simplytest.me](https://simplytest.me/) then! No need to install Drupal locally just for evaluation! 
+## Installing Drupal
+There are different ways of how to get install Drupal.
+You can either install it directly on your local machine (or any server) or you can also work with a VM if you prefer.
+If you really just want to catch a *quick glimpse* about a specific Drupal distribution, module or theme, then you don't even
+need to install anything! Check out the next section for details.
 
-## Local environment
-In order to be able to run Drupal on your machine, you need a webserver with PHP and a SQL database server.
+### Evaluate Drupal projects without installing Drupal
+No further information needed. Simply visit [simplytest.me](https://simplytest.me/) and launch your custom sandbox!
+
+### Drupal requirements
+In order to be able to run Drupal on your machine (or any server), you need a web server with PHP and a SQL database server.
 Please check the [official requirements page](https://www.drupal.org/docs/8/system-requirements) for more details.
 
-If you prefer working with a VM, check following alternatives:
+### Official installation page
+Up-to-date and detailed instructions can be found on the [official installation page](https://www.drupal.org/docs/8/install).
+
+### Drupal VMs
+If you prefer working with a VM, check out following alternatives:
 - [Docker](https://hub.docker.com/_/drupal/)
 - [Drupal VM](https://www.drupalvm.com/)
 
-## Installing Drupal
-For details, please check the [official installation page](https://www.drupal.org/docs/8/install).   It is, however, **recommended** to use [https://getcomposer.org/](Composer) whenever possible.  
+### Composer
+While not required, it's **highly recommended** that you set up your Drupal project with [Composer](https://getcomposer.org/),
+regardless of your technical setup.  
 Check the [Composer template for Drupal projects](https://github.com/drupal-composer/drupal-project) to install Drupal quickly via Composer.
 
 ## Distributions
