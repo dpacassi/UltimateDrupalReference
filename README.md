@@ -11,6 +11,8 @@ This project lives through new and up-to-date resources from the community, from
 If you would like to add a resource or contribute in any other kind of way, be sure to read our [contribution guidelines](CONTRIBUTING.md).
 
 ## Table of contents
+- [Evaluate Drupal projects without installing Drupal](#evaluate-drupal-projects-without-installing-drupal)
+- [Local environment](#local-environment)
 - [Installing Drupal](#installing-drupal)
 - [Distributions](#distributions)
 - [Modules](#modules)
@@ -36,6 +38,11 @@ If you would like to add a resource or contribute in any other kind of way, be s
 - [Communities](#communities)
 - [Credits](#credits)
 - [License](#license)
+
+## Evaluate Drupal projects without installing Drupal
+Do you just want to catch a *quick glimpse* about a specific Drupal distribution, module or theme? Are you currently on
+another machine than on your development machine?
+Try [simplytest.me](https://simplytest.me/) then! No need to install Drupal locally just for evaluation! 
 
 ## Local environment
 In order to be able to run Drupal on your machine, you need a webserver with PHP and a SQL database server.
