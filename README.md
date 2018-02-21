@@ -3,10 +3,12 @@ When it comes to [Drupal](https://www.drupal.org/), there are a lot of videos, b
 While some of them are good, others are in need of improvement and a few of them are simply outdated.
 
 This project will try to list you the **best, most promising and most efficient** resources that you might need when developing a Drupal site.  
-**Important: This project will focus on Drupal 8 only!** 
+**Important:** This project currently focuses on Drupal 8 only!  
+If you would like to have a Drupal 7 version of it, please open a [GitHub issue](../../issues) so we can discuss it. 
 
-At last but not least, every kind of of contribution is **welcome**!  
-Fork it, create pull requests or simply add new issues!
+## Contribution guidelines 
+This project lives through new and up-to-date resources from the community, from **you**!
+If you would like to add a resource or contribute in any other kind of way, be sure to read our [contribution guidelines](CONTRIBUTING.md).
 
 ## Table of contents
 - [Installing Drupal](#installing-drupal)

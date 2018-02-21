@@ -5,12 +5,12 @@ The Ultimate Drupal Reference is an open source project and we'd love to accept 
 ## How can I contribute?
 ### Suggesting enhancements
 If you want to include any change or just clarify if a particular change would be beneficial to the project,
-please open an [issue on GitHub](issues).  
+please open an [issue on GitHub](../../issues).  
 This also applies if you have a better or more up-to-date version of a resource in the reference.
 
 ### Pull requests
-In case that you want to add any kind of resource, simply create a [pull request](pulls) with your addition.  
-But please check the [reference rules](#reference-rules) before doing so, thank you!
+In case that you want to add any kind of resource, simply create a [pull request](../../pulls) with your addition.  
+But please check the [reference guidelines](#reference-guidelines) before doing so, thank you!
 
 ## Reference guidelines
 
