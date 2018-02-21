@@ -135,6 +135,7 @@ They're handy if you *really* just want to have a quick start with Drupal.
 - [Easy Breadcrumb](https://www.drupal.org/project/easy_breadcrumb) - The Easy Breadcrumb module provides a plug-and-play block to be embedded in your pages, typically at some place near the page's header.
 - [Entity Browser](https://www.drupal.org/project/entity_browser) - The goal of this module is to provide a generic entity browser/picker/selector.
 - [Field Group](https://www.drupal.org/project/field_group) - Fieldgroup will, as the name implies, group fields together. All fieldable entities will have the possibility to add groups to wrap their fields together.
+- [GraphQL](https://www.drupal.org/project/graphql) - This module lets you craft and expose a GraphQL schema for Drupal 8.
 - [Linkit - Enriched linking experience](https://www.drupal.org/project/linkit) - Linkit provides an easy interface for internal and external linking with wysiwyg editors by using an autocomplete field.
 - [Menu Breadcrumb](https://www.drupal.org/project/menu_breadcrumb) - This module allows you to use the menu the current page belongs to for the breadcrumb, generating breadcrumbs from the titles of parent menus.
 - [Menu Link Attributes](https://www.drupal.org/project/menu_link_attributes) - This module allows you to add attributes to your menu links.
