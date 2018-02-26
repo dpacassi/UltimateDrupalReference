@@ -17,6 +17,7 @@ If you would like to add a resource or contribute in any other kind of way, be s
   - [Official installation page](#official-installation-page)
   - [Drupal VMs](#drupal-vms)
   - [Composer](#composer)
+  - [Drupal CLI's](#drupal-cli-s)
 - [Distributions](#distributions)
 - [Modules](#modules)
   - [Commerce](#commerce)
@@ -67,6 +68,12 @@ If you prefer working with a VM, check out following alternatives:
 While not required, it's **highly recommended** that you set up your Drupal project with [Composer](https://getcomposer.org/),
 regardless of your technical setup.  
 Check the [Composer template for Drupal projects](https://github.com/drupal-composer/drupal-project) to install Drupal quickly via Composer.
+
+### Drupal CLI's
+When it comes to developing custom modules, themes or simply automate certain tasks with scripts/cronjobs, there are two
+major Drupal CLI's which can be a huge help for you:
+- [Drupal Console](https://drupalconsole.com/)
+- [Drush](http://www.drush.org/) 
 
 ## Distributions
 While Drupal 8 Core comes with lots of functionality already, the strength of Drupal lies in its extensibility.  
