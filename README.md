@@ -17,7 +17,7 @@ If you would like to add a resource or contribute in any other kind of way, be s
   - [Official installation page](#official-installation-page)
   - [Drupal VMs](#drupal-vms)
   - [Composer](#composer)
-  - [Drupal CLI's](#drupal-cli-s)
+  - [Drupal CLI's](#drupal-clis)
 - [Distributions](#distributions)
 - [Modules](#modules)
   - [Commerce](#commerce)
@@ -79,11 +79,11 @@ major Drupal CLI's which can be a huge help for you:
 While Drupal 8 Core comes with lots of functionality already, the strength of Drupal lies in its extensibility.  
 Distributions are full copies of Drupal that include Drupal Core, along with additional software such as themes, modules, libraries, and installation profiles.  
 They're handy if you *really* just want to have a quick start with Drupal.
-- [Druppio](https://www.drupal.org/project/druppio_small_business_distribution)
-- [Lighting](https://www.drupal.org/project/lightning)
-- [Open Social](https://www.drupal.org/project/social)
-- [Thunder](https://www.drupal.org/project/thunder)
-- [Varbase](https://www.drupal.org/project/varbase)
+- [Druppio](https://www.drupal.org/project/druppio_small_business_distribution) - A small business distribution with demo content.
+- [Lighting](https://www.drupal.org/project/lightning) - Lightning is a solid Drupal starter kit that enables developers to create great authoring experiences and empower editorial teams.
+- [Open Social](https://www.drupal.org/project/social) - Open Social is a out of the box solution for online communities.
+- [Thunder](https://www.drupal.org/project/thunder) - Thunder is a Drupal 8 distribution for professional publishing.
+- [Varbase](https://www.drupal.org/project/varbase) - Varbase is an enhanced Drupal distribution packed with adaptive functionalities and essential modules, that speed up your development, and provides you with standardized configurations.
 - .. and many more on [drupal.org](https://www.drupal.org/project/project_distribution)
 
 ## Modules
