@@ -18,6 +18,7 @@ If you would like to add a resource or contribute in any other kind of way, be s
   - [Drupal VMs](#drupal-vms)
   - [Composer](#composer)
   - [Drupal CLI's](#drupal-clis)
+- [Site building with Drupal](#site-building-with-drupal)
 - [Distributions](#distributions)
 - [Modules](#modules)
   - [Commerce](#commerce)
@@ -74,6 +75,11 @@ When it comes to developing custom modules, themes or simply automate certain ta
 major Drupal CLI's which can be a huge help for you:
 - [Drupal Console](https://drupalconsole.com/)
 - [Drush](http://www.drush.org/) 
+
+## Site building with Drupal
+Once you have Drupal set up and running, it's time for site building.  
+Have a look at the great documentation on drupal.org about [site building](https://www.drupal.org/site-building)
+as well as as understanding the [concepts of Drupal](https://www.drupal.org/docs/8/understanding-drupal-8/overview).
 
 ## Distributions
 While Drupal 8 Core comes with lots of functionality already, the strength of Drupal lies in its extensibility.  
