@@ -109,6 +109,7 @@ They're handy if you *really* just want to have a quick start with Drupal.
 - [Iframe](https://www.drupal.org/project/iframe) - A custom field, which lets you add a complete iframe to your content types; including Src-URL, setting width and height, optionally a title above, and optionally a target attribute.
 - [Image formatter link to image style](https://www.drupal.org/project/image_formatter_link_to_image_style) - This module provides an additional formatter for image core field, to link to an image style.
 - [Office Hours](https://www.drupal.org/project/office_hours) - Defines a 'weekly office hours' field type, allowing you to specify when a location is open or closed.
+- [Scheduled Updates](https://www.drupal.org/project/scheduled_updates) - The Scheduled Updates module allows scheduling updates at a specific date and time to entities such as Content(nodes), Users, Terms, Files and many more.
 - [Scheduler](https://www.drupal.org/project/scheduler) - Scheduler gives content editors the ability to schedule nodes to be published and unpublished at specified dates and times in the future.
 
 ### Developer tools
