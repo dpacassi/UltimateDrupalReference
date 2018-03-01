@@ -187,6 +187,7 @@ They're handy if you *really* just want to have a quick start with Drupal.
 - [Responsive and off-canvas menu](https://www.drupal.org/project/responsive_menu) - This module integrates the mmenu jQuery plugin with Drupal's menu system with the aim of having an off-canvas mobile menu and a horizontal menu at wider widths.
 
 ### Social media
+- [AddToAny Share Buttons](https://www.drupal.org/project/addtoany) - Share buttons for Drupal including the AddToAny universal share button, Facebook, Twitter, Google+, Pinterest, WhatsApp and many more.
 - [Ridiculously Responsive Social Sharing Buttons](https://www.drupal.org/project/rrssb) - Social sharing buttons that you can drop into any website with attractive SVG-based icons, small download, and browser compatibility. No 3rd-party scripts.
 
 ### User & Roles management
