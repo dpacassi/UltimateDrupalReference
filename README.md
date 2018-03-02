@@ -28,6 +28,7 @@ If you would like to add a resource or contribute in any other kind of way, be s
   - [Media](#media)
   - [Multilingualism](#multilingualism)
   - [Multisite](#multisite)
+  - [Performance](#performance)
   - [SEO / Analytics](#seo--analytics)
   - [Security](#security)
   - [Site building](#site-building)
@@ -96,6 +97,7 @@ They're handy if you *really* just want to have a quick start with Drupal.
 
 ### Commerce
 - [Drupal Commerce](https://www.drupal.org/project/commerce) - Drupal Commerce is used to build eCommerce websites and applications of all sizes.
+  - Also make sure to check out the [commerce documentation](https://docs.drupalcommerce.org/).
 
 ### Content
 - [Address](https://www.drupal.org/project/address) - Provides functionality for storing, validating and displaying international postal addresses.
@@ -137,9 +139,9 @@ They're handy if you *really* just want to have a quick start with Drupal.
 - [Image Optimize (or ImageAPI Optimize)](https://www.drupal.org/project/imageapi_optimize) - This is a toolkit for ImageAPI. It requires imageapi_gd or imageapi_imagemagick or any ImageAPI toolkit to work.
 - [Media](https://www.drupal.org/project/media) - The Media module provides an extensible framework for managing files and multimedia assets, regardless of whether they are hosted on your own site or a 3rd party site - it is commonly referred to as a 'file browser to the internet'.
 - [PhotoSwipe](https://www.drupal.org/project/photoswipe) - Use PhotoSwipe to display picture galleries on your Drupal website. This Javascript lightbox library offers very nice mobile browsing features (in particular swiping to the next picture)!
-  - Note: As for the `1.0-beta3` release, it needs to be [patched](https://www.drupal.org/files/issues/path-capitals-for-composer-2855483-2.patch) when installed with Composer
+  - Note: As for the `1.0-beta3` release, it needs to be [patched](https://www.drupal.org/files/issues/path-capitals-for-composer-2855483-2.patch) when installed with Composer.
 - [Slick Carousel](https://www.drupal.org/project/slick) - Slick is a powerful and performant slideshow/carousel solution leveraging Ken Wheeler's Slick carousel.
-  - Also make sure to check out it's sub modules such as e.g. [Slick Paragraphs](https://www.drupal.org/project/slick_paragraphs) or [Slick Entity Reference](https://www.drupal.org/project/slick_entityreference)
+  - Also make sure to check out it's sub modules such as e.g. [Slick Paragraphs](https://www.drupal.org/project/slick_paragraphs) or [Slick Entity Reference](https://www.drupal.org/project/slick_entityreference).
 - [Video](https://www.drupal.org/project/video) - Video module allows you to upload video in any format, play video in any format, transcode video to H.246, Theora, VP8(Web compatible formats) using Zencoder or FFMPEG automatically creates video thumbnails, copy and deliver videos from cloud file systems like Amazon S3.
 - [Video Embed Field](https://www.drupal.org/project/video_embed_field) - Video Embed field creates a simple field type that allows you to embed videos from YouTube and Vimeo and show their thumbnail previews simply by entering the video's url.
 
@@ -149,12 +151,20 @@ They're handy if you *really* just want to have a quick start with Drupal.
 ### Multisite
 - [Domain Access](https://www.drupal.org/project/domain) - The Domain Access project is a suite of modules that provide tools for running a group of affiliated sites from one Drupal installation and a single shared database.
 
+### Performance
+- [Advanced CSS/JS Aggregation](https://www.drupal.org/project/advagg) - AdvAgg allows you to improve the frontend performance of your site.
+- [Apache Solr Search](https://www.drupal.org/project/apachesolr) - This module integrates Drupal with the Apache Solr search platform.
+- [CDN](https://www.drupal.org/project/cdn) - This module provides easy Content Delivery Network integration for Drupal sites. It changes file URLs, so that files (CSS, JS, images, fonts, videos …) are downloaded from a CDN instead of your web server.
+- [DB Maintenance](https://www.drupal.org/project/db_maintenance) - DB maintenance optimizes administrator-selected tables in the database during regular cron.php executions.
+- [Memcache API and Integration](https://www.drupal.org/project/memcache) - This module provides integration between Drupal and Memcached.
+
 ### SEO / Analytics
 - [Google Analytics](https://www.drupal.org/project/google_analytics) - Adds the Google Analytics web statistics tracking system to your website.
 - [Metatag](https://www.drupal.org/project/metatag) - The Metatag module allows you to automatically provide structured metadata, aka "meta tags", about a website.
 - [Pathauto](https://www.drupal.org/project/pathauto) - The Pathauto module automatically generates URL/path aliases for various kinds of content (nodes, taxonomy terms, users) without requiring the user to manually specify the path alias.
 - [Piwik Web Analytics](https://www.drupal.org/project/piwik) - Adds the Piwik web statistics tracking system to your website.
 - [Redirect](https://www.drupal.org/project/redirect) - Manage custom site redirects.
+- [SEO Checklist](https://www.drupal.org/project/seo_checklist) - The Drupal SEO Checklist uses best practices to check your website for proper search engine optimization. It eliminates guesswork by creating a functional to-do list of modules and tasks that remain.
 - [Simple XML sitemap](https://www.drupal.org/project/simple_sitemap) - Every webpage needs an automatic XML sitemap generator for SEO reasons. This module aims to be a replacement for the xmlsitemap module for Drupal 8.
 
 ### Security
@@ -207,6 +217,7 @@ They're handy if you *really* just want to have a quick start with Drupal.
 ## Themes
 
 ### Frontend themes
+- [AdaptiveTheme](https://www.drupal.org/project/adaptivetheme) - Adaptivetheme for Drupal 8 is a base theme designed for people who don’t code, or for those who only want to write a bit of CSS but still want a sleek and sophisticated theme for todays mobile web - and beyond.
 - [Bootstrap](https://www.drupal.org/project/bootstrap) - This base theme bridges the gap between Drupal and the Bootstrap Framework.
 - [Drupal8 Zymphonies Theme](https://www.drupal.org/project/drupal8_zymphonies_theme) - Drupal8 Zymphonies Theme is the first Zymphonies Drupal 8 Free Responsive Theme which has many new features.
 - [ZURB Foundation](https://www.drupal.org/project/zurb_foundation) - Zurb Foundation for Drupal is the official implementation of the framework by the same name.
