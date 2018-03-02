@@ -18,6 +18,7 @@ If you would like to add a resource or contribute in any other kind of way, be s
   - [Drupal VMs](#drupal-vms)
   - [Composer](#composer)
   - [Drupal CLI's](#drupal-clis)
+  - [IDE's](#ides)
 - [Site building with Drupal](#site-building-with-drupal)
 - [Distributions](#distributions)
 - [Modules](#modules)
@@ -76,6 +77,10 @@ When it comes to developing custom modules, themes or simply automate certain ta
 major Drupal CLI's which can be a huge help for you:
 - [Drupal Console](https://drupalconsole.com/)
 - [Drush](http://www.drush.org/) 
+
+## IDE's
+There are lots of different IDE's and editors for PHP. But *most* Drupal developers tend to use [PhpStorm](https://www.jetbrains.com/phpstorm/).  
+Do you use any other IDE or editor? Please let me know!
 
 ## Site building with Drupal
 Once you have Drupal set up and running, it's time for site building.  
