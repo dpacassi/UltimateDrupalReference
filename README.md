@@ -41,6 +41,7 @@ If you would like to add a resource or contribute in any other kind of way, be s
   - [Frontend themes](#frontend-themes)
   - [Admin themes](#admin-themes)
 - [Video tutorials](#video-tutorials)
+- [Blog posts](#blog-posts)
 - [Drupal PaaS](#drupal-paas)
 - [Communities](#communities)
 - [Credits](#credits)
@@ -238,6 +239,10 @@ They're handy if you *really* just want to have a quick start with Drupal.
 ## Video tutorials
 - [Rendering & caching: a journey through the layers](https://www.youtube.com/watch?v=MQGUzubY35I)
 - [Decouple your Twig from PHP and make Frontenders happy!](https://www.youtube.com/watch?v=Z4gMLSD5MAU)
+
+## Blog posts
+- [Drupal 8: Hooks, Events, and Event Subscribers](https://www.daggerhart.com/drupal-8-hooks-events-event-subscribers/)
+- [Set Required and Optional Address Inputs for Address Field in Drupal 8](https://timonweb.com/posts/set-required-and-optional-address-inputs-for-address-field-in-drupal-8/)
 
 ## Drupal PaaS
 When it comes to hosting a Drupal site, you can always use any server which supports the system requirements.
