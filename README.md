@@ -114,6 +114,7 @@ They're handy if you *really* just want to have a quick start with Drupal.
 - [Disable Messages](https://www.drupal.org/project/disable_messages) - Gives a site owner options to disable specific messages shown to end users.
 - [D8 Editor Advanced link](https://www.drupal.org/project/editor_advanced_link) - Enhances the link Dialog in D8 CKEditor.
 - [Entity Clone](https://www.drupal.org/project/entity_clone) - This module add a new entity operation which allows to clone many of the entities (config & content) provided by the Drupal core.
+- [Entity Redirect](https://www.drupal.org/project/entity_redirect) - Adds a configurable redirect after saving a node or other entity. The redirect is configurable per bundle.
 - [External Links](https://www.drupal.org/project/extlink) - External Links is a small module used to differentiate between internal and external links.
 - [Field Formatter Class](https://www.drupal.org/project/field_formatter_class) - Allows site administrators to add classes to the outer HTML wrapper for any field display, so that CSS and Javascript can target them.
 - [Iframe](https://www.drupal.org/project/iframe) - A custom field, which lets you add a complete iframe to your content types; including Src-URL, setting width and height, optionally a title above, and optionally a target attribute.
