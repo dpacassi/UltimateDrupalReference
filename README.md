@@ -244,6 +244,7 @@ They're handy if you *really* just want to have a quick start with Drupal.
 ## Blog posts
 - [Drupal 8: Hooks, Events, and Event Subscribers](https://www.daggerhart.com/drupal-8-hooks-events-event-subscribers/)
 - [Set Required and Optional Address Inputs for Address Field in Drupal 8](https://timonweb.com/posts/set-required-and-optional-address-inputs-for-address-field-in-drupal-8/)
+- [How to Change the Default Text Strings in Drupal 8](https://www.ostraining.com/blog/drupal/translate-drupal-8-strings/)
 
 ## Drupal PaaS
 When it comes to hosting a Drupal site, you can always use any server which supports the system requirements.
