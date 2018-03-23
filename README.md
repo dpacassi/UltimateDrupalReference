@@ -1,3 +1,8 @@
+[![GitHub last commit](https://img.shields.io/github/last-commit/dpacassi/UltimateDrupalReference.svg)](https://github.com/dpacassi/UltimateDrupalReference)
+[![GitHub contributors](https://img.shields.io/github/contributors/dpacassi/UltimateDrupalReference.svg)](https://github.com/dpacassi/UltimateDrupalReference)
+[![license](https://img.shields.io/github/license/dpacassi/UltimateDrupalReference.svg)](https://github.com/dpacassi/UltimateDrupalReference/blob/master/LICENSE)
+[![Twitter URL](https://img.shields.io/twitter/url/http/shields.io.svg?style=social&logo=twitter)](https://twitter.com/intent/tweet?text=Starting+with+%23drupal%3F+Or+simply+just+stuck%3F+Have+a+look+at+the+%23UltimateDrupalReference+on+https%3A%2F%2Fgithub.com%2Fdpacassi%2FUltimateDrupalReference%2C+it+might+help+you+out%21)
+
 # Ultimate Drupal Reference
 When it comes to [Drupal](https://www.drupal.org/), there are a lot of videos, blog posts and general how-to's out there.  
 While some of them are good, others are in need of improvement and a few of them are simply outdated.
