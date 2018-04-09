@@ -52,9 +52,7 @@ If you would like to add a resource or contribute in any other kind of way, be s
   - [Drupal Answers](#drupal-answers)
   - [Google](#google)
   - [IRC / Slack support](#irc--slack-support)
-- [Contributing to Drupal]()
-  - [Contrib projects]()
-  - [Drupal Core]()
+- [Contributing to Drupal](#contributing-to-drupal)
 - [Video tutorials](#video-tutorials)
 - [Blog posts](#blog-posts)
 - [Drupal PaaS](#drupal-paas)
@@ -364,7 +362,6 @@ If you wish to get more involved with the Drupal community, or want to get in co
 
 ## Credits
 - [David Pacassi Torrico](https://www.drupal.org/u/dpacassi) - Project maintainer
-- [Liip](https://www.liip.ch/) - Support
 
 ## License
 ```
