@@ -32,6 +32,7 @@ If you would like to add a resource or contribute in any other kind of way, be s
   - [Developer tools](#developer-tools)
   - [Forms](#forms)
   - [Media](#media)
+  - [Migration](#migration)
   - [Multilingualism](#multilingualism)
   - [Multisite](#multisite)
   - [Performance](#performance)
@@ -167,6 +168,11 @@ They're handy if you *really* just want to have a quick start with Drupal.
   - Also make sure to check out it's sub modules such as e.g. [Slick Paragraphs](https://www.drupal.org/project/slick_paragraphs) or [Slick Entity Reference](https://www.drupal.org/project/slick_entityreference).
 - [Video](https://www.drupal.org/project/video) - Video module allows you to upload video in any format, play video in any format, transcode video to H.246, Theora, VP8(Web compatible formats) using Zencoder or FFMPEG automatically creates video thumbnails, copy and deliver videos from cloud file systems like Amazon S3.
 - [Video Embed Field](https://www.drupal.org/project/video_embed_field) - Video Embed field creates a simple field type that allows you to embed videos from YouTube and Vimeo and show their thumbnail previews simply by entering the video's url.
+
+### Migration
+- [Migrate Plus](https://www.drupal.org/project/migrate_plus) - The migrate_plus project provides extensions to core migration framework functionality, as well as examples.
+- [Migrate Source CSV](https://www.drupal.org/project/migrate_source_csv) - This project allows you to import CSV files using Drupal Migration.
+- [Migrate Tools](https://www.drupal.org/project/migrate_tools) - The Migrate Tools module provides tools for running and managing Drupal 8 migrations.
 
 ### Multilingualism
 - [Language Cookie](https://www.drupal.org/project/language_cookie) - Adds an extra "Cookie" field to the Language Negotiation settings, allowing the language to be set according to a cookie.
@@ -341,6 +347,7 @@ Some things are a little bit complicated but every experienced Drupal developer 
 - [Drupal 8: Hooks, Events, and Event Subscribers](https://www.daggerhart.com/drupal-8-hooks-events-event-subscribers/)
 - [Set Required and Optional Address Inputs for Address Field in Drupal 8](https://timonweb.com/posts/set-required-and-optional-address-inputs-for-address-field-in-drupal-8/)
 - [How to Change the Default Text Strings in Drupal 8](https://www.ostraining.com/blog/drupal/translate-drupal-8-strings/)
+- [Stop Waiting for Feeds Module: How to Import RSS in Drupal 8](https://ohthehugemanatee.org/blog/2017/06/07/stop-waiting-for-feeds-module-how-to-import-remote-feeds-in-drupal-8/)
 
 ## Drupal PaaS
 When it comes to hosting a Drupal site, you can always use any server which supports the system requirements.
