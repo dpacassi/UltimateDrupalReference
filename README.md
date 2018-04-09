@@ -9,9 +9,9 @@ While some of them are good, others are in need of improvement and a few of them
 
 This project will try to list you the **best, most promising and most efficient** resources that you might need when developing a Drupal site.  
 **Important:** This project currently focuses on Drupal 8 only!  
-If you would like to have a Drupal 7 version of it, please open a [GitHub issue](../../issues) so we can discuss it. 
+If you would like to have a Drupal 7 version of it, please open a [GitHub issue](../../issues) so we can discuss it.
 
-## Contribution guidelines 
+## Contribution guidelines
 This project lives through new and up-to-date resources from the community, from **you**!  
 If you would like to add a resource or contribute in any other kind of way, be sure to read our [contribution guidelines](CONTRIBUTING.md).
 
@@ -55,6 +55,8 @@ If you would like to add a resource or contribute in any other kind of way, be s
   - [IRC / Slack support](#irc--slack-support)
 - [Contributing to Drupal](#contributing-to-drupal)
 - [Video tutorials](#video-tutorials)
+  - [Training sites](#training-sites)
+  - [Free video tutorials](#free-video-tutorials)
 - [Blog posts](#blog-posts)
 - [Drupal PaaS](#drupal-paas)
 - [Get in touch with the Drupal community](#get-in-touch-with-the-drupal-community)
@@ -91,7 +93,7 @@ Check the [Composer template for Drupal projects](https://github.com/drupal-comp
 When it comes to developing custom modules, themes or simply automate certain tasks with scripts/cronjobs, there are two
 major Drupal CLI's which can be a huge help for you:
 - [Drupal Console](https://drupalconsole.com/)
-- [Drush](http://www.drush.org/) 
+- [Drush](http://www.drush.org/)
 
 ## IDE's
 There are lots of different IDE's and editors for PHP. But *most* Drupal developers tend to use [PhpStorm](https://www.jetbrains.com/phpstorm/).  
@@ -270,7 +272,7 @@ Check if you have the newest stable version of the project, the bug might have b
 The second step might be obvious too but I still want to point it out. Everyone is free to contribute to Drupal and while
 most Drupal-related things happen on Drupal.org itself, there are a few exceptions. So read the project's description
 carefully! [Drupal console](https://www.drupal.org/project/console) e.g. chose to handle bug reports/feature requests
-on GitHub. [Drupal commerce](https://www.drupal.org/project/commerce) offers contribution support on [IRC](#get-in-touch-with-the-drupal-community). 
+on GitHub. [Drupal commerce](https://www.drupal.org/project/commerce) offers contribution support on [IRC](#get-in-touch-with-the-drupal-community).
 
 ### Issue queue
 Drupal projects normally work with *issue queues* (if nothing else defined), meaning that every project (Drupal core/module/theme/distribution/etc.) has it's
@@ -340,8 +342,20 @@ Some things are a little bit complicated but every experienced Drupal developer 
 > Come for the Code, Stay for the Community.
 
 ## Video tutorials
+
+### Training sites
+
+- [OSTraining](https://www.ostraining.com/) - Training videos and tutorials covering Drupal 8 and a variety of additional web and programming topics.
+- [Drupalize Me](https://drupalize.me/) - Training videos and tutorials covering primarily Drupal but also additional topics that are connected to Drupal.
+
+### Free Video Tutorials
 - [Rendering & caching: a journey through the layers](https://www.youtube.com/watch?v=MQGUzubY35I)
 - [Decouple your Twig from PHP and make Frontenders happy!](https://www.youtube.com/watch?v=Z4gMLSD5MAU)
+- [Drupal 8 Beginner Tutorials](https://www.youtube.com/playlist?list=PLtaXuX0nEZk9MKY_ClWcPkGtOEGyLTyCO) - A 63 video training course by OSTraining introducing the basics of Drupal 8. Designed for an absolute beginner, it assumes no prior experience with Drupal and does a great job of explaining the basics.
+- [Build Your First Drupal 8 Site in 1 Hour](https://www.youtube.com/playlist?list=PLtaXuX0nEZk-Mer_a_P1sp0mroJGVs6TK) - An 11 video course by OSTraining that goes over "how to create content, use Views, add contact forms and choose themes."
+- [How To Install Drupal 8 Sites](https://www.youtube.com/playlist?list=PLtaXuX0nEZk99zgSc19Li8EsM9jkicDQj) - A 5 video course by OSTraining going over the basics on how to download, install and set up a Drupal 8 site.
+- [How to Backup and Restore Drupal 8 Sites](https://www.youtube.com/playlist?list=PLtaXuX0nEZk_y_xlcAv_Ub_xLCfvF8TSs) - A 5 video course by OSTraining explaining how to backup the files and database for a site as well as restore them.
+- [How to Update Drupal 8 Sites, Modules, Themes](https://www.youtube.com/playlist?list=PLtaXuX0nEZk-_lYMB0ehySQEfssaCU1jZ) - An 5 video course by OSTraining explaining how to update Drupal 8 sites, modules and themes.
 
 ## Blog posts
 - [Drupal 8: Hooks, Events, and Event Subscribers](https://www.daggerhart.com/drupal-8-hooks-events-event-subscribers/)
