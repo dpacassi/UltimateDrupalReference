@@ -45,10 +45,20 @@ If you would like to add a resource or contribute in any other kind of way, be s
 - [Themes](#themes)
   - [Frontend themes](#frontend-themes)
   - [Admin themes](#admin-themes)
+- [Troubleshooting](#troubleshooting)
+  - [Update to the latest stable release](#update-to-the-latest-stable-release)
+  - [Read the project's description](#read-the-projects-description)
+  - [Issue queue](#issue-queue)
+  - [Drupal Answers](#drupal-answers)
+  - [Google](#google)
+  - [IRC / Slack support](#irc--slack-support)
+- [Contributing to Drupal]()
+  - [Contrib projects]()
+  - [Drupal Core]()
 - [Video tutorials](#video-tutorials)
 - [Blog posts](#blog-posts)
 - [Drupal PaaS](#drupal-paas)
-- [Communities](#communities)
+- [Get in touch with the Drupal community](#get-in-touch-with-the-drupal-community)
 - [Credits](#credits)
 - [License](#license)
 
@@ -242,6 +252,89 @@ They're handy if you *really* just want to have a quick start with Drupal.
 - [Adminimal - Responsive Administration Theme](https://www.drupal.org/project/adminimal_theme) - A modern and minimalist design that makes administration an easy and fun experience.
   - Also install [Adminimal Admin Toolbar](https://www.drupal.org/project/adminimal_admin_toolbar) when using this theme.
 
+## Troubleshooting
+Every software has bugs. At least if it does more than simply printing out a `Hello World`.
+While we're not able to write bugless software, we can still try to handle bugfixing as smooth as possible.  
+So, what do you do when you find a bug in a module, theme or maybe even Drupal core?
+Or if you simply just need a little help? Let's try figuring this out in the next sections.
+
+### Update to the latest stable release
+This step is extremely obvious, but maybe there has been a newer **stable** release of the module since your installation.  
+Check if you have the newest stable version of the project, the bug might have been fixed in the meantime.
+
+### Read the project's description
+The second step might be obvious too but I still want to point it out. Everyone is free to contribute to Drupal and while
+most Drupal-related things happen on Drupal.org itself, there are a few exceptions. So read the project's description
+carefully! [Drupal console](https://www.drupal.org/project/console) e.g. chose to handle bug reports/feature requests
+on GitHub. [Drupal commerce](https://www.drupal.org/project/commerce) offers contribution support on [IRC](#get-in-touch-with-the-drupal-community). 
+
+### Issue queue
+Drupal projects normally work with *issue queues* (if nothing else defined), meaning that every project (Drupal core/module/theme/distribution/etc.) has it's
+own issue queue. An issue can be everything from a bug report, task, feature request, support request, or just a plan.  
+You can read more about issue queues on [drupal.org](https://www.drupal.org/issue-queue).  
+
+So, if you've found a bug in a project, there's a high chance that the bug was already reported or maybe even fixed.
+On a project's page, search for `All issues` and click on the `x open` (x = number of open issues) link.  
+This link will take you to the project's issue queue.  
+
+**Important:** Drupal core is a Drupal project itself. It has it's own issue queue and release pages.  
+See the Drupal core project's page on [Drupal.org](https://www.drupal.org/project/drupal).
+
+#### Finding your issue in the queue
+In the issue queue the first thing you want to do, is filtering the issues by a major version.  
+If the module has been around since Drupal 6/7/maybe even longer, you're less interested in the legacy issues.  
+So change the **Version** filter to e.g. `- 8.x issues -`.
+
+If you still didn't find your issue, try changing the **Status** from `- Open issues -` to `- Any -`.  
+It's possible that the issue has already been fixed but not released yet.
+
+#### Creating an issue
+If you didn't find your issue, you can create a new one. Make sure to be **as precise and specific as possible**.  
+Include the exact version of Drupal and the exact module/theme/distribution version.
+Write how to reproduce the bug on a **fresh Drupal installation**. Speaking about, you might want to check if the
+bug also occurs on a fresh Drupal installation with only the needed modules/themes installed.  
+Maybe it's a bug that only occurs when certain other modules/themes are installed?  
+
+Keep in mind that many projects are being contributed by developers in their free time. A project maintainer
+might respond very quickly to a new issue but sometimes it can take weeks or even months until you get a reply.
+In the meantime, you can try to get in touch with other Drupal developers who might be able to help you out.
+Check the next sections for more information.
+
+### Drupal Answers
+As a developer, you probably came around Stack Overflow when trying to fix an issue.  
+**Good news:** There's a Stack Exchange for Drupal as well! It's called **Drupal Answers**, [have a look](https://drupal.stackexchange.com/).
+
+### Google
+If you were unlucky finding answers via the issue queue/Drupal Answers, maybe someone wrote a blog post or a tutorial
+which could help you in solving your issue.  
+Now before you go on something like "But Googling is obvious", let me give you **one important tip**:
+
+- Limit your search results to a specific time frame!
+
+If you search for a commerce issue for example, the probability is high to find solutions to the Drupal 7 version of it.
+But if you're interested in a solution for the Drupal 8 version, you're better off limiting the search results by e.g.
+publish date and only show results from the past year on.  
+The date limitation is only one thing you can do, there are a lot of articles on how to google efficiently out there, read them!
+
+### IRC / Slack support
+If you still weren't able to find a solution to your issue, you can write to other Drupal developers via IRC or Slack.  
+Check the [Get in touch with the Drupal community](#get-in-touch-with-the-drupal-community) section on how to connect to them.
+
+When asking for help, keep in mind that it's not self-evident to help many other people in complicated matters.
+Be friendly, try describing your issue as precisely as possible and maybe a good fellow will help you out.
+
+## Contributing to Drupal
+Are you happy with Drupal and would you like to give back? That's **great**!
+There are many different way on how to contribute back. You can improve documentation, add translations, create
+new contrib projects or simply donate.  
+Please follow the *Ways to Get Involved* guide on [Drupal.org](https://www.drupal.org/contribute).
+
+One important tip though: Starting to contribute *can* be a little bit tough and difficult in the beginning.
+If you have the chance to visit A Drupal camp or conference or maybe even just a meetup, try to get some guided help there.
+Some things are a little bit complicated but every experienced Drupal developer will most-likely try in helping you out.  
+**Don't** be afraid to ask for help! I quote from Drupal:
+> Come for the Code, Stay for the Community.
+
 ## Video tutorials
 - [Rendering & caching: a journey through the layers](https://www.youtube.com/watch?v=MQGUzubY35I)
 - [Decouple your Twig from PHP and make Frontenders happy!](https://www.youtube.com/watch?v=Z4gMLSD5MAU)
@@ -260,13 +353,14 @@ However, there are a few Drupal specialized PaaS hosting options you might want 
 - [Pantheon](https://pantheon.io/)
 - [Platform.sh](https://platform.sh/)
 
-## Communities
+## Get in touch with the Drupal community
 If you wish to get more involved with the Drupal community, or want to get in contact with Drupal developers, you can use one of the following platforms.
-- [Drupal.org](https://www.drupal.org) - The main hub of the Drupal community. News, discussions about the development of Drupal core, official documentation, seeking aid 
-with specific modules, job marketplace and everything Drupal.
+- [DrupalChat](https://drupalchat.eu/) - An open source ([Rocket.Chat](https://rocket.chat/)) alternative to Slack.
 - [Drupical](https://www.drupical.com/) - Find Drupal events with ease in a map! Note: The list is not complete but can give you a rough overview of Drupal events around the world.
+- [IRC](https://www.drupal.org/ircchat) - Chat with the Drupal Community on IRC!
 - [Meetups](https://www.meetup.com/topics/drupal/) - Participate in local Drupal meetups in your area and meet the community face to face.
 - [Slack](https://www.drupal.org/slack) - A list of Drupal Slack spaces and channels.
+- [Twitter](https://twitter.com/) - Yes, a lot of us are on Twitter too! `#drupal`
 
 ## Credits
 - [David Pacassi Torrico](https://www.drupal.org/u/dpacassi) - Project maintainer
