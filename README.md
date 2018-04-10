@@ -364,6 +364,7 @@ If you wish to get more involved with the Drupal community, or want to get in co
 - [Drupical](https://www.drupical.com/) - Find Drupal events with ease in a map! Note: The list is not complete but can give you a rough overview of Drupal events around the world.
 - [IRC](https://www.drupal.org/ircchat) - Chat with the Drupal Community on IRC!
 - [Meetups](https://www.meetup.com/topics/drupal/) - Participate in local Drupal meetups in your area and meet the community face to face.
+- [Reddit](https://www.reddit.com/r/drupal/) - The Drupal community on Reddit. They have weekly rotating posts!
 - [Slack](https://www.drupal.org/slack) - A list of Drupal Slack spaces and channels.
 - [Twitter](https://twitter.com/) - Yes, a lot of us are on Twitter too! `#drupal`
 
