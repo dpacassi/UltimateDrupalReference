@@ -46,6 +46,7 @@ If you would like to add a resource or contribute in any other kind of way, be s
 - [Themes](#themes)
   - [Frontend themes](#frontend-themes)
   - [Admin themes](#admin-themes)
+- [Theming](#theming)
 - [Troubleshooting](#troubleshooting)
   - [Update to the latest stable release](#update-to-the-latest-stable-release)
   - [Read the project's description](#read-the-projects-description)
@@ -55,8 +56,6 @@ If you would like to add a resource or contribute in any other kind of way, be s
   - [IRC / Slack support](#irc--slack-support)
 - [Contributing to Drupal](#contributing-to-drupal)
 - [Video tutorials](#video-tutorials)
-  - [Training sites](#training-sites)
-  - [Free video tutorials](#free-video-tutorials)
 - [Blog posts](#blog-posts)
 - [Drupal PaaS](#drupal-paas)
 - [Get in touch with the Drupal community](#get-in-touch-with-the-drupal-community)
@@ -258,6 +257,12 @@ They're handy if you *really* just want to have a quick start with Drupal.
 - [Adminimal - Responsive Administration Theme](https://www.drupal.org/project/adminimal_theme) - A modern and minimalist design that makes administration an easy and fun experience.
   - Also install [Adminimal Admin Toolbar](https://www.drupal.org/project/adminimal_admin_toolbar) when using this theme.
 
+## Theming
+- [Twig Documentation](https://twig.symfony.com/doc/2.x/) - Twig is the templating language used in building a Drupal 8 Theme
+- [Debugging Twig Templates](https://www.drupal.org/docs/8/theming/twig/debugging-twig-templates) - This will allow you to see which templates are in use on a page, which template is used to render each item on the page, any hooks for that template, and give you suggestions for naming your new templates
+- [Drupal 8 Theming Fundamentals, Part 1](https://www.lullabot.com/articles/drupal-8-theming-fundamentals-part-1) and [Part 2](https://www.lullabot.com/articles/drupal-8-theming-fundamentals-part-2) - An overview of creating and working in a Drupal 8 theme
+- [Drupal.org Theming Guide for Drupal 8](https://www.drupal.org/docs/8/theming) - The official guide to Drupal 8 theming. Not always the easiest to understand but very helpful for reference on many topics.
+
 ## Troubleshooting
 Every software has bugs. At least if it does more than simply printing out a `Hello World`.
 While we're not able to write bugless software, we can still try to handle bugfixing as smooth as possible.  
@@ -343,12 +348,6 @@ Some things are a little bit complicated but every experienced Drupal developer 
 
 ## Video tutorials
 
-### Training sites
-
-- [OSTraining](https://www.ostraining.com/) - Training videos and tutorials covering Drupal 8 and a variety of additional web and programming topics.
-- [Drupalize Me](https://drupalize.me/) - Training videos and tutorials covering primarily Drupal but also additional topics that are connected to Drupal.
-
-### Free Video Tutorials
 - [Rendering & caching: a journey through the layers](https://www.youtube.com/watch?v=MQGUzubY35I)
 - [Decouple your Twig from PHP and make Frontenders happy!](https://www.youtube.com/watch?v=Z4gMLSD5MAU)
 - [Drupal 8 Beginner Tutorials](https://www.youtube.com/playlist?list=PLtaXuX0nEZk9MKY_ClWcPkGtOEGyLTyCO) - A 63 video training course by OSTraining introducing the basics of Drupal 8. Designed for an absolute beginner, it assumes no prior experience with Drupal and does a great job of explaining the basics.
