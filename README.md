@@ -56,6 +56,7 @@ If you would like to add a resource or contribute in any other kind of way, be s
   - [IRC / Slack support](#irc--slack-support)
 - [Contributing to Drupal](#contributing-to-drupal)
 - [Video tutorials](#video-tutorials)
+  - [Beginner Training Series](#beginner-training-series)
   - [General](#general)
   - [Distributions](#distributions)
   - [Modules](#modules)
@@ -353,13 +354,14 @@ Some things are a little bit complicated but every experienced Drupal developer 
 
 ## Video tutorials
 
-### General
-
+### Beginner Training Series
 - [Drupal 8 Beginner Tutorials](https://www.youtube.com/playlist?list=PLtaXuX0nEZk9MKY_ClWcPkGtOEGyLTyCO) - A 63 video training course by OSTraining introducing the basics of Drupal 8. Designed for an absolute beginner, it assumes no prior experience with Drupal and does a great job of explaining the basics.
 - [Build Your First Drupal 8 Site in 1 Hour](https://www.youtube.com/playlist?list=PLtaXuX0nEZk-Mer_a_P1sp0mroJGVs6TK) - An 11 video course by OSTraining that goes over "how to create content, use Views, add contact forms and choose themes."
 - [How To Install Drupal 8 Sites](https://www.youtube.com/playlist?list=PLtaXuX0nEZk99zgSc19Li8EsM9jkicDQj) - A 5 video course by OSTraining going over the basics on how to download, install and set up a Drupal 8 site.
 - [How to Backup and Restore Drupal 8 Sites](https://www.youtube.com/playlist?list=PLtaXuX0nEZk_y_xlcAv_Ub_xLCfvF8TSs) - A 5 video course by OSTraining explaining how to backup the files and database for a site as well as restore them.
 - [How to Update Drupal 8 Sites, Modules, Themes](https://www.youtube.com/playlist?list=PLtaXuX0nEZk-_lYMB0ehySQEfssaCU1jZ) - An 5 video course by OSTraining explaining how to update Drupal 8 sites, modules and themes.
+
+### General
 - [Rendering & caching: a journey through the layers](https://www.youtube.com/watch?v=MQGUzubY35I)
 
 ### Distributions
