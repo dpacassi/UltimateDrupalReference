@@ -168,7 +168,7 @@ They're handy if you *really* just want to have a quick start with Drupal.
 - [Prepopulate](https://www.drupal.org/project/prepopulate) - The Prepopulate module allows fields in most forms to be pre-populated from the $_REQUEST variable.
 - [reCAPTCHA](https://www.drupal.org/project/recaptcha) - Uses the Google reCAPTCHA web service to improve the CAPTCHA system. It is tough on bots and easy on humans.
 - [Webform](https://www.drupal.org/project/webform) - Webform is the module for making forms and surveys in Drupal.
-    - [Webform videos on Drupal.org](https://www.drupal.org/docs/8/modules/webform/webform-videos) - A series of videos by the makers of Webform explaining features and tutorials for installing and using the Webform module.
+  - [Webform videos on Drupal.org](https://www.drupal.org/docs/8/modules/webform/webform-videos) - A series of videos by the makers of Webform explaining features and tutorials for installing and using the Webform module.
 
 ### Media
 - [Blazy](https://www.drupal.org/project/blazy) - Provides integration with bLazy to lazy load and multi-serve images to save bandwidth and server requests. The user will have faster load times and save data usage if they don't browse the whole page.
@@ -364,7 +364,8 @@ Some things are a little bit complicated but every experienced Drupal developer 
 - [Rendering & caching: a journey through the layers](https://www.youtube.com/watch?v=MQGUzubY35I) - Understand the basics of the Render and Cache API.
 
 ### Modules
-- [Webform videos on Drupal.org](https://www.drupal.org/docs/8/modules/webform/webform-videos) - A series of videos by the makers of Webform explaining features and tutorials for installing and using the Webform module.
+- Webform
+  - [Videos on Drupal.org](https://www.drupal.org/docs/8/modules/webform/webform-videos) - A series of videos by the makers of Webform explaining features and tutorials for installing and using the Webform module.
 
 ### Theming
 - [Decouple your Twig from PHP and make Frontenders happy!](https://www.youtube.com/watch?v=Z4gMLSD5MAU) - A talk about using Drupal + Fractal + Node.js.
