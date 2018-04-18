@@ -59,7 +59,7 @@ If you would like to add a resource or contribute in any other kind of way, be s
   - [Beginner Training Series](#beginner-training-series)
   - [General](#general)
   - [Modules](#modules-1)
-  - [Theming](#theming-1)
+  - [Theming](#theming)
 - [Blog posts](#blog-posts)
 - [Drupal PaaS](#drupal-paas)
 - [Get in touch with the Drupal community](#get-in-touch-with-the-drupal-community)
@@ -354,21 +354,21 @@ Some things are a little bit complicated but every experienced Drupal developer 
 ## Video tutorials
 
 ### Beginner Training Series
-- [Drupal 8 Beginner Tutorials](https://www.youtube.com/playlist?list=PLtaXuX0nEZk9MKY_ClWcPkGtOEGyLTyCO) - A 63 video training course by OSTraining introducing the basics of Drupal 8. Designed for an absolute beginner, it assumes no prior experience with Drupal and does a great job of explaining the basics.
-- [Build Your First Drupal 8 Site in 1 Hour](https://www.youtube.com/playlist?list=PLtaXuX0nEZk-Mer_a_P1sp0mroJGVs6TK) - An 11 video course by OSTraining that goes over "how to create content, use Views, add contact forms and choose themes."
+- [Drupal 8 Beginner Tutorials](https://www.youtube.com/playlist?list=PLtaXuX0nEZk9MKY_ClWcPkGtOEGyLTyCO) - A 63 video training course by OSTraining introducing the basics of Drupal 8. Designed for absolute beginners, it assumes no prior experience with Drupal and does a great job of explaining the basics.
+- [Build Your First Drupal 8 Site in 1 Hour](https://www.youtube.com/playlist?list=PLtaXuX0nEZk-Mer_a_P1sp0mroJGVs6TK) - An 11 video course by OSTraining that goes over "how to create content, use Views, add contact forms and choose themes".
 - [How To Install Drupal 8 Sites](https://www.youtube.com/playlist?list=PLtaXuX0nEZk99zgSc19Li8EsM9jkicDQj) - A 5 video course by OSTraining going over the basics on how to download, install and set up a Drupal 8 site.
+- [How to Update Drupal 8 Sites, Modules, Themes](https://www.youtube.com/playlist?list=PLtaXuX0nEZk-_lYMB0ehySQEfssaCU1jZ) - A 5 video course by OSTraining explaining how to update Drupal 8 sites, modules and themes.
 - [How to Backup and Restore Drupal 8 Sites](https://www.youtube.com/playlist?list=PLtaXuX0nEZk_y_xlcAv_Ub_xLCfvF8TSs) - A 5 video course by OSTraining explaining how to backup the files and database for a site as well as restore them.
-- [How to Update Drupal 8 Sites, Modules, Themes](https://www.youtube.com/playlist?list=PLtaXuX0nEZk-_lYMB0ehySQEfssaCU1jZ) - An 5 video course by OSTraining explaining how to update Drupal 8 sites, modules and themes.
 
 ### General
-- [Rendering & caching: a journey through the layers](https://www.youtube.com/watch?v=MQGUzubY35I)
+- [Rendering & caching: a journey through the layers](https://www.youtube.com/watch?v=MQGUzubY35I) - Understand the basics of the Render and Cache API.
 
 ### Modules
 - [Webform videos on Drupal.org](https://www.drupal.org/docs/8/modules/webform/webform-videos) - A series of videos by the makers of Webform explaining features and tutorials for installing and using the Webform module.
 
 ### Theming
-- [Decouple your Twig from PHP and make Frontenders happy!](https://www.youtube.com/watch?v=Z4gMLSD5MAU)
-- [Building your first Drupal 8 Theme](https://www.youtube.com/watch?v=5GxsmuWFV3M)
+- [Decouple your Twig from PHP and make Frontenders happy!](https://www.youtube.com/watch?v=Z4gMLSD5MAU) - A talk about using Drupal + Fractal + Node.js.
+- [Building your first Drupal 8 Theme](https://www.youtube.com/watch?v=5GxsmuWFV3M) - A guide helping you to create your first Drupal theme step by step.
 
 ## Blog posts
 - [Drupal 8: Hooks, Events, and Event Subscribers](https://www.daggerhart.com/drupal-8-hooks-events-event-subscribers/)
