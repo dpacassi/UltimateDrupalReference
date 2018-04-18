@@ -25,6 +25,7 @@ If you would like to add a resource or contribute in any other kind of way, be s
   - [Drupal CLI's](#drupal-clis)
   - [IDE's](#ides)
 - [Site building with Drupal](#site-building-with-drupal)
+- [Theming in Drupal](#theming-in-drupal)
 - [Distributions](#distributions)
 - [Modules](#modules)
   - [Commerce](#commerce)
@@ -46,7 +47,6 @@ If you would like to add a resource or contribute in any other kind of way, be s
 - [Themes](#themes)
   - [Frontend themes](#frontend-themes)
   - [Admin themes](#admin-themes)
-- [Theming](#theming)
 - [Troubleshooting](#troubleshooting)
   - [Update to the latest stable release](#update-to-the-latest-stable-release)
   - [Read the project's description](#read-the-projects-description)
@@ -106,6 +106,12 @@ Do you use any other IDE or editor? Please let me know!
 Once you have Drupal set up and running, it's time for site building.  
 Have a look at the great documentation on drupal.org about [site building](https://www.drupal.org/site-building)
 as well as as understanding the [concepts of Drupal](https://www.drupal.org/docs/8/understanding-drupal-8/overview).
+
+## Theming in Drupal
+- [Twig Documentation](https://twig.symfony.com/doc/2.x/) - Twig is the templating language used in building a Drupal 8 Theme
+- [Debugging Twig Templates](https://www.drupal.org/docs/8/theming/twig/debugging-twig-templates) - This will allow you to see which templates are in use on a page, which template is used to render each item on the page, any hooks for that template, and give you suggestions for naming your new templates
+- [Drupal 8 Theming Fundamentals, Part 1](https://www.lullabot.com/articles/drupal-8-theming-fundamentals-part-1) and [Part 2](https://www.lullabot.com/articles/drupal-8-theming-fundamentals-part-2) - An overview of creating and working in a Drupal 8 theme
+- [Drupal.org Theming Guide for Drupal 8](https://www.drupal.org/docs/8/theming) - The official guide to Drupal 8 theming. Not always the easiest to understand but very helpful for reference on many topics.
 
 ## Distributions
 While Drupal 8 Core comes with lots of functionality already, the strength of Drupal lies in its extensibility.  
@@ -262,12 +268,6 @@ They're handy if you *really* just want to have a quick start with Drupal.
 - [Adminimal - Responsive Administration Theme](https://www.drupal.org/project/adminimal_theme) - A modern and minimalist design that makes administration an easy and fun experience.
   - Also install [Adminimal Admin Toolbar](https://www.drupal.org/project/adminimal_admin_toolbar) when using this theme.
 
-## Theming
-- [Twig Documentation](https://twig.symfony.com/doc/2.x/) - Twig is the templating language used in building a Drupal 8 Theme
-- [Debugging Twig Templates](https://www.drupal.org/docs/8/theming/twig/debugging-twig-templates) - This will allow you to see which templates are in use on a page, which template is used to render each item on the page, any hooks for that template, and give you suggestions for naming your new templates
-- [Drupal 8 Theming Fundamentals, Part 1](https://www.lullabot.com/articles/drupal-8-theming-fundamentals-part-1) and [Part 2](https://www.lullabot.com/articles/drupal-8-theming-fundamentals-part-2) - An overview of creating and working in a Drupal 8 theme
-- [Drupal.org Theming Guide for Drupal 8](https://www.drupal.org/docs/8/theming) - The official guide to Drupal 8 theming. Not always the easiest to understand but very helpful for reference on many topics.
-
 ## Troubleshooting
 Every software has bugs. At least if it does more than simply printing out a `Hello World`.
 While we're not able to write bugless software, we can still try to handle bugfixing as smooth as possible.  
@@ -392,6 +392,7 @@ If you wish to get more involved with the Drupal community, or want to get in co
 - [Drupical](https://www.drupical.com/) - Find Drupal events with ease in a map! Note: The list is not complete but can give you a rough overview of Drupal events around the world.
 - [IRC](https://www.drupal.org/ircchat) - Chat with the Drupal Community on IRC!
 - [Meetups](https://www.meetup.com/topics/drupal/) - Participate in local Drupal meetups in your area and meet the community face to face.
+- [Reddit](https://www.reddit.com/r/drupal/) - The Drupal community on Reddit. They have weekly rotating posts!
 - [Slack](https://www.drupal.org/slack) - A list of Drupal Slack spaces and channels.
 - [Twitter](https://twitter.com/) - Yes, a lot of us are on Twitter too! `#drupal`
 
