@@ -58,9 +58,8 @@ If you would like to add a resource or contribute in any other kind of way, be s
 - [Video tutorials](#video-tutorials)
   - [Beginner Training Series](#beginner-training-series)
   - [General](#general)
-  - [Distributions](#distributions)
-  - [Modules](#modules)
-  - [Themes](#themes)
+  - [Modules](#modules-1)
+  - [Theming](#theming-1)
 - [Blog posts](#blog-posts)
 - [Drupal PaaS](#drupal-paas)
 - [Get in touch with the Drupal community](#get-in-touch-with-the-drupal-community)
@@ -364,15 +363,8 @@ Some things are a little bit complicated but every experienced Drupal developer 
 ### General
 - [Rendering & caching: a journey through the layers](https://www.youtube.com/watch?v=MQGUzubY35I)
 
-### Distributions
-
-
 ### Modules
 - [Webform videos on Drupal.org](https://www.drupal.org/docs/8/modules/webform/webform-videos) - A series of videos by the makers of Webform explaining features and tutorials for installing and using the Webform module.
-
-### Themes
-
-
 
 ### Theming
 - [Decouple your Twig from PHP and make Frontenders happy!](https://www.youtube.com/watch?v=Z4gMLSD5MAU)
