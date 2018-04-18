@@ -25,7 +25,7 @@ If you would like to add a resource or contribute in any other kind of way, be s
   - [Drupal CLI's](#drupal-clis)
   - [IDE's](#ides)
 - [Site building with Drupal](#site-building-with-drupal)
-- [Theming with Drupal](#theming-with-drupal)
+- [Theming in Drupal](#theming-in-drupal)
 - [Distributions](#distributions)
 - [Modules](#modules)
   - [Commerce](#commerce)
@@ -103,7 +103,7 @@ Once you have Drupal set up and running, it's time for site building.
 Have a look at the great documentation on drupal.org about [site building](https://www.drupal.org/site-building)
 as well as as understanding the [concepts of Drupal](https://www.drupal.org/docs/8/understanding-drupal-8/overview).
 
-## Theming with Drupal
+## Theming in Drupal
 - [Twig Documentation](https://twig.symfony.com/doc/2.x/) - Twig is the templating language used in building a Drupal 8 Theme
 - [Debugging Twig Templates](https://www.drupal.org/docs/8/theming/twig/debugging-twig-templates) - This will allow you to see which templates are in use on a page, which template is used to render each item on the page, any hooks for that template, and give you suggestions for naming your new templates
 - [Drupal 8 Theming Fundamentals, Part 1](https://www.lullabot.com/articles/drupal-8-theming-fundamentals-part-1) and [Part 2](https://www.lullabot.com/articles/drupal-8-theming-fundamentals-part-2) - An overview of creating and working in a Drupal 8 theme
