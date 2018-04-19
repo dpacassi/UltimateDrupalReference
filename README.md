@@ -92,6 +92,12 @@ While not required, it's **highly recommended** that you set up your Drupal proj
 regardless of your technical setup.  
 Check the [Composer template for Drupal projects](https://github.com/drupal-composer/drupal-project) to install Drupal quickly via Composer.
 
+#### Composer prestissimo
+If you want to speed up Composer, have a look at [prestissimo](https://github.com/hirak/prestissimo).  
+You can install it globally (no project dependency) to speed up Composer installations by a lot!  
+Simply run `composer global require hirak/prestissimo` and you're good to go.  
+Read more about prestissimo in its [project page](https://github.com/hirak/prestissimo).
+
 ### Drupal CLI's
 When it comes to developing custom modules, themes or simply automate certain tasks with scripts/cronjobs, there are two
 major Drupal CLI's which can be a huge help for you:
