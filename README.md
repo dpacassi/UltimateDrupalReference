@@ -154,6 +154,8 @@ They're handy if you *really* just want to have a quick start with Drupal.
 - [Quick Node Clone](https://www.drupal.org/project/quick_node_clone) - Quick Node Clone is meant as a way in Drupal 8 to clone nodes. It currently supports cloning of most field types including Inline Entity Form and Field Collection.
 - [Scheduled Updates](https://www.drupal.org/project/scheduled_updates) - The Scheduled Updates module allows scheduling updates at a specific date and time to entities such as Content(nodes), Users, Terms, Files and many more.
 - [Scheduler](https://www.drupal.org/project/scheduler) - Scheduler gives content editors the ability to schedule nodes to be published and unpublished at specified dates and times in the future.
+- [State Machine](https://www.drupal.org/project/state_machine) - Provides code-driven workflow functionality. It's also being used in Drupal Commerce to define checkout workflows.
+  - This blog post is very helpful to get started with State Machine: [Set up workflows with State machine on Drupal 8](https://www.flocondetoile.fr/blog/set-workflows-state-machine-drupal-8).
 
 ### Developer tools
 - [Config Ignore](https://www.drupal.org/project/config_ignore) - This module is a tool to let you keep the configuration you want, in place.
@@ -383,6 +385,7 @@ Some things are a little bit complicated but every experienced Drupal developer 
 - [How to Change the Default Text Strings in Drupal 8](https://www.ostraining.com/blog/drupal/translate-drupal-8-strings/)
 - [Stop Waiting for Feeds Module: How to Import RSS in Drupal 8](https://ohthehugemanatee.org/blog/2017/06/07/stop-waiting-for-feeds-module-how-to-import-remote-feeds-in-drupal-8/)
 - [Using Responsive Images in Drupal 8](https://www.bluecoda.com/blog/using-responsive-images-drupal-8)
+- [Set up workflows with State machine on Drupal 8](https://www.flocondetoile.fr/blog/set-workflows-state-machine-drupal-8)
 
 ## Drupal PaaS
 When it comes to hosting a Drupal site, you can always use any server which supports the system requirements.
