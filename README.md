@@ -98,6 +98,11 @@ You can install it globally (no project dependency) to speed up Composer install
 Simply run `composer global require hirak/prestissimo` and you're good to go.  
 Read more about prestissimo in its [project page](https://github.com/hirak/prestissimo).
 
+### Converting a non-Composer Drupal codebase to use Composer
+Jeff Geerling wrote a nice [blog post](https://www.jeffgeerling.com/blog/2018/converting-non-composer-drupal-codebase-use-composer) about
+convertig a non-Composer Drupal codebase to use Composer.  
+Check it out and benefit from Composer!
+
 ### Drupal CLI's
 When it comes to developing custom modules, themes or simply automate certain tasks with scripts/cronjobs, there are two
 major Drupal CLI's which can be a huge help for you:
@@ -386,6 +391,7 @@ Some things are a little bit complicated but every experienced Drupal developer 
 - [Stop Waiting for Feeds Module: How to Import RSS in Drupal 8](https://ohthehugemanatee.org/blog/2017/06/07/stop-waiting-for-feeds-module-how-to-import-remote-feeds-in-drupal-8/)
 - [Using Responsive Images in Drupal 8](https://www.bluecoda.com/blog/using-responsive-images-drupal-8)
 - [Set up workflows with State machine on Drupal 8](https://www.flocondetoile.fr/blog/set-workflows-state-machine-drupal-8)
+- [Converting a non-Composer Drupal codebase to use Composer](https://www.jeffgeerling.com/blog/2018/converting-non-composer-drupal-codebase-use-composer)
 
 ## Drupal PaaS
 When it comes to hosting a Drupal site, you can always use any server which supports the system requirements.
