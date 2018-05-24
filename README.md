@@ -392,6 +392,7 @@ Some things are a little bit complicated but every experienced Drupal developer 
 - [Using Responsive Images in Drupal 8](https://www.bluecoda.com/blog/using-responsive-images-drupal-8)
 - [Set up workflows with State machine on Drupal 8](https://www.flocondetoile.fr/blog/set-workflows-state-machine-drupal-8)
 - [Converting a non-Composer Drupal codebase to use Composer](https://www.jeffgeerling.com/blog/2018/converting-non-composer-drupal-codebase-use-composer)
+- [Drupal 8 Add Cache Metadata to Render Arrays](https://weknowinc.com/blog/drupal-8-add-cache-metadata-render-arrays)
 
 ## Drupal PaaS
 When it comes to hosting a Drupal site, you can always use any server which supports the system requirements.
