@@ -161,6 +161,7 @@ They're handy if you *really* just want to have a quick start with Drupal.
 - [Scheduler](https://www.drupal.org/project/scheduler) - Scheduler gives content editors the ability to schedule nodes to be published and unpublished at specified dates and times in the future.
 - [State Machine](https://www.drupal.org/project/state_machine) - Provides code-driven workflow functionality. It's also being used in Drupal Commerce to define checkout workflows.
   - This blog post is very helpful to get started with State Machine: [Set up workflows with State machine on Drupal 8](https://www.flocondetoile.fr/blog/set-workflows-state-machine-drupal-8).
+- [Voting API](https://www.drupal.org/project/votingapi) - VotingAPI helps developers who want to use a standardized API and schema for storing, retrieving and tabulating votes for Drupal content.
 
 ### Developer tools
 - [Config Ignore](https://www.drupal.org/project/config_ignore) - This module is a tool to let you keep the configuration you want, in place.
@@ -399,6 +400,7 @@ Some things are a little bit complicated but every experienced Drupal developer 
 - [Converting a non-Composer Drupal codebase to use Composer](https://www.jeffgeerling.com/blog/2018/converting-non-composer-drupal-codebase-use-composer)
 - [Drupal 8 Add Cache Metadata to Render Arrays](https://weknowinc.com/blog/drupal-8-add-cache-metadata-render-arrays)
 - [Integrate Webform and Google Sheets using Zapier in Drupal 8](https://www.webwash.net/integrate-webform-and-google-sheets-using-zapier-in-drupal-8/)
+- [How to Set a Voting System in Drupal 8](https://www.ostraining.com/blog/drupal/voting-system/)
 
 ## Drupal PaaS
 When it comes to hosting a Drupal site, you can always use any server which supports the system requirements.
