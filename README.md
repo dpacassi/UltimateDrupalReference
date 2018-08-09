@@ -252,6 +252,7 @@ They're handy if you *really* just want to have a quick start with Drupal.
 - [Menu Trail By Path](https://www.drupal.org/project/menu_trail_by_path) - Menu Trail By Path sets the active-trail on menu items according to the current url.
 - [Paragraphs](https://www.drupal.org/project/paragraphs) - Paragraphs is the new way of content creation! It allows you — Site Builders — to make things cleaner so that you can give more editing power to your end-users.
   - Also check out [Paragraphs Edit](https://www.drupal.org/project/paragraphs_edit)
+  - .. and this [blog post](https://www.ostraining.com/blog/drupal/paragraphs-module/)
 - [Simple hierarchical select](https://www.drupal.org/project/shs) - Simple hierarchical select defines a new form widget for taxonomy fields to select a term by "browsing" through the vocabularies hierarchy.
 - [Token](https://www.drupal.org/project/token) - Provides additional tokens not supported by core (most notably fields), as well as a UI for browsing tokens.
 - [Vertical Tabs Config](https://www.drupal.org/project/vertical_tabs_config) - This module allows you to hide and re-order vertical tabs on add/edit node pages depending on content type and role.
@@ -401,6 +402,7 @@ Some things are a little bit complicated but every experienced Drupal developer 
 - [Drupal 8 Add Cache Metadata to Render Arrays](https://weknowinc.com/blog/drupal-8-add-cache-metadata-render-arrays)
 - [Integrate Webform and Google Sheets using Zapier in Drupal 8](https://www.webwash.net/integrate-webform-and-google-sheets-using-zapier-in-drupal-8/)
 - [How to Set a Voting System in Drupal 8](https://www.ostraining.com/blog/drupal/voting-system/)
+- [The Ultimate Tutorial for Drupal's Paragraphs Module](https://www.ostraining.com/blog/drupal/paragraphs-module/)
 
 ## Drupal PaaS
 When it comes to hosting a Drupal site, you can always use any server which supports the system requirements.
