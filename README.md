@@ -403,6 +403,8 @@ Some things are a little bit complicated but every experienced Drupal developer 
 - [Integrate Webform and Google Sheets using Zapier in Drupal 8](https://www.webwash.net/integrate-webform-and-google-sheets-using-zapier-in-drupal-8/)
 - [How to Set a Voting System in Drupal 8](https://www.ostraining.com/blog/drupal/voting-system/)
 - [The Ultimate Tutorial for Drupal's Paragraphs Module](https://www.ostraining.com/blog/drupal/paragraphs-module/)
+- [Drupal 8’s mail sending opportunities](https://internetdevels.com/blog/mail-sending-drupal-8)
+- [Top 2018 Drupal Modules using Artificial Intelligence](https://opensenselabs.com/blog/tech/top-2018-drupal-modules-using-artificial-intelligence)
 
 ## Drupal PaaS
 When it comes to hosting a Drupal site, you can always use any server which supports the system requirements.
