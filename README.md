@@ -409,6 +409,7 @@ Some things are a little bit complicated but every experienced Drupal developer 
 - [Drupal 8’s mail sending opportunities](https://internetdevels.com/blog/mail-sending-drupal-8)
 - [Top 2018 Drupal Modules using Artificial Intelligence](https://opensenselabs.com/blog/tech/top-2018-drupal-modules-using-artificial-intelligence)
 - [Using partial Twig templates](https://befused.com/drupal/partial-twig)
+- [Visual Regression Testing with BackstopJS](https://www.davidneedham.me/drupaleu2018/)
 
 ## Further resources
 - [Comparison of Node/Entity Ordering Modules](https://www.drupal.org/node/398508)
