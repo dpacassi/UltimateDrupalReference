@@ -56,11 +56,12 @@ If you would like to add a resource or contribute in any other kind of way, be s
   - [IRC / Slack support](#irc--slack-support)
 - [Contributing to Drupal](#contributing-to-drupal)
 - [Video tutorials](#video-tutorials)
-  - [Beginner Training Series](#beginner-training-series)
+  - [Beginner training series](#beginner-training-series)
   - [General](#general)
   - [Modules](#modules-1)
   - [Theming](#theming)
 - [Blog posts](#blog-posts)
+- [Further resources](#further-resources)
 - [Drupal PaaS](#drupal-paas)
 - [Get in touch with the Drupal community](#get-in-touch-with-the-drupal-community)
 - [Credits](#credits)
@@ -375,7 +376,7 @@ Some things are a little bit complicated but every experienced Drupal developer 
 
 ## Video tutorials
 
-### Beginner Training Series
+### Beginner training series
 - [Drupal 8 Beginner Tutorials](https://www.youtube.com/playlist?list=PLtaXuX0nEZk9MKY_ClWcPkGtOEGyLTyCO) - A 63 video training course by OSTraining introducing the basics of Drupal 8. Designed for absolute beginners, it assumes no prior experience with Drupal and does a great job of explaining the basics.
 - [Build Your First Drupal 8 Site in 1 Hour](https://www.youtube.com/playlist?list=PLtaXuX0nEZk-Mer_a_P1sp0mroJGVs6TK) - An 11 video course by OSTraining that goes over "how to create content, use Views, add contact forms and choose themes".
 - [How To Install Drupal 8 Sites](https://www.youtube.com/playlist?list=PLtaXuX0nEZk99zgSc19Li8EsM9jkicDQj) - A 5 video course by OSTraining going over the basics on how to download, install and set up a Drupal 8 site.
@@ -408,6 +409,9 @@ Some things are a little bit complicated but every experienced Drupal developer 
 - [Drupal 8’s mail sending opportunities](https://internetdevels.com/blog/mail-sending-drupal-8)
 - [Top 2018 Drupal Modules using Artificial Intelligence](https://opensenselabs.com/blog/tech/top-2018-drupal-modules-using-artificial-intelligence)
 - [Using partial Twig templates](https://befused.com/drupal/partial-twig)
+
+## Further resources
+- [Comparison of Node/Entity Ordering Modules](https://www.drupal.org/node/398508)
 
 ## Drupal PaaS
 When it comes to hosting a Drupal site, you can always use any server which supports the system requirements.
