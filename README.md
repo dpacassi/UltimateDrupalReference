@@ -411,6 +411,8 @@ Some things are a little bit complicated but every experienced Drupal developer 
 - [Using partial Twig templates](https://befused.com/drupal/partial-twig)
 - [Visual Regression Testing with BackstopJS](https://www.davidneedham.me/drupaleu2018/)
 - [Composer Best Practices for Updating Drupal 8 Core and Modules](https://www.grazitti.com/blog/why-composer-is-the-best-practices-for-updating-drupal-8-core-and-modules/)
+- [Testing the 'Add user' and 'Edit account' forms in Drupal 8 with Behat](https://www.jeffgeerling.com/blog/2018/testing-add-user-and-edit-account-forms-drupal-8-behat)
+- [Simple Guzzle API mocking for functional testing in Drupal 8](https://www.webomelette.com/simple-guzzle-api-mocking-functional-testing-drupal-8)
 
 ## Further resources
 - [Comparison of Node/Entity Ordering Modules](https://www.drupal.org/node/398508)
