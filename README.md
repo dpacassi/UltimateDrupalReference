@@ -374,7 +374,9 @@ Some things are a little bit complicated but every experienced Drupal developer 
 **Don't** be afraid to ask for help! I quote from Drupal:
 > Come for the Code, Stay for the Community.
 
-## Video tutorials
+## Video tutorial
+Find below a few video resources that are really worth your time.  
+**Important:** There's also [Drupal.tv](https://drupal.tv/), check it out!
 
 ### Beginner training series
 - [Drupal 8 Beginner Tutorials](https://www.youtube.com/playlist?list=PLtaXuX0nEZk9MKY_ClWcPkGtOEGyLTyCO) - A 63 video training course by OSTraining introducing the basics of Drupal 8. Designed for absolute beginners, it assumes no prior experience with Drupal and does a great job of explaining the basics.
@@ -413,6 +415,12 @@ Some things are a little bit complicated but every experienced Drupal developer 
 - [Composer Best Practices for Updating Drupal 8 Core and Modules](https://www.grazitti.com/blog/why-composer-is-the-best-practices-for-updating-drupal-8-core-and-modules/)
 - [Testing the 'Add user' and 'Edit account' forms in Drupal 8 with Behat](https://www.jeffgeerling.com/blog/2018/testing-add-user-and-edit-account-forms-drupal-8-behat)
 - [Simple Guzzle API mocking for functional testing in Drupal 8](https://www.webomelette.com/simple-guzzle-api-mocking-functional-testing-drupal-8)
+- [Decoupled Drupal Authentication with JSON Web Tokens](https://dev.acquia.com/blog/decoupled-drupal-authentication-json-web-tokens)
+- [Automatic removal of .git directories from Composer dependencies](https://www.drupaleasy.com/quicktips/automatic-removal-git-directories-composer-dependencies)
+- [Make composer operations with Drupal way faster and easier on RAM](https://www.jeffgeerling.com/blog/2018/make-composer-operations-drupal-way-faster-and-easier-on-ram)
+- [How to Create a Node in Drupal 8 using REST](https://www.agiledrop.com/blog/how-create-node-drupal-8-using-rest)
+- [Provide a custom mode form to entities with Drupal 8](https://www.flocondetoile.fr/blog/provide-custom-mode-form-entities-drupal-8)
+- [Drupal 8 Configuration Management with Config Split](https://www.daggerhart.com/drupal-8-configuration-management-with-config-split/)
 
 ## Further resources
 - [Comparison of Node/Entity Ordering Modules](https://www.drupal.org/node/398508)
