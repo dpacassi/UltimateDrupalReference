@@ -250,6 +250,7 @@ They're handy if you *really* just want to have a quick start with Drupal.
 - [GraphQL](https://www.drupal.org/project/graphql) - This module lets you craft and expose a GraphQL schema for Drupal 8.
 - [Linkit - Enriched linking experience](https://www.drupal.org/project/linkit) - Linkit provides an easy interface for internal and external linking with wysiwyg editors by using an autocomplete field.
 - [Menu Breadcrumb](https://www.drupal.org/project/menu_breadcrumb) - This module allows you to use the menu the current page belongs to for the breadcrumb, generating breadcrumbs from the titles of parent menus.
+- [Menu Item Extras](https://www.drupal.org/project/menu_item_extras) - Menu Item Extras provides extra fields for menu items without using additional entities.
 - [Menu Link Attributes](https://www.drupal.org/project/menu_link_attributes) - This module allows you to add attributes to your menu links.
 - [Menu Link Weight](https://www.drupal.org/project/menu_link_weight) - This module replaces the standard numeric weight dropdown widget for menu links in the node form with a tabledrag widget that lists all children for the selected parent.
 - [Menu Trail By Path](https://www.drupal.org/project/menu_trail_by_path) - Menu Trail By Path sets the active-trail on menu items according to the current url.
@@ -421,6 +422,9 @@ Find below a few video resources that are really worth your time.
 - [How to Create a Node in Drupal 8 using REST](https://www.agiledrop.com/blog/how-create-node-drupal-8-using-rest)
 - [Provide a custom mode form to entities with Drupal 8](https://www.flocondetoile.fr/blog/provide-custom-mode-form-entities-drupal-8)
 - [Drupal 8 Configuration Management with Config Split](https://www.daggerhart.com/drupal-8-configuration-management-with-config-split/)
+- [Writing Automated Tests in Drupal 8, Part 1: Test types and set up](https://deninet.com/blog/2018/12/31/writing-automated-tests-drupal-8-part-1-test-types-and-set)
+- [Writing Automated Tests in Drupal 8, Part 2: Functional tests](https://deninet.com/blog/2019/01/13/writing-automated-tests-drupal-8-part-2-functional-tests)
+- [Writing Automated Tests in Drupal 8, Part 3: Unit tests](https://deninet.com/blog/2019/01/27/writing-automated-tests-drupal-8-part-3-unit-tests)
 
 ## Further resources
 - [Comparison of Node/Entity Ordering Modules](https://www.drupal.org/node/398508)
