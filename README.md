@@ -425,6 +425,7 @@ Find below a few video resources that are really worth your time.
 - [Writing Automated Tests in Drupal 8, Part 1: Test types and set up](https://deninet.com/blog/2018/12/31/writing-automated-tests-drupal-8-part-1-test-types-and-set)
 - [Writing Automated Tests in Drupal 8, Part 2: Functional tests](https://deninet.com/blog/2019/01/13/writing-automated-tests-drupal-8-part-2-functional-tests)
 - [Writing Automated Tests in Drupal 8, Part 3: Unit tests](https://deninet.com/blog/2019/01/27/writing-automated-tests-drupal-8-part-3-unit-tests)
+- [Keeping your Drupal 8 modules, themes and custom code continually up to date, preparing for Drupal 9](http://hojtsy.hu/blog/2019-feb-06/keeping-your-drupal-8-modules-themes-and-custom-code-continually-date-preparing)
 
 ## Further resources
 - [Comparison of Node/Entity Ordering Modules](https://www.drupal.org/node/398508)
