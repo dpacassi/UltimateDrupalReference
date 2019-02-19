@@ -73,6 +73,8 @@ You can either install it directly on your local machine (or any server) or you 
 If you really just want to catch a *quick glimpse* about a specific Drupal distribution, module or theme, then you don't even
 need to install anything! Check out the next section for details.
 
+If you want to run Drupal locally (and directly) on your Mac machine, check out this [great tutorial](https://getgrav.org/blog/macos-mojave-apache-multiple-php-versions).
+
 ### Evaluate Drupal projects without installing Drupal
 No further information needed. Simply visit [simplytest.me](https://simplytest.me/) and launch your custom sandbox!
 
@@ -426,6 +428,7 @@ Find below a few video resources that are really worth your time.
 - [Writing Automated Tests in Drupal 8, Part 2: Functional tests](https://deninet.com/blog/2019/01/13/writing-automated-tests-drupal-8-part-2-functional-tests)
 - [Writing Automated Tests in Drupal 8, Part 3: Unit tests](https://deninet.com/blog/2019/01/27/writing-automated-tests-drupal-8-part-3-unit-tests)
 - [Keeping your Drupal 8 modules, themes and custom code continually up to date, preparing for Drupal 9](http://hojtsy.hu/blog/2019-feb-06/keeping-your-drupal-8-modules-themes-and-custom-code-continually-date-preparing)
+- [How to Create a Product Catalog with Search API, Solr and Facets](https://blog.acromedia.com/how-to-create-a-product-catalog-with-search-api-solr-and-facets)
 
 ## Further resources
 - [Comparison of Node/Entity Ordering Modules](https://www.drupal.org/node/398508)
@@ -448,6 +451,10 @@ If you wish to get more involved with the Drupal community, or want to get in co
 - [Reddit](https://www.reddit.com/r/drupal/) - The Drupal community on Reddit. They have weekly rotating posts!
 - [Slack](https://www.drupal.org/slack) - A list of Drupal Slack spaces and channels.
 - [Twitter](https://twitter.com/) - Yes, a lot of us are on Twitter too! `#drupal`
+
+## Drupal newsletter
+Get the best Drupal news, tutorials and articles once a week without hours of browsing.  
+Check out the [TheWeeklyDrop](http://www.theweeklydrop.com/).
 
 ## Credits
 - [David Pacassi Torrico](https://www.drupal.org/u/dpacassi) - Project maintainer
