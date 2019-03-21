@@ -430,6 +430,7 @@ Find below a few video resources that are really worth your time.
 - [Keeping your Drupal 8 modules, themes and custom code continually up to date, preparing for Drupal 9](http://hojtsy.hu/blog/2019-feb-06/keeping-your-drupal-8-modules-themes-and-custom-code-continually-date-preparing)
 - [How to Create a Product Catalog with Search API, Solr and Facets](https://blog.acromedia.com/how-to-create-a-product-catalog-with-search-api-solr-and-facets)
 - [Reuse readme.md in hook_help() with Parsedown](https://colorfield.be/blog/reuse-readmemd-hookhelp-parsedown)
+- [Controlling multiple sites with Drush 9](http://www.noreiko.com/blog/controlling-multiple-sites-drush-9)
 
 ## Further resources
 - [Comparison of Node/Entity Ordering Modules](https://www.drupal.org/node/398508)
