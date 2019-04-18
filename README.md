@@ -431,6 +431,7 @@ Find below a few video resources that are really worth your time.
 - [How to Create a Product Catalog with Search API, Solr and Facets](https://blog.acromedia.com/how-to-create-a-product-catalog-with-search-api-solr-and-facets)
 - [Reuse readme.md in hook_help() with Parsedown](https://colorfield.be/blog/reuse-readmemd-hookhelp-parsedown)
 - [Controlling multiple sites with Drush 9](http://www.noreiko.com/blog/controlling-multiple-sites-drush-9)
+- [Doping for editors: Put the fun in Paragraphs](https://www.undpaul.de/en/blog/2019/04/12/doping-editors-put-fun-in-paragraphs)
 
 ## Further resources
 - [Comparison of Node/Entity Ordering Modules](https://www.drupal.org/node/398508)
