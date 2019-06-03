@@ -432,6 +432,8 @@ Find below a few video resources that are really worth your time.
 - [Reuse readme.md in hook_help() with Parsedown](https://colorfield.be/blog/reuse-readmemd-hookhelp-parsedown)
 - [Controlling multiple sites with Drush 9](http://www.noreiko.com/blog/controlling-multiple-sites-drush-9)
 - [Doping for editors: Put the fun in Paragraphs](https://www.undpaul.de/en/blog/2019/04/12/doping-editors-put-fun-in-paragraphs)
+- [Recognizing Insecure Drupal Code](https://thinkshout.com/blog/2019/05/recognizing-insecure-drupal-code)
+- [Using Config Split and Config Ignore to Fine-Tune Your Configuration Management Process](https://www.o8.agency/blog/tips-dev-team-using-config-split-and-config-ignore-fine-tune-your-configuration-management)
 
 ## Further resources
 - [Comparison of Node/Entity Ordering Modules](https://www.drupal.org/node/398508)
