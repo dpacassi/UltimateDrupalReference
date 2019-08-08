@@ -438,6 +438,7 @@ Find below a few video resources that are really worth your time.
 
 ## Further resources
 - [Comparison of Node/Entity Ordering Modules](https://www.drupal.org/node/398508)
+- [Drupal Pitch Deck](https://www.drupal.org/community/agency-marketing/pitch-deck)
 
 ## Drupal PaaS
 When it comes to hosting a Drupal site, you can always use any server which supports the system requirements.
