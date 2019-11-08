@@ -225,6 +225,7 @@ They're handy if you *really* just want to have a quick start with Drupal.
 - [Search Autocomplete](https://www.drupal.org/project/search_autocomplete) - This module allows you to add autocomplete functionality to virtually any fields of a Drupal site. During the input, the field will be expanded and offers a list of suggestions before you start the search.
 
 ### Security
+- [Automatic Updates](https://www.drupal.org/project/automatic_updates) - A project for organizing the Auto Updates Initiative efforts, as proposed in this idea.
 - [Password Reset Landing Page (PRLP)](https://www.drupal.org/project/prlp) - The Password Reset Landing Page "PRLP" module enhances the original password reset landing page by letting a user set their new password at the same time they "log in" using the one-time-login link.
 - [Password Strength](https://www.drupal.org/project/password_strength) - The Password Strength module provides realistic password strength measurement and server-side enforcement for Drupal sites using pattern-matching and entropy calculation.
 - [Persistent Login](https://www.drupal.org/project/persistent_login) - The Persistent Login module provides a "Remember Me" option on the user login form.
@@ -280,6 +281,7 @@ They're handy if you *really* just want to have a quick start with Drupal.
 ### Views
 - [Better Exposed Filters](https://www.drupal.org/project/better_exposed_filters) - The Better Exposed Filters module replaces the Views' default single- or multi-select boxes with radio buttons or checkboxes, respectively.
 - [DraggableViews](https://www.drupal.org/project/draggableviews) - DraggableViews makes rows of a view "draggable" which means that they can be rearranged by Drag'n'Drop.
+- [Views Infinite Scroll](https://www.drupal.org/project/views_infinite_scroll) - Views infinite scroll allows you to load and display pages of any view inline, using AJAX (this has been called infinite scrolling, load more, autopaging, endless pages and more).
 - [Views Reference Field](https://www.drupal.org/project/viewsreference) - This field in conjunction with the Paragraphs module, makes for a very powerful content management system, allowing addition of just about any kind of content into an entity page.
 
 ## Themes
@@ -435,6 +437,8 @@ Find below a few video resources that are really worth your time.
 - [Recognizing Insecure Drupal Code](https://thinkshout.com/blog/2019/05/recognizing-insecure-drupal-code)
 - [Using Config Split and Config Ignore to Fine-Tune Your Configuration Management Process](https://www.o8.agency/blog/tips-dev-team-using-config-split-and-config-ignore-fine-tune-your-configuration-management)
 - [Migrate from a CSV to Content Entities with Paragraphs](https://colorfield.be/blog/migrate-csv-to-content-entities-with-paragraphs)
+- [Migrating files and images into Drupal](https://agaric.coop/blog/migrating-files-and-images-drupal)
+- [Migrating data into Drupal subfields](https://agaric.coop/blog/migrating-data-drupal-subfields)
 
 ## Further resources
 - [Comparison of Node/Entity Ordering Modules](https://www.drupal.org/node/398508)
