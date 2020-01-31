@@ -273,6 +273,7 @@ They're handy if you *really* just want to have a quick start with Drupal.
 
 ### User & Roles management
 - [Auth0 Single Sign On](https://www.drupal.org/project/auth0) - Single Sign On for Enterprises + Social Login + User/Passwords. For all your Drupal instances. Powered by Auth0.
+- [Email Registration](https://www.drupal.org/project/email_registration) - Allow users to register and login using only an email address. Users can then log-in using their email address and password for authentication.
 - [Group](https://www.drupal.org/project/group) - The Group module allows you to create arbitrary collections of your content and users on your site and grant access control permissions on those collections.
 - [Permissions by Term](https://www.drupal.org/project/permissions_by_term) - The Permissions by Term module extends Drupal by functionality for restricting access to single nodes via taxonomy terms.
 - [RoleAssign](https://www.drupal.org/project/roleassign) - RoleAssign specifically allows site administrators to further delegate the task of managing user's roles while withholding the Administer permissions permission.
