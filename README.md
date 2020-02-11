@@ -440,6 +440,7 @@ Find below a few video resources that are really worth your time.
 - [Migrate from a CSV to Content Entities with Paragraphs](https://colorfield.be/blog/migrate-csv-to-content-entities-with-paragraphs)
 - [Migrating files and images into Drupal](https://agaric.coop/blog/migrating-files-and-images-drupal)
 - [Migrating data into Drupal subfields](https://agaric.coop/blog/migrating-data-drupal-subfields)
+- [Invalidate the page cache according to a duration with Drupal 8](https://www.flocondetoile.fr/blog/invalidate-page-cache-according-duration-drupal-8)
 
 ## Further resources
 - [Comparison of Node/Entity Ordering Modules](https://www.drupal.org/node/398508)
