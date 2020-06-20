@@ -441,6 +441,7 @@ Find below a few video resources that are really worth your time.
 - [Migrating files and images into Drupal](https://agaric.coop/blog/migrating-files-and-images-drupal)
 - [Migrating data into Drupal subfields](https://agaric.coop/blog/migrating-data-drupal-subfields)
 - [Invalidate the page cache according to a duration with Drupal 8](https://www.flocondetoile.fr/blog/invalidate-page-cache-according-duration-drupal-8)
+- [Customise scaffold files the right way](https://www.computerminds.co.uk/articles/customise-scaffold-files-right-way)
 
 ## Further resources
 - [Comparison of Node/Entity Ordering Modules](https://www.drupal.org/node/398508)
