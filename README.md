@@ -443,6 +443,7 @@ Find below a few video resources that are really worth your time.
 - [Invalidate the page cache according to a duration with Drupal 8](https://www.flocondetoile.fr/blog/invalidate-page-cache-according-duration-drupal-8)
 - [Customise scaffold files the right way](https://www.computerminds.co.uk/articles/customise-scaffold-files-right-way)
 - [Automatically remove the Drupal core README (and other) scaffolding files](https://www.drupaleasy.com/quicktips/automatically-remove-drupal-core-readme-and-other-scaffolding-files)
+- [Customizing a CSV export with Entity Export CSV on Drupal 8](https://www.flocondetoile.fr/blog/customizing-csv-export-entity-export-csv-drupal-8)
 
 ## Further resources
 - [Comparison of Node/Entity Ordering Modules](https://www.drupal.org/node/398508)
