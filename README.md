@@ -8,8 +8,6 @@ When it comes to [Drupal](https://www.drupal.org/), there are a lot of videos, b
 While some of them are good, others are in need of improvement and a few of them are simply outdated.
 
 This project will try to list you the **best, most promising and most efficient** resources that you might need when developing a Drupal site.  
-**Important:** This project currently focuses on Drupal 8 only!  
-If you would like to have a Drupal 7 version of it, please open a [GitHub issue](../../issues) so we can discuss it.
 
 ## Contribution guidelines
 This project lives through new and up-to-date resources from the community, from **you**!  
@@ -128,7 +126,7 @@ as well as as understanding the [concepts of Drupal](https://www.drupal.org/docs
 - [Drupal.org Theming Guide for Drupal 8](https://www.drupal.org/docs/8/theming) - The official guide to Drupal 8 theming. Not always the easiest to understand but very helpful for reference on many topics.
 
 ## Distributions
-While Drupal 8 Core comes with lots of functionality already, the strength of Drupal lies in its extensibility.  
+While Drupal 8+ core comes with lots of functionality already, the strength of Drupal lies in its extensibility.  
 Distributions are full copies of Drupal that include Drupal Core, along with additional software such as themes, modules, libraries, and installation profiles.  
 They're handy if you *really* just want to have a quick start with Drupal.
 - [Druppio](https://www.drupal.org/project/druppio_small_business_distribution) - A small business distribution with demo content.
@@ -357,7 +355,7 @@ Now before you go on something like "But Googling is obvious", let me give you *
 - Limit your search results to a specific time frame!
 
 If you search for a commerce issue for example, the probability is high to find solutions to the Drupal 7 version of it.
-But if you're interested in a solution for the Drupal 8 version, you're better off limiting the search results by e.g.
+But if you're interested in a solution for the Drupal 8+ versions, you're better off limiting the search results by e.g.
 publish date and only show results from the past year on.  
 The date limitation is only one thing you can do, there are a lot of articles on how to google efficiently out there, read them!
 
