@@ -443,6 +443,7 @@ Find below a few video resources that are really worth your time.
 - [Automatically remove the Drupal core README (and other) scaffolding files](https://www.drupaleasy.com/quicktips/automatically-remove-drupal-core-readme-and-other-scaffolding-files)
 - [Customizing a CSV export with Entity Export CSV on Drupal 8](https://www.flocondetoile.fr/blog/customizing-csv-export-entity-export-csv-drupal-8)
 - [How to Test Your Drupal Site's Accessibility](https://evolvingweb.ca/blog/how-test-your-drupal-sites-accessibility)
+- [Drupal 8 content migrations from CSV or spreadsheet](https://atendesigngroup.com/articles/drupal-8-content-migrations-csv-spreadsheet)
 
 ## Further resources
 - [Comparison of Node/Entity Ordering Modules](https://www.drupal.org/node/398508)
