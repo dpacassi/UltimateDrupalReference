@@ -229,6 +229,7 @@ They're handy if you *really* just want to have a quick start with Drupal.
 - [Persistent Login](https://www.drupal.org/project/persistent_login) - The Persistent Login module provides a "Remember Me" option on the user login form.
 - [Protected Pages](https://www.drupal.org/project/protected_pages) - Protected Pages modules allows the administrator to secure any page in your website by password.
 - [Rabbit Hole](https://www.drupal.org/project/rabbit_hole) - Rabbit Hole is a module that adds the ability to control what should happen when an entity is being viewed at its own page.
+- [Security Kit](https://www.drupal.org/project/seckit) - SecKit provides Drupal with various security-hardening options.
 - [Shield](https://www.drupal.org/project/shield) - PHP Authentication shield. It creates a simple shield for the site with Apache authentication.
 
 ### SEO / Analytics
