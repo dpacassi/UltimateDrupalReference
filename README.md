@@ -183,6 +183,7 @@ They're handy if you *really* just want to have a quick start with Drupal.
 - [Honeypot](https://www.drupal.org/project/honeypot) - Honeypot uses both the honeypot and timestamp methods of deterring spam bots from completing forms on your Drupal site.
 - [Prepopulate](https://www.drupal.org/project/prepopulate) - The Prepopulate module allows fields in most forms to be pre-populated from the $_REQUEST variable.
 - [reCAPTCHA](https://www.drupal.org/project/recaptcha) - Uses the Google reCAPTCHA web service to improve the CAPTCHA system. It is tough on bots and easy on humans.
+- [Smart Date](https://www.drupal.org/project/smart_date) - This module attempts to provide a more user-friendly date field, by upgrading the functionality of core in a number of ways.
 - [Spam Master](https://www.drupal.org/project/spammaster) - Spam Master protects Drupal based websites from millions of known spam emails, domains, ip's and words by blocking user rregistrations, comments, messages, contacts, feedbacks or threads.
 - [Webform](https://www.drupal.org/project/webform) - Webform is the module for making forms and surveys in Drupal.
   - [Webform videos on Drupal.org](https://www.drupal.org/docs/8/modules/webform/webform-videos) - A series of videos by the makers of Webform explaining features and tutorials for installing and using the Webform module.
@@ -281,6 +282,7 @@ They're handy if you *really* just want to have a quick start with Drupal.
 ### Views
 - [Better Exposed Filters](https://www.drupal.org/project/better_exposed_filters) - The Better Exposed Filters module replaces the Views' default single- or multi-select boxes with radio buttons or checkboxes, respectively.
 - [DraggableViews](https://www.drupal.org/project/draggableviews) - DraggableViews makes rows of a view "draggable" which means that they can be rearranged by Drag'n'Drop.
+- [Views Conditional](https://www.drupal.org/project/views_conditional) - Views Conditional is a simple module that allows you to define conditionals (if xxx then yyy) with fields in views.
 - [Views Infinite Scroll](https://www.drupal.org/project/views_infinite_scroll) - Views infinite scroll allows you to load and display pages of any view inline, using AJAX (this has been called infinite scrolling, load more, autopaging, endless pages and more).
 - [Views Reference Field](https://www.drupal.org/project/viewsreference) - This field in conjunction with the Paragraphs module, makes for a very powerful content management system, allowing addition of just about any kind of content into an entity page.
 
