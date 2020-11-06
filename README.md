@@ -447,6 +447,8 @@ Find below a few video resources that are really worth your time.
 - [Customizing a CSV export with Entity Export CSV on Drupal 8](https://www.flocondetoile.fr/blog/customizing-csv-export-entity-export-csv-drupal-8)
 - [How to Test Your Drupal Site's Accessibility](https://evolvingweb.ca/blog/how-test-your-drupal-sites-accessibility)
 - [Drupal 8 content migrations from CSV or spreadsheet](https://atendesigngroup.com/articles/drupal-8-content-migrations-csv-spreadsheet)
+- [How To Add Filter Effects to Images on your website with Image effects module](https://drudesk.com/blog/image-effects-module-for-drupal-8)
+- [How to Import External Feeds into your Drupal 9 Website with the Feeds Module](https://www.specbee.com/blogs/how-import-external-feeds-your-drupal-9-website-feeds-module)
 
 ## Further resources
 - [Comparison of Node/Entity Ordering Modules](https://www.drupal.org/node/398508)
