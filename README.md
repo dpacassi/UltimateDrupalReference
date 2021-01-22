@@ -260,6 +260,7 @@ They're handy if you *really* just want to have a quick start with Drupal.
 - [Paragraphs](https://www.drupal.org/project/paragraphs) - Paragraphs is the new way of content creation! It allows you — Site Builders — to make things cleaner so that you can give more editing power to your end-users.
   - Also check out [Paragraphs Edit](https://www.drupal.org/project/paragraphs_edit)
   - .. and this [blog post](https://www.ostraining.com/blog/drupal/paragraphs-module/)
+- [Reroute Email](https://www.drupal.org/project/reroute_email) - This module intercepts all outgoing emails from a Drupal site and reroutes them to a predefined configurable email address.
 - [Simple hierarchical select](https://www.drupal.org/project/shs) - Simple hierarchical select defines a new form widget for taxonomy fields to select a term by "browsing" through the vocabularies hierarchy.
 - [Token](https://www.drupal.org/project/token) - Provides additional tokens not supported by core (most notably fields), as well as a UI for browsing tokens.
 - [Vertical Tabs Config](https://www.drupal.org/project/vertical_tabs_config) - This module allows you to hide and re-order vertical tabs on add/edit node pages depending on content type and role.
