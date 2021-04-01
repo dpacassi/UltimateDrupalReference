@@ -225,6 +225,7 @@ They're handy if you *really* just want to have a quick start with Drupal.
 
 ### Security
 - [Automatic Updates](https://www.drupal.org/project/automatic_updates) - A project for organizing the Auto Updates Initiative efforts, as proposed in this idea.
+- [Better Passwords](https://www.drupal.org/project/better_passwords) - Better Passwords attempts to help users create better passwords by adhering to current recommendations from the US National Institute of Standards and Technology (NIST).
 - [Password Reset Landing Page (PRLP)](https://www.drupal.org/project/prlp) - The Password Reset Landing Page "PRLP" module enhances the original password reset landing page by letting a user set their new password at the same time they "log in" using the one-time-login link.
 - [Password Strength](https://www.drupal.org/project/password_strength) - The Password Strength module provides realistic password strength measurement and server-side enforcement for Drupal sites using pattern-matching and entropy calculation.
 - [Persistent Login](https://www.drupal.org/project/persistent_login) - The Persistent Login module provides a "Remember Me" option on the user login form.
@@ -262,6 +263,7 @@ They're handy if you *really* just want to have a quick start with Drupal.
   - .. and this [blog post](https://www.ostraining.com/blog/drupal/paragraphs-module/)
 - [Reroute Email](https://www.drupal.org/project/reroute_email) - This module intercepts all outgoing emails from a Drupal site and reroutes them to a predefined configurable email address.
 - [Simple hierarchical select](https://www.drupal.org/project/shs) - Simple hierarchical select defines a new form widget for taxonomy fields to select a term by "browsing" through the vocabularies hierarchy.
+- [SVG Image Field](https://www.drupal.org/project/svg_image_field) - This module adds a new field, widget and formatter, which allows `.svg` file extension to be uploaded.
 - [Token](https://www.drupal.org/project/token) - Provides additional tokens not supported by core (most notably fields), as well as a UI for browsing tokens.
 - [Vertical Tabs Config](https://www.drupal.org/project/vertical_tabs_config) - This module allows you to hide and re-order vertical tabs on add/edit node pages depending on content type and role.
 
@@ -276,6 +278,7 @@ They're handy if you *really* just want to have a quick start with Drupal.
 - [Auth0 Single Sign On](https://www.drupal.org/project/auth0) - Single Sign On for Enterprises + Social Login + User/Passwords. For all your Drupal instances. Powered by Auth0.
 - [Email Registration](https://www.drupal.org/project/email_registration) - Allow users to register and login using only an email address. Users can then log-in using their email address and password for authentication.
 - [Group](https://www.drupal.org/project/group) - The Group module allows you to create arbitrary collections of your content and users on your site and grant access control permissions on those collections.
+- [Menu Per Role](https://www.drupal.org/project/menu_per_role) - This module allows you to restrict access to menu items based on user roles.
 - [Permissions by Term](https://www.drupal.org/project/permissions_by_term) - The Permissions by Term module extends Drupal by functionality for restricting access to single nodes via taxonomy terms.
 - [RoleAssign](https://www.drupal.org/project/roleassign) - RoleAssign specifically allows site administrators to further delegate the task of managing user's roles while withholding the Administer permissions permission.
 - [Taxonomy access fix](https://www.drupal.org/project/taxonomy_access_fix) - This module adds more specific Taxonomy permissions.
