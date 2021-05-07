@@ -289,6 +289,7 @@ They're handy if you *really* just want to have a quick start with Drupal.
 - [Views Conditional](https://www.drupal.org/project/views_conditional) - Views Conditional is a simple module that allows you to define conditionals (if xxx then yyy) with fields in views.
 - [Views Infinite Scroll](https://www.drupal.org/project/views_infinite_scroll) - Views infinite scroll allows you to load and display pages of any view inline, using AJAX (this has been called infinite scrolling, load more, autopaging, endless pages and more).
 - [Views Reference Field](https://www.drupal.org/project/viewsreference) - This field in conjunction with the Paragraphs module, makes for a very powerful content management system, allowing addition of just about any kind of content into an entity page.
+- [Views year filter](https://www.drupal.org/project/views_year_filter) - This module add the possibility to expose date/date time filter with year (format CCYY) instead of using full date (format CCYY-MM-DD HH:MM:SS) or offset from the current time.
 
 ## Themes
 
@@ -453,6 +454,8 @@ Find below a few video resources that are really worth your time.
 - [Drupal 8 content migrations from CSV or spreadsheet](https://atendesigngroup.com/articles/drupal-8-content-migrations-csv-spreadsheet)
 - [How To Add Filter Effects to Images on your website with Image effects module](https://drudesk.com/blog/image-effects-module-for-drupal-8)
 - [How to Import External Feeds into your Drupal 9 Website with the Feeds Module](https://www.specbee.com/blogs/how-import-external-feeds-your-drupal-9-website-feeds-module)
+- [Drupal 9 Multisite setup in Lando](https://imalabya.co/setup-multisite-drupal-9-lando)
+- [Using Drupal API To Create A Cross-Platform Menu](https://www.axelerant.com/resources/team-blog/using-drupal-api-create-cross-platform-menu)
 
 ## Further resources
 - [Comparison of Node/Entity Ordering Modules](https://www.drupal.org/node/398508)
