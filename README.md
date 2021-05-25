@@ -280,6 +280,7 @@ They're handy if you *really* just want to have a quick start with Drupal.
 - [Group](https://www.drupal.org/project/group) - The Group module allows you to create arbitrary collections of your content and users on your site and grant access control permissions on those collections.
 - [Menu Per Role](https://www.drupal.org/project/menu_per_role) - This module allows you to restrict access to menu items based on user roles.
 - [Permissions by Term](https://www.drupal.org/project/permissions_by_term) - The Permissions by Term module extends Drupal by functionality for restricting access to single nodes via taxonomy terms.
+- [Remove username](https://www.drupal.org/project/remove_username) - This simple module is removing the 'name' (username) field from the user management forms (create/register/edit accounts) by making the 'email' field required and copying the email address into the username field.
 - [RoleAssign](https://www.drupal.org/project/roleassign) - RoleAssign specifically allows site administrators to further delegate the task of managing user's roles while withholding the Administer permissions permission.
 - [Taxonomy access fix](https://www.drupal.org/project/taxonomy_access_fix) - This module adds more specific Taxonomy permissions.
 
