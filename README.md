@@ -174,6 +174,7 @@ They're handy if you *really* just want to have a quick start with Drupal.
 
 ### Forms
 - [Antibot](https://www.drupal.org/project/antibot) - Antibot is an extremely lightweight module designed to eliminate robotic form submissions on your website in an innovative-fashion.
+- [Autocomplete Deluxe](https://www.drupal.org/project/autocomplete_deluxe) - This is an enhanced autocomplete element, that uses the jQuery UI autocomplete. It will also implement a widget for taxonomy.
 - [Better Login](https://www.drupal.org/project/betterlogin) - Fancy and extendable login forms for Drupal.
 - [CAPTCHA](https://www.drupal.org/project/captcha) - A CAPTCHA is a challenge-response test most often placed within web forms to determine whether the user is human.
 - [Chosen](https://www.drupal.org/project/chosen) - Chosen uses the Chosen jQuery plugin to make your `<select>` elements more user-friendly.
