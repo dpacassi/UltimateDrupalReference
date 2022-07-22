@@ -458,6 +458,9 @@ Find below a few video resources that are really worth your time.
 - [How to Import External Feeds into your Drupal 9 Website with the Feeds Module](https://www.specbee.com/blogs/how-import-external-feeds-your-drupal-9-website-feeds-module)
 - [Drupal 9 Multisite setup in Lando](https://imalabya.co/setup-multisite-drupal-9-lando)
 - [Using Drupal API To Create A Cross-Platform Menu](https://www.axelerant.com/resources/team-blog/using-drupal-api-create-cross-platform-menu)
+- [Most Popular Drupal 9 Modules to Enhance Website Performance](https://www.thedroptimes.com/9325/most-popular-drupal-9-modules-enhance-website-performance)
+- [Integrate your eCommerce website with these must-have Drupal Modules](https://www.specbee.com/blogs/integrate-ecommerce-website-with-drupal-modules)
+- [Top Security Modules for Your Drupal 9 Website](https://www.thedroptimes.com/9316/top-security-modules-your-drupal-9-website)
 
 ## Further resources
 - [Comparison of Node/Entity Ordering Modules](https://www.drupal.org/node/398508)
