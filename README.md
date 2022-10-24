@@ -120,7 +120,7 @@ Have a look at the great documentation on drupal.org about [site building](https
 as well as as understanding the [concepts of Drupal](https://www.drupal.org/docs/8/understanding-drupal-8/overview).
 
 ## Theming in Drupal
-- [Twig Documentation](https://twig.symfony.com/doc/2.x/) - Twig is the templating language used in building a Drupal 8 Theme
+- [Twig Documentation](https://twig.symfony.com/doc/2.x/) - Twig is the templating language used in building a Drupal theme
 - [Debugging Twig Templates](https://www.drupal.org/docs/8/theming/twig/debugging-twig-templates) - This will allow you to see which templates are in use on a page, which template is used to render each item on the page, any hooks for that template, and give you suggestions for naming your new templates
 - [Drupal 8 Theming Fundamentals, Part 1](https://www.lullabot.com/articles/drupal-8-theming-fundamentals-part-1) and [Part 2](https://www.lullabot.com/articles/drupal-8-theming-fundamentals-part-2) - An overview of creating and working in a Drupal 8 theme
 - [Drupal.org Theming Guide for Drupal 8](https://www.drupal.org/docs/8/theming) - The official guide to Drupal 8 theming. Not always the easiest to understand but very helpful for reference on many topics.
@@ -203,7 +203,7 @@ They're handy if you *really* just want to have a quick start with Drupal.
 ### Migration
 - [Migrate Plus](https://www.drupal.org/project/migrate_plus) - The migrate_plus project provides extensions to core migration framework functionality, as well as examples.
 - [Migrate Source CSV](https://www.drupal.org/project/migrate_source_csv) - This project allows you to import CSV files using Drupal Migration.
-- [Migrate Tools](https://www.drupal.org/project/migrate_tools) - The Migrate Tools module provides tools for running and managing Drupal 8 migrations.
+- [Migrate Tools](https://www.drupal.org/project/migrate_tools) - The Migrate Tools module provides tools for running and managing Drupal migrations.
 
 ### Multilingualism
 - [Language Cookie](https://www.drupal.org/project/language_cookie) - Adds an extra "Cookie" field to the Language Negotiation settings, allowing the language to be set according to a cookie.
@@ -242,7 +242,7 @@ They're handy if you *really* just want to have a quick start with Drupal.
 - [Piwik Web Analytics](https://www.drupal.org/project/piwik) - Adds the Piwik web statistics tracking system to your website.
 - [Redirect](https://www.drupal.org/project/redirect) - Manage custom site redirects.
 - [SEO Checklist](https://www.drupal.org/project/seo_checklist) - The Drupal SEO Checklist uses best practices to check your website for proper search engine optimization. It eliminates guesswork by creating a functional to-do list of modules and tasks that remain.
-- [Simple XML sitemap](https://www.drupal.org/project/simple_sitemap) - Every webpage needs an automatic XML sitemap generator for SEO reasons. This module aims to be a replacement for the xmlsitemap module for Drupal 8.
+- [Simple XML sitemap](https://www.drupal.org/project/simple_sitemap) - Every webpage needs an automatic XML sitemap generator for SEO reasons. This module aims to be a replacement for the xmlsitemap module for Drupal.
 
 ### Site building
 - [@font-your-face](https://www.drupal.org/project/fontyourface) - @font-your-face provides an administrative interface for browsing and applying web fonts (using CSS @font-face, supported in all popular browsers) from a variety of sources.
@@ -252,7 +252,7 @@ They're handy if you *really* just want to have a quick start with Drupal.
 - [Easy Breadcrumb](https://www.drupal.org/project/easy_breadcrumb) - The Easy Breadcrumb module provides a plug-and-play block to be embedded in your pages, typically at some place near the page's header.
 - [Entity Browser](https://www.drupal.org/project/entity_browser) - The goal of this module is to provide a generic entity browser/picker/selector.
 - [Field Group](https://www.drupal.org/project/field_group) - Fieldgroup will, as the name implies, group fields together. All fieldable entities will have the possibility to add groups to wrap their fields together.
-- [GraphQL](https://www.drupal.org/project/graphql) - This module lets you craft and expose a GraphQL schema for Drupal 8.
+- [GraphQL](https://www.drupal.org/project/graphql) - This module lets you craft and expose a GraphQL schema for Drupal.
 - [Linkit - Enriched linking experience](https://www.drupal.org/project/linkit) - Linkit provides an easy interface for internal and external linking with wysiwyg editors by using an autocomplete field.
 - [Menu Breadcrumb](https://www.drupal.org/project/menu_breadcrumb) - This module allows you to use the menu the current page belongs to for the breadcrumb, generating breadcrumbs from the titles of parent menus.
 - [Menu Item Extras](https://www.drupal.org/project/menu_item_extras) - Menu Item Extras provides extra fields for menu items without using additional entities.
@@ -296,9 +296,9 @@ They're handy if you *really* just want to have a quick start with Drupal.
 ## Themes
 
 ### Frontend themes
-- [AdaptiveTheme](https://www.drupal.org/project/adaptivetheme) - Adaptivetheme for Drupal 8 is a base theme designed for people who don’t code, or for those who only want to write a bit of CSS but still want a sleek and sophisticated theme for todays mobile web - and beyond.
+- [AdaptiveTheme](https://www.drupal.org/project/adaptivetheme) - Adaptivetheme for Drupal is a base theme designed for people who don’t code, or for those who only want to write a bit of CSS but still want a sleek and sophisticated theme for todays mobile web - and beyond.
 - [Bootstrap](https://www.drupal.org/project/bootstrap) - This base theme bridges the gap between Drupal and the Bootstrap Framework.
-- [Drupal8 Zymphonies Theme](https://www.drupal.org/project/drupal8_zymphonies_theme) - Drupal8 Zymphonies Theme is the first Zymphonies Drupal 8 Free Responsive Theme which has many new features.
+- [Drupal8 Zymphonies Theme](https://www.drupal.org/project/drupal8_zymphonies_theme) - Drupal8 Zymphonies Theme is the first Zymphonies Drupal Free Responsive Theme which has many new features.
 - [ZURB Foundation](https://www.drupal.org/project/zurb_foundation) - Zurb Foundation for Drupal is the official implementation of the framework by the same name.
 
 ### Admin themes
@@ -461,6 +461,8 @@ Find below a few video resources that are really worth your time.
 - [Most Popular Drupal 9 Modules to Enhance Website Performance](https://www.thedroptimes.com/9325/most-popular-drupal-9-modules-enhance-website-performance)
 - [Integrate your eCommerce website with these must-have Drupal Modules](https://www.specbee.com/blogs/integrate-ecommerce-website-with-drupal-modules)
 - [Top Security Modules for Your Drupal 9 Website](https://www.thedroptimes.com/9316/top-security-modules-your-drupal-9-website)
+- [Create a shipping method with Drupal commerce 2](https://www.flocondetoile.fr/blog/create-shipping-method-drupal-commerce-2)
+- [Drupal 9: Altering Routes With The Route Subscriber Service](https://www.hashbangcode.com/article/drupal-9-altering-routes-route-subscriber-service)
 
 ## Further resources
 - [Comparison of Node/Entity Ordering Modules](https://www.drupal.org/node/398508)
