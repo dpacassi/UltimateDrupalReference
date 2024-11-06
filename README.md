@@ -463,6 +463,7 @@ Find below a few video resources that are really worth your time.
 - [Top Security Modules for Your Drupal 9 Website](https://www.thedroptimes.com/9316/top-security-modules-your-drupal-9-website)
 - [Create a shipping method with Drupal commerce 2](https://www.flocondetoile.fr/blog/create-shipping-method-drupal-commerce-2)
 - [Drupal 9: Altering Routes With The Route Subscriber Service](https://www.hashbangcode.com/article/drupal-9-altering-routes-route-subscriber-service)
+- [How to Create Charts in Drupal with the Charts and Charts Twig Modules?](https://www.droptica.com/blog/how-create-charts-drupal-charts-and-charts-twig-modules/)
 
 ## Further resources
 - [Comparison of Node/Entity Ordering Modules](https://www.drupal.org/node/398508)
