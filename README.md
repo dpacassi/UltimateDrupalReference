@@ -204,6 +204,7 @@ They're handy if you *really* just want to have a quick start with Drupal.
 - [Migrate Plus](https://www.drupal.org/project/migrate_plus) - The migrate_plus project provides extensions to core migration framework functionality, as well as examples.
 - [Migrate Source CSV](https://www.drupal.org/project/migrate_source_csv) - This project allows you to import CSV files using Drupal Migration.
 - [Migrate Tools](https://www.drupal.org/project/migrate_tools) - The Migrate Tools module provides tools for running and managing Drupal migrations.
+- [Migrate Wizard](https://www.drupal.org/project/migrate_wizard) - The module provides a user-friendly solution for seamless content migration.
 
 ### Multilingualism
 - [Language Cookie](https://www.drupal.org/project/language_cookie) - Adds an extra "Cookie" field to the Language Negotiation settings, allowing the language to be set according to a cookie.
@@ -283,6 +284,7 @@ They're handy if you *really* just want to have a quick start with Drupal.
 - [Permissions by Term](https://www.drupal.org/project/permissions_by_term) - The Permissions by Term module extends Drupal by functionality for restricting access to single nodes via taxonomy terms.
 - [Remove username](https://www.drupal.org/project/remove_username) - This simple module is removing the 'name' (username) field from the user management forms (create/register/edit accounts) by making the 'email' field required and copying the email address into the username field.
 - [RoleAssign](https://www.drupal.org/project/roleassign) - RoleAssign specifically allows site administrators to further delegate the task of managing user's roles while withholding the Administer permissions permission.
+- [Role Expire](https://www.drupal.org/project/role_expire) - Role Expire is a simple module that allows administrators to set and control expiry dates of user roles. A common use case for this module is to implement magazine style subscriptions where somebody purchases or receives access for a fixed period of time.
 - [Taxonomy access fix](https://www.drupal.org/project/taxonomy_access_fix) - This module adds more specific Taxonomy permissions.
 
 ### Views
