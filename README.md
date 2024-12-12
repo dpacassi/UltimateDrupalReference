@@ -146,12 +146,15 @@ They're handy if you *really* just want to have a quick start with Drupal.
 - [Address](https://www.drupal.org/project/address) - Provides functionality for storing, validating and displaying international postal addresses.
 - [Automatic Entity Label](https://www.drupal.org/project/auto_entitylabel) - Automatic Entity Label is a small and efficient module that allows hiding of entity label fields. To prevent empty labels it can be configured to generate the label automatically by a given pattern.
 - [Corresponding Entity References](https://www.drupal.org/project/cer) - CER keeps reference fields in sync. If you have two entities that refer to each other using Entity Reference (or some other kind of reference field), it saves you the trouble of double-editing your entities in order to have them point at each other.
+- [Custom Field](https://www.drupal.org/project/custom_field) - Defines a new Custom Field field type that lets you create simple inline multiple-value fields without having to use referenced entities.
 - [Default Content for D8](https://www.drupal.org/project/default_content) - The Default content module gives your module and install profile a way to ship default content as well as configuration.
 - [Diff](https://www.drupal.org/project/diff) - This module adds a tab for sufficiently permissioned users. The tab shows all revisions like standard Drupal but it also allows pretty viewing of all added/changed/deleted words between revisions.
 - [Disable Messages](https://www.drupal.org/project/disable_messages) - Gives a site owner options to disable specific messages shown to end users.
+- [Download All Files](https://www.drupal.org/project/download_all_files) - This module provides a field formatter for the field type 'file' called `Table of files with download all link` . The format which will allow you to "Download all files" through single click. The files will be zipped as single file.
 - [D8 Editor Advanced link](https://www.drupal.org/project/editor_advanced_link) - Enhances the link Dialog in D8 CKEditor.
 - [Entity Clone](https://www.drupal.org/project/entity_clone) - This module add a new entity operation which allows to clone many of the entities (config & content) provided by the Drupal core.
 - [Entity Redirect](https://www.drupal.org/project/entity_redirect) - Adds a configurable redirect after saving a node or other entity. The redirect is configurable per bundle.
+- [Entityqueue](https://www.drupal.org/project/entityqueue) - Allows users to create lists of any "entity" (content, users, etc). Each queue is implemented as an entity reference that can hold a single entity type. Items in each list can be manually reordered.
 - [External Links](https://www.drupal.org/project/extlink) - External Links is a small module used to differentiate between internal and external links.
 - [Field Formatter Class](https://www.drupal.org/project/field_formatter_class) - Allows site administrators to add classes to the outer HTML wrapper for any field display, so that CSS and Javascript can target them.
 - [Iframe](https://www.drupal.org/project/iframe) - A custom field, which lets you add a complete iframe to your content types; including Src-URL, setting width and height, optionally a title above, and optionally a target attribute.
@@ -180,6 +183,7 @@ They're handy if you *really* just want to have a quick start with Drupal.
 - [Chosen](https://www.drupal.org/project/chosen) - Chosen uses the Chosen jQuery plugin to make your `<select>` elements more user-friendly.
 - [Client-side hierarchical select](https://www.drupal.org/project/cshs) - A simple client-side hierarchical select widget for taxonomy terms.
 - [Clientside Validation](https://www.drupal.org/project/clientside_validation) - This module adds clientside validation to all forms and webforms.
+- [Entity Form Steps](https://www.drupal.org/project/entity_form_steps) - Create multistep forms using field groups on entity form displays.
 - [Form Placeholder](https://www.drupal.org/project/form_placeholder) - This module creates the possibility to quickly add placeholders to all textfields of any form on the site.
 - [Honeypot](https://www.drupal.org/project/honeypot) - Honeypot uses both the honeypot and timestamp methods of deterring spam bots from completing forms on your Drupal site.
 - [Prepopulate](https://www.drupal.org/project/prepopulate) - The Prepopulate module allows fields in most forms to be pre-populated from the $_REQUEST variable.
@@ -466,6 +470,7 @@ Find below a few video resources that are really worth your time.
 - [Create a shipping method with Drupal commerce 2](https://www.flocondetoile.fr/blog/create-shipping-method-drupal-commerce-2)
 - [Drupal 9: Altering Routes With The Route Subscriber Service](https://www.hashbangcode.com/article/drupal-9-altering-routes-route-subscriber-service)
 - [How to Create Charts in Drupal with the Charts and Charts Twig Modules?](https://www.droptica.com/blog/how-create-charts-drupal-charts-and-charts-twig-modules/)
+- [Understanding the Difference Between Cache Keys and Cache Tags in Drupal](https://drupalize.me/blog/understanding-difference-between-cache-keys-and-cache-tags-drupal)
 
 ## Further resources
 - [Comparison of Node/Entity Ordering Modules](https://www.drupal.org/node/398508)
