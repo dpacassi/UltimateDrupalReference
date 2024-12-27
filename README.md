@@ -183,6 +183,7 @@ They're handy if you *really* just want to have a quick start with Drupal.
 - [Chosen](https://www.drupal.org/project/chosen) - Chosen uses the Chosen jQuery plugin to make your `<select>` elements more user-friendly.
 - [Client-side hierarchical select](https://www.drupal.org/project/cshs) - A simple client-side hierarchical select widget for taxonomy terms.
 - [Clientside Validation](https://www.drupal.org/project/clientside_validation) - This module adds clientside validation to all forms and webforms.
+- [Date all day](https://www.drupal.org/project/date_all_day) - Provides a field widget and a set of field formatters for date range field types to allow editors to set that a date has no time, meaning that it place all the day.
 - [Entity Form Steps](https://www.drupal.org/project/entity_form_steps) - Create multistep forms using field groups on entity form displays.
 - [Form Placeholder](https://www.drupal.org/project/form_placeholder) - This module creates the possibility to quickly add placeholders to all textfields of any form on the site.
 - [Honeypot](https://www.drupal.org/project/honeypot) - Honeypot uses both the honeypot and timestamp methods of deterring spam bots from completing forms on your Drupal site.
@@ -254,6 +255,7 @@ They're handy if you *really* just want to have a quick start with Drupal.
 - [Admin Toolbar](https://www.drupal.org/project/admin_toolbar) - The Admin Toolbar intends to improve the default Drupal Toolbar (the administration menu at the top of your site) to transform it into a drop-down menu, providing a fast access to all administration pages.
 - [Block Group](https://www.drupal.org/project/blockgroup) - This module extends the standard Drupal block system with block groups. Each block group provides a new block as well as a corresponding region. Child blocks can be moved into any group region.
 - [Block Visibility Groups](https://www.drupal.org/project/block_visibility_groups) - Block Visibility Groups allows the site administrator to easily manage complex visibility settings that apply to any block placed in a visibility group.
+- [ECA](https://www.drupal.org/project/eca) - ECA is a powerful, versatile, and user-friendly rules engine for Drupal. The core module is a processor that validates and executes event-condition-action plugins.
 - [Easy Breadcrumb](https://www.drupal.org/project/easy_breadcrumb) - The Easy Breadcrumb module provides a plug-and-play block to be embedded in your pages, typically at some place near the page's header.
 - [Entity Browser](https://www.drupal.org/project/entity_browser) - The goal of this module is to provide a generic entity browser/picker/selector.
 - [Field Group](https://www.drupal.org/project/field_group) - Fieldgroup will, as the name implies, group fields together. All fieldable entities will have the possibility to add groups to wrap their fields together.
@@ -290,6 +292,7 @@ They're handy if you *really* just want to have a quick start with Drupal.
 - [RoleAssign](https://www.drupal.org/project/roleassign) - RoleAssign specifically allows site administrators to further delegate the task of managing user's roles while withholding the Administer permissions permission.
 - [Role Expire](https://www.drupal.org/project/role_expire) - Role Expire is a simple module that allows administrators to set and control expiry dates of user roles. A common use case for this module is to implement magazine style subscriptions where somebody purchases or receives access for a fixed period of time.
 - [Taxonomy access fix](https://www.drupal.org/project/taxonomy_access_fix) - This module adds more specific Taxonomy permissions.
+- [User Expire](https://www.drupal.org/project/user_expire) - This module allows an administrator to define a date on which to expire a specific user account or to define a period at a role level where inactive accounts will be locked.
 
 ### Views
 - [Better Exposed Filters](https://www.drupal.org/project/better_exposed_filters) - The Better Exposed Filters module replaces the Views' default single- or multi-select boxes with radio buttons or checkboxes, respectively.
