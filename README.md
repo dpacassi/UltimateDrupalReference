@@ -251,6 +251,7 @@ They're handy if you *really* just want to have a quick start with Drupal.
 - [Simple XML sitemap](https://www.drupal.org/project/simple_sitemap) - Every webpage needs an automatic XML sitemap generator for SEO reasons. This module aims to be a replacement for the xmlsitemap module for Drupal.
 
 ### Site building
+- [AI (Artificial Intelligence)](https://www.drupal.org/project/ai) - The Drupal AI module provides a framework for easily integrating Artificial Intelligence on any Drupal site using any kind of AI (from multiple vendors).
 - [@font-your-face](https://www.drupal.org/project/fontyourface) - @font-your-face provides an administrative interface for browsing and applying web fonts (using CSS @font-face, supported in all popular browsers) from a variety of sources.
 - [Admin Toolbar](https://www.drupal.org/project/admin_toolbar) - The Admin Toolbar intends to improve the default Drupal Toolbar (the administration menu at the top of your site) to transform it into a drop-down menu, providing a fast access to all administration pages.
 - [Block Group](https://www.drupal.org/project/blockgroup) - This module extends the standard Drupal block system with block groups. Each block group provides a new block as well as a corresponding region. Child blocks can be moved into any group region.
