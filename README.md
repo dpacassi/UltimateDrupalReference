@@ -286,6 +286,7 @@ They're handy if you *really* just want to have a quick start with Drupal.
 - [Ridiculously Responsive Social Sharing Buttons](https://www.drupal.org/project/rrssb) - Social sharing buttons that you can drop into any website with attractive SVG-based icons, small download, and browser compatibility. No 3rd-party scripts.
 
 ### User & Roles management
+- [Access code](https://www.drupal.org/project/access_code) - The Access code module allows site visitors to log in using an access code instead of entering username and password.
 - [Auth0 Single Sign On](https://www.drupal.org/project/auth0) - Single Sign On for Enterprises + Social Login + User/Passwords. For all your Drupal instances. Powered by Auth0.
 - [Email Registration](https://www.drupal.org/project/email_registration) - Allow users to register and login using only an email address. Users can then log-in using their email address and password for authentication.
 - [Group](https://www.drupal.org/project/group) - The Group module allows you to create arbitrary collections of your content and users on your site and grant access control permissions on those collections.
