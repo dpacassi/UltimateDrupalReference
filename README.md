@@ -163,10 +163,12 @@ They're handy if you *really* just want to have a quick start with Drupal.
 - [MaxLength](https://www.drupal.org/project/maxlength) - MaxLength allows a soft or hard character limit to be set on titles, text fields and link fields. A character count displays for authors, helping them write concise content.
 - [Office Hours](https://www.drupal.org/project/office_hours) - Defines a 'weekly office hours' field type, allowing you to specify when a location is open or closed.
 - [Quick Node Clone](https://www.drupal.org/project/quick_node_clone) - Quick Node Clone is meant as a way in Drupal 8 to clone nodes. It currently supports cloning of most field types including Inline Entity Form and Field Collection.
+- [Quicklink](https://www.drupal.org/project/quicklink) - This module provides an implementation of Google Chrome Lab's Quicklink library for Drupal.
 - [Scheduled Updates](https://www.drupal.org/project/scheduled_updates) - The Scheduled Updates module allows scheduling updates at a specific date and time to entities such as Content(nodes), Users, Terms, Files and many more.
 - [Scheduler](https://www.drupal.org/project/scheduler) - Scheduler gives content editors the ability to schedule nodes to be published and unpublished at specified dates and times in the future.
 - [State Machine](https://www.drupal.org/project/state_machine) - Provides code-driven workflow functionality. It's also being used in Drupal Commerce to define checkout workflows.
   - This blog post is very helpful to get started with State Machine: [Set up workflows with State machine on Drupal 8](https://www.flocondetoile.fr/blog/set-workflows-state-machine-drupal-8).
+- [TacJS](https://www.drupal.org/project/tacjs) - Comply to the European cookie law using tarteaucitron.js.
 - [Voting API](https://www.drupal.org/project/votingapi) - VotingAPI helps developers who want to use a standardized API and schema for storing, retrieving and tabulating votes for Drupal content.
 
 ### Developer tools
