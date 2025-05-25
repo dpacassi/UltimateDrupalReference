@@ -141,6 +141,7 @@ They're handy if you *really* just want to have a quick start with Drupal.
 ### Commerce
 - [Drupal Commerce](https://www.drupal.org/project/commerce) - Drupal Commerce is used to build eCommerce websites and applications of all sizes.
   - Also make sure to check out the [commerce documentation](https://docs.drupalcommerce.org/).
+- [Commerce Registration](https://www.drupal.org/project/commerce_registration) - Provides Drupal Commerce with the ability to sell registrations via the Entity Registration module.
 
 ### Content
 - [Address](https://www.drupal.org/project/address) - Provides functionality for storing, validating and displaying international postal addresses.
@@ -263,6 +264,7 @@ They're handy if you *really* just want to have a quick start with Drupal.
 - [ECA](https://www.drupal.org/project/eca) - ECA is a powerful, versatile, and user-friendly rules engine for Drupal. The core module is a processor that validates and executes event-condition-action plugins.
 - [Easy Breadcrumb](https://www.drupal.org/project/easy_breadcrumb) - The Easy Breadcrumb module provides a plug-and-play block to be embedded in your pages, typically at some place near the page's header.
 - [Entity Browser](https://www.drupal.org/project/entity_browser) - The goal of this module is to provide a generic entity browser/picker/selector.
+- [Entity Registration](https://www.drupal.org/project/registration) - Entity Registration is a flexible module for allowing and tracking user registrations for events, or just about anything you want people to sign up for.
 - [Field Group](https://www.drupal.org/project/field_group) - Fieldgroup will, as the name implies, group fields together. All fieldable entities will have the possibility to add groups to wrap their fields together.
 - [GraphQL](https://www.drupal.org/project/graphql) - This module lets you craft and expose a GraphQL schema for Drupal.
 - [Linkit - Enriched linking experience](https://www.drupal.org/project/linkit) - Linkit provides an easy interface for internal and external linking with wysiwyg editors by using an autocomplete field.
@@ -293,6 +295,7 @@ They're handy if you *really* just want to have a quick start with Drupal.
 - [Email Registration](https://www.drupal.org/project/email_registration) - Allow users to register and login using only an email address. Users can then log-in using their email address and password for authentication.
 - [Group](https://www.drupal.org/project/group) - The Group module allows you to create arbitrary collections of your content and users on your site and grant access control permissions on those collections.
 - [Menu Per Role](https://www.drupal.org/project/menu_per_role) - This module allows you to restrict access to menu items based on user roles.
+- [One Time Password](https://www.drupal.org/project/one_time_password) - One Time Password is an opinionated, lightweight, near zero-configuration module with 100% test coverage. It provides two factor authentication to users by way of the Time-based One-time Password Algorithm (RFC 6238).
 - [Permissions by Term](https://www.drupal.org/project/permissions_by_term) - The Permissions by Term module extends Drupal by functionality for restricting access to single nodes via taxonomy terms.
 - [Remove username](https://www.drupal.org/project/remove_username) - This simple module is removing the 'name' (username) field from the user management forms (create/register/edit accounts) by making the 'email' field required and copying the email address into the username field.
 - [RoleAssign](https://www.drupal.org/project/roleassign) - RoleAssign specifically allows site administrators to further delegate the task of managing user's roles while withholding the Administer permissions permission.
