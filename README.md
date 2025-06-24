@@ -146,6 +146,7 @@ They're handy if you *really* just want to have a quick start with Drupal.
 ### Content
 - [Address](https://www.drupal.org/project/address) - Provides functionality for storing, validating and displaying international postal addresses.
 - [Automatic Entity Label](https://www.drupal.org/project/auto_entitylabel) - Automatic Entity Label is a small and efficient module that allows hiding of entity label fields. To prevent empty labels it can be configured to generate the label automatically by a given pattern.
+- [COOKiES Consent Management](https://www.drupal.org/project/cookies) - User consent management module for Drupal.
 - [Corresponding Entity References](https://www.drupal.org/project/cer) - CER keeps reference fields in sync. If you have two entities that refer to each other using Entity Reference (or some other kind of reference field), it saves you the trouble of double-editing your entities in order to have them point at each other.
 - [Custom Field](https://www.drupal.org/project/custom_field) - Defines a new Custom Field field type that lets you create simple inline multiple-value fields without having to use referenced entities.
 - [Date Timepicker](https://www.drupal.org/project/timepicker) - Integrates the most popular timepicker jQuery plugins into Drupal.
@@ -154,6 +155,7 @@ They're handy if you *really* just want to have a quick start with Drupal.
 - [Disable Messages](https://www.drupal.org/project/disable_messages) - Gives a site owner options to disable specific messages shown to end users.
 - [Download All Files](https://www.drupal.org/project/download_all_files) - This module provides a field formatter for the field type 'file' called `Table of files with download all link` . The format which will allow you to "Download all files" through single click. The files will be zipped as single file.
 - [D8 Editor Advanced link](https://www.drupal.org/project/editor_advanced_link) - Enhances the link Dialog in D8 CKEditor.
+- [Editoria11y Accessibility Checker](https://www.drupal.org/project/editoria11y) - Editoria11y ("editorial accessibility ally") is built around three key needs for ongoing content quality assurance.
 - [Entity Clone](https://www.drupal.org/project/entity_clone) - This module add a new entity operation which allows to clone many of the entities (config & content) provided by the Drupal core.
 - [Entity Redirect](https://www.drupal.org/project/entity_redirect) - Adds a configurable redirect after saving a node or other entity. The redirect is configurable per bundle.
 - [Entityqueue](https://www.drupal.org/project/entityqueue) - Allows users to create lists of any "entity" (content, users, etc). Each queue is implemented as an entity reference that can hold a single entity type. Items in each list can be manually reordered.
@@ -161,6 +163,7 @@ They're handy if you *really* just want to have a quick start with Drupal.
 - [Field Formatter Class](https://www.drupal.org/project/field_formatter_class) - Allows site administrators to add classes to the outer HTML wrapper for any field display, so that CSS and Javascript can target them.
 - [Iframe](https://www.drupal.org/project/iframe) - A custom field, which lets you add a complete iframe to your content types; including Src-URL, setting width and height, optionally a title above, and optionally a target attribute.
 - [Image formatter link to image style](https://www.drupal.org/project/image_formatter_link_to_image_style) - This module provides an additional formatter for image core field, to link to an image style.
+- [Image styles generator](https://www.drupal.org/project/image_styles_generator) - This module provides a drush command capable of regenerating all images with all image styles defined on the site.
 - [MaxLength](https://www.drupal.org/project/maxlength) - MaxLength allows a soft or hard character limit to be set on titles, text fields and link fields. A character count displays for authors, helping them write concise content.
 - [Office Hours](https://www.drupal.org/project/office_hours) - Defines a 'weekly office hours' field type, allowing you to specify when a location is open or closed.
 - [Quick Node Clone](https://www.drupal.org/project/quick_node_clone) - Quick Node Clone is meant as a way in Drupal 8 to clone nodes. It currently supports cloning of most field types including Inline Entity Form and Field Collection.
@@ -170,6 +173,8 @@ They're handy if you *really* just want to have a quick start with Drupal.
 - [State Machine](https://www.drupal.org/project/state_machine) - Provides code-driven workflow functionality. It's also being used in Drupal Commerce to define checkout workflows.
   - This blog post is very helpful to get started with State Machine: [Set up workflows with State machine on Drupal 8](https://www.flocondetoile.fr/blog/set-workflows-state-machine-drupal-8).
 - [TacJS](https://www.drupal.org/project/tacjs) - Comply to the European cookie law using tarteaucitron.js.
+- [Time Field Picker](https://www.drupal.org/project/time_picker) - Time Field Picker for Drupal 8 module provides a two field for displaying and submitting time and time-range for Drupal site.
+- [Trash](https://www.drupal.org/project/trash) - This module adds a trash bin for all content entities.
 - [Voting API](https://www.drupal.org/project/votingapi) - VotingAPI helps developers who want to use a standardized API and schema for storing, retrieving and tabulating votes for Drupal content.
 
 ### Developer tools
@@ -203,6 +208,9 @@ They're handy if you *really* just want to have a quick start with Drupal.
 - [Blazy](https://www.drupal.org/project/blazy) - Provides integration with bLazy to lazy load and multi-serve images to save bandwidth and server requests. The user will have faster load times and save data usage if they don't browse the whole page.
 - [Image Optimize (or ImageAPI Optimize)](https://www.drupal.org/project/imageapi_optimize) - This is a toolkit for ImageAPI. It requires imageapi_gd or imageapi_imagemagick or any ImageAPI toolkit to work.
 - [Media](https://www.drupal.org/project/media) - The Media module provides an extensible framework for managing files and multimedia assets, regardless of whether they are hosted on your own site or a 3rd party site - it is commonly referred to as a 'file browser to the internet'.
+- [Media Bulk Upload](https://www.drupal.org/project/media_bulk_upload) - This is the Drupal 8 module to bulk upload files and create the media
+entities automatically for them. It uses DropzoneJS
+to quickly upload multiple files.
 - [PhotoSwipe](https://www.drupal.org/project/photoswipe) - Use PhotoSwipe to display picture galleries on your Drupal website. This Javascript lightbox library offers very nice mobile browsing features (in particular swiping to the next picture)!
   - Note: As for the `1.0-beta3` release, it needs to be [patched](https://www.drupal.org/files/issues/path-capitals-for-composer-2855483-2.patch) when installed with Composer.
 - [Slick Carousel](https://www.drupal.org/project/slick) - Slick is a powerful and performant slideshow/carousel solution leveraging Ken Wheeler's Slick carousel.
