@@ -168,6 +168,7 @@ They're handy if you *really* just want to have a quick start with Drupal.
 - [Office Hours](https://www.drupal.org/project/office_hours) - Defines a 'weekly office hours' field type, allowing you to specify when a location is open or closed.
 - [Quick Node Clone](https://www.drupal.org/project/quick_node_clone) - Quick Node Clone is meant as a way in Drupal 8 to clone nodes. It currently supports cloning of most field types including Inline Entity Form and Field Collection.
 - [Quicklink](https://www.drupal.org/project/quicklink) - This module provides an implementation of Google Chrome Lab's Quicklink library for Drupal.
+- [Scheduled Transitions](https://www.drupal.org/project/scheduled_transitions) - Users may select a specific revision, and it will be changed to a different moderation state at a specified date.
 - [Scheduled Updates](https://www.drupal.org/project/scheduled_updates) - The Scheduled Updates module allows scheduling updates at a specific date and time to entities such as Content(nodes), Users, Terms, Files and many more.
 - [Scheduler](https://www.drupal.org/project/scheduler) - Scheduler gives content editors the ability to schedule nodes to be published and unpublished at specified dates and times in the future.
 - [State Machine](https://www.drupal.org/project/state_machine) - Provides code-driven workflow functionality. It's also being used in Drupal Commerce to define checkout workflows.
@@ -209,8 +210,9 @@ They're handy if you *really* just want to have a quick start with Drupal.
 - [Image Optimize (or ImageAPI Optimize)](https://www.drupal.org/project/imageapi_optimize) - This is a toolkit for ImageAPI. It requires imageapi_gd or imageapi_imagemagick or any ImageAPI toolkit to work.
 - [Media](https://www.drupal.org/project/media) - The Media module provides an extensible framework for managing files and multimedia assets, regardless of whether they are hosted on your own site or a 3rd party site - it is commonly referred to as a 'file browser to the internet'.
 - [Media Bulk Upload](https://www.drupal.org/project/media_bulk_upload) - This is the Drupal 8 module to bulk upload files and create the media
-entities automatically for them. It uses DropzoneJS
-to quickly upload multiple files.
+entities automatically for them. It uses DropzoneJS to quickly upload multiple files.
+- [Media entity Instagram](https://www.drupal.org/project/media_entity_instagram) - This module adds an Instagram integration to Drupals media system.
+- [Media entity Twitter](https://www.drupal.org/project/media_entity_twitter) - Twitter integration for Media entity module.
 - [PhotoSwipe](https://www.drupal.org/project/photoswipe) - Use PhotoSwipe to display picture galleries on your Drupal website. This Javascript lightbox library offers very nice mobile browsing features (in particular swiping to the next picture)!
   - Note: As for the `1.0-beta3` release, it needs to be [patched](https://www.drupal.org/files/issues/path-capitals-for-composer-2855483-2.patch) when installed with Composer.
 - [Slick Carousel](https://www.drupal.org/project/slick) - Slick is a powerful and performant slideshow/carousel solution leveraging Ken Wheeler's Slick carousel.
