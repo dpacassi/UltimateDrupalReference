@@ -158,12 +158,14 @@ They're handy if you *really* just want to have a quick start with Drupal.
 - [Editoria11y Accessibility Checker](https://www.drupal.org/project/editoria11y) - Editoria11y ("editorial accessibility ally") is built around three key needs for ongoing content quality assurance.
 - [Entity Clone](https://www.drupal.org/project/entity_clone) - This module add a new entity operation which allows to clone many of the entities (config & content) provided by the Drupal core.
 - [Entity Redirect](https://www.drupal.org/project/entity_redirect) - Adds a configurable redirect after saving a node or other entity. The redirect is configurable per bundle.
+- [Entity Share](https://www.drupal.org/project/entity_share) - Entity Share is a collection of modules allowing you to share content entities like nodes, taxonomy terms, medias etc. between different Drupal instances.
 - [Entityqueue](https://www.drupal.org/project/entityqueue) - Allows users to create lists of any "entity" (content, users, etc). Each queue is implemented as an entity reference that can hold a single entity type. Items in each list can be manually reordered.
 - [External Links](https://www.drupal.org/project/extlink) - External Links is a small module used to differentiate between internal and external links.
 - [Field Formatter Class](https://www.drupal.org/project/field_formatter_class) - Allows site administrators to add classes to the outer HTML wrapper for any field display, so that CSS and Javascript can target them.
 - [Iframe](https://www.drupal.org/project/iframe) - A custom field, which lets you add a complete iframe to your content types; including Src-URL, setting width and height, optionally a title above, and optionally a target attribute.
 - [Image formatter link to image style](https://www.drupal.org/project/image_formatter_link_to_image_style) - This module provides an additional formatter for image core field, to link to an image style.
 - [Image styles generator](https://www.drupal.org/project/image_styles_generator) - This module provides a drush command capable of regenerating all images with all image styles defined on the site.
+- [JSON Field](https://www.drupal.org/project/json_field) - This module allows you to store data, probably coming from some 3rd party source, as pure JSON.
 - [MaxLength](https://www.drupal.org/project/maxlength) - MaxLength allows a soft or hard character limit to be set on titles, text fields and link fields. A character count displays for authors, helping them write concise content.
 - [Office Hours](https://www.drupal.org/project/office_hours) - Defines a 'weekly office hours' field type, allowing you to specify when a location is open or closed.
 - [Quick Node Clone](https://www.drupal.org/project/quick_node_clone) - Quick Node Clone is meant as a way in Drupal 8 to clone nodes. It currently supports cloning of most field types including Inline Entity Form and Field Collection.
@@ -171,6 +173,7 @@ They're handy if you *really* just want to have a quick start with Drupal.
 - [Scheduled Transitions](https://www.drupal.org/project/scheduled_transitions) - Users may select a specific revision, and it will be changed to a different moderation state at a specified date.
 - [Scheduled Updates](https://www.drupal.org/project/scheduled_updates) - The Scheduled Updates module allows scheduling updates at a specific date and time to entities such as Content(nodes), Users, Terms, Files and many more.
 - [Scheduler](https://www.drupal.org/project/scheduler) - Scheduler gives content editors the ability to schedule nodes to be published and unpublished at specified dates and times in the future.
+- [Sitemap](https://www.drupal.org/project/sitemap) - The Sitemap module displays one or more human-readable lists of links on a page.
 - [State Machine](https://www.drupal.org/project/state_machine) - Provides code-driven workflow functionality. It's also being used in Drupal Commerce to define checkout workflows.
   - This blog post is very helpful to get started with State Machine: [Set up workflows with State machine on Drupal 8](https://www.flocondetoile.fr/blog/set-workflows-state-machine-drupal-8).
 - [TacJS](https://www.drupal.org/project/tacjs) - Comply to the European cookie law using tarteaucitron.js.
@@ -184,6 +187,7 @@ They're handy if you *really* just want to have a quick start with Drupal.
 - [Devel](https://www.drupal.org/project/devel) - A suite of modules containing fun for module developers and themers.
 - [Environment Indicator](https://www.drupal.org/project/environment_indicator) - This module will help you to keep sane while working on your different environments by adding a configurable color bar to each one of your environments.
 - [Hacked!](https://www.drupal.org/project/hacked) - This module scans the currently installed Drupal, contributed modules and themes, re-downloads them and determines if they have been changed.
+- [Reverse Proxy Header](https://www.drupal.org/project/reverse_proxy_header) - This module is the simplest way to use the specific HTTP header name to determine the client IP.
 - [Stage File Proxy](https://www.drupal.org/project/stage_file_proxy) - Stage File Proxy saves you time and disk space by sending requests to your development environment's files directory to the production environment and making a copy of the production file in your development site.
 
 ### Forms
@@ -493,6 +497,7 @@ Find below a few video resources that are really worth your time.
 - [Drupal 9: Altering Routes With The Route Subscriber Service](https://www.hashbangcode.com/article/drupal-9-altering-routes-route-subscriber-service)
 - [How to Create Charts in Drupal with the Charts and Charts Twig Modules?](https://www.droptica.com/blog/how-create-charts-drupal-charts-and-charts-twig-modules/)
 - [Understanding the Difference Between Cache Keys and Cache Tags in Drupal](https://drupalize.me/blog/understanding-difference-between-cache-keys-and-cache-tags-drupal)
+- [10 Twig Tricks for Better Drupal Theming](https://www.vardot.com/en/ideas/blog/10-twig-tricks-better-drupal-theming)
 
 ## Further resources
 - [Comparison of Node/Entity Ordering Modules](https://www.drupal.org/node/398508)
