@@ -148,6 +148,7 @@ They're handy if you *really* just want to have a quick start with Drupal.
 - [Automatic Entity Label](https://www.drupal.org/project/auto_entitylabel) - Automatic Entity Label is a small and efficient module that allows hiding of entity label fields. To prevent empty labels it can be configured to generate the label automatically by a given pattern.
 - [COOKiES Consent Management](https://www.drupal.org/project/cookies) - User consent management module for Drupal.
 - [Corresponding Entity References](https://www.drupal.org/project/cer) - CER keeps reference fields in sync. If you have two entities that refer to each other using Entity Reference (or some other kind of reference field), it saves you the trouble of double-editing your entities in order to have them point at each other.
+- [CSV Importer](https://www.drupal.org/project/csv_importer) - The module provides a powerful and flexible solution for importing data from CSV files into Drupal. Designed to handle various use cases, it allows administrators to map CSV columns to entity fields seamlessly, enabling the bulk creation or updating of content, users, or other entities.
 - [Custom Field](https://www.drupal.org/project/custom_field) - Defines a new Custom Field field type that lets you create simple inline multiple-value fields without having to use referenced entities.
 - [Date Timepicker](https://www.drupal.org/project/timepicker) - Integrates the most popular timepicker jQuery plugins into Drupal.
 - [Default Content for D8](https://www.drupal.org/project/default_content) - The Default content module gives your module and install profile a way to ship default content as well as configuration.
@@ -252,6 +253,7 @@ entities automatically for them. It uses DropzoneJS to quickly upload multiple f
 ### Security
 - [Automatic Updates](https://www.drupal.org/project/automatic_updates) - A project for organizing the Auto Updates Initiative efforts, as proposed in this idea.
 - [Better Passwords](https://www.drupal.org/project/better_passwords) - Better Passwords attempts to help users create better passwords by adhering to current recommendations from the US National Institute of Standards and Technology (NIST).
+- [Key](https://www.drupal.org/project/key) - Key provides the ability to improve Drupal security by managing sensitive keys (such as API and encryption keys). It gives site administrators the ability to define how and where keys are stored, which allows the option of a high level of security and allows sites to meet regulatory or compliance requirements.
 - [Password Reset Landing Page (PRLP)](https://www.drupal.org/project/prlp) - The Password Reset Landing Page "PRLP" module enhances the original password reset landing page by letting a user set their new password at the same time they "log in" using the one-time-login link.
 - [Password Strength](https://www.drupal.org/project/password_strength) - The Password Strength module provides realistic password strength measurement and server-side enforcement for Drupal sites using pattern-matching and entropy calculation.
 - [Persistent Login](https://www.drupal.org/project/persistent_login) - The Persistent Login module provides a "Remember Me" option on the user login form.
@@ -313,6 +315,7 @@ entities automatically for them. It uses DropzoneJS to quickly upload multiple f
 - [Permissions by Term](https://www.drupal.org/project/permissions_by_term) - The Permissions by Term module extends Drupal by functionality for restricting access to single nodes via taxonomy terms.
 - [Remove username](https://www.drupal.org/project/remove_username) - This simple module is removing the 'name' (username) field from the user management forms (create/register/edit accounts) by making the 'email' field required and copying the email address into the username field.
 - [RoleAssign](https://www.drupal.org/project/roleassign) - RoleAssign specifically allows site administrators to further delegate the task of managing user's roles while withholding the Administer permissions permission.
+- [Role Delegation](https://www.drupal.org/project/role_delegation) - This module allows site administrators to grant specific roles the authority to assign selected roles to users, without them needing the administer permissions permission.
 - [Role Expire](https://www.drupal.org/project/role_expire) - Role Expire is a simple module that allows administrators to set and control expiry dates of user roles. A common use case for this module is to implement magazine style subscriptions where somebody purchases or receives access for a fixed period of time.
 - [Taxonomy access fix](https://www.drupal.org/project/taxonomy_access_fix) - This module adds more specific Taxonomy permissions.
 - [User Expire](https://www.drupal.org/project/user_expire) - This module allows an administrator to define a date on which to expire a specific user account or to define a period at a role level where inactive accounts will be locked.
@@ -334,6 +337,7 @@ entities automatically for them. It uses DropzoneJS to quickly upload multiple f
 - [ZURB Foundation](https://www.drupal.org/project/zurb_foundation) - Zurb Foundation for Drupal is the official implementation of the framework by the same name.
 
 ### Admin themes
+- [Gin Admin Theme](https://www.drupal.org/project/gin) - A completely redesigned UI layout, enhanced with features like Darkmode, brings a fresh new look to your Drupal Admin interface. Built on the solid foundation of Claro, it comes from one of the lead designers of the Claro theme and the Drupal Design System.
 - [Adminimal - Responsive Administration Theme](https://www.drupal.org/project/adminimal_theme) - A modern and minimalist design that makes administration an easy and fun experience.
   - Also install [Adminimal Admin Toolbar](https://www.drupal.org/project/adminimal_admin_toolbar) when using this theme.
 
@@ -498,6 +502,9 @@ Find below a few video resources that are really worth your time.
 - [How to Create Charts in Drupal with the Charts and Charts Twig Modules?](https://www.droptica.com/blog/how-create-charts-drupal-charts-and-charts-twig-modules/)
 - [Understanding the Difference Between Cache Keys and Cache Tags in Drupal](https://drupalize.me/blog/understanding-difference-between-cache-keys-and-cache-tags-drupal)
 - [10 Twig Tricks for Better Drupal Theming](https://www.vardot.com/en/ideas/blog/10-twig-tricks-better-drupal-theming)
+- [Getting Started with Search API in Drupal](https://www.webwash.net/getting-started-with-search-api-in-drupal/)
+- [Indexing PDF Docs using Search API and Solr in Drupal](https://www.webwash.net/indexing-pdf-docs-search-api-and-solr-in-drupal/)
+- [Getting Started with DDEV for Drupal Development](https://www.webwash.net/getting-started-ddev-drupal-development/)
 
 ## Further resources
 - [Comparison of Node/Entity Ordering Modules](https://www.drupal.org/node/398508)
