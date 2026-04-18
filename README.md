@@ -12,7 +12,7 @@ It is also one of those ecosystems where newcomers can lose a lot of time on out
 
 This repository exists to reduce that noise.
 
-It is a curated, opinionated reference for people who want to get productive with Drupal faster — especially developers and site builders who want a practical map of the ecosystem, not just a giant archive of links.
+It is a curated, practical reference for people who want to get productive with Drupal faster — especially developers and site builders who want a practical map of the ecosystem, not just a giant archive of links.
 
 If this README helps you avoid a dead end, onboard faster, or make a better architectural decision, please **star the repository**.
 That helps more people discover it and signals that keeping it updated is worth the effort.
@@ -289,7 +289,7 @@ A few practical recommendations:
 
 ## Distributions
 
-Distributions are no longer the only way to package opinionated Drupal solutions, but they are still relevant in some cases — especially when a project offers a real productized starting point rather than just a demo install profile.
+Distributions are no longer the only way to package Drupal solutions, but they are still relevant in some cases — especially when a project offers a real productized starting point rather than just a demo install profile.
 
 Below is a curated list of currently relevant options worth knowing.
 
