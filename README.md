@@ -88,6 +88,7 @@ A particularly helpful contribution is not just “add more links”, but improv
   - [Try Drupal without installing anything](#try-drupal-without-installing-anything)
   - [System requirements](#system-requirements)
   - [Installing Drupal locally](#installing-drupal-locally)
+  - [Local development alternatives](#local-development-alternatives)
   - [Composer](#composer)
   - [Drush](#drush)
   - [Recipes and site templates](#recipes-and-site-templates)
@@ -132,8 +133,16 @@ Before starting a real project, always check the current official requirements:
 
 ### Installing Drupal locally
 
-For modern local Drupal development, **DDEV** is the default recommendation.
-It is reproducible, team-friendly, Composer-friendly, and widely used across the Drupal ecosystem.
+For modern local Drupal development, **DDEV is the community-recommended default on Drupal.org**.
+
+That does **not** mean it is the only valid option. It means that if you are starting fresh, want to align with current Drupal.org guidance, and want the path most new Drupal documentation points to, **DDEV is the first choice to recommend**.
+
+Why DDEV is the default recommendation for this README:
+
+- it is the current **Drupal.org recommendation**
+- it is reproducible and team-friendly
+- it works well with Composer, Drush, and common Drupal workflows
+- it has strong cross-platform adoption across the current Drupal ecosystem
 
 Start here:
 
@@ -156,6 +165,41 @@ A few practical notes:
 - Keep your project Composer-managed from day one.
 - Commit your `.ddev/` config when it is part of the team workflow.
 - Prefer a setup that everyone on the project can reproduce easily.
+- If a team already has a stable **Lando**, **Docksal**, or **Docker4Drupal** workflow, that is usually a better choice than forcing a migration for no good reason.
+
+### Local development alternatives
+
+This section stays intentionally short.
+
+The goal is **not** to list every way anyone has ever run Drupal locally. The goal is to highlight the options that still matter for **Drupal 11+** work today.
+
+| Tool / approach | Still relevant for Drupal 11+? | Recommendation level | Notes |
+|---|---:|---|---|
+| **DDEV** | Yes | **Best default for most new projects** | Current Drupal.org recommendation. Strong docs, broad adoption, good team reproducibility. |
+| **Lando** | Yes | **Strong alternative** | Still active and supports Drupal 11. Good choice if your team already uses it or prefers its workflow. |
+| **Docksal** | Yes | **Niche but still valid** | Still usable for Drupal projects, but less often the first recommendation for new teams today. |
+| **Docker4Drupal** | Yes | **Valid for Docker-comfortable teams** | More hands-on and lower-level than DDEV or Lando. Sensible if your team wants more direct control over Docker setup. |
+| **Plain local PHP + DB** | Yes | **Only for simple or very specific cases** | Can work, but usually less reproducible and less pleasant for serious team-based Drupal development. |
+| **XAMPP / MAMP / WAMP** | Yes | **Not recommended for complex projects** | Fine for quick experiments or legacy habits, but generally weaker for modern Drupal workflows, multi-service setups, and team reproducibility. |
+
+#### How to choose
+
+If you want the practical version:
+
+- **Choose DDEV** if you are starting fresh and want the path most aligned with current Drupal.org guidance.
+- **Choose Lando** if your team already uses it successfully or you personally prefer its workflow.
+- **Choose Docksal** or **Docker4Drupal** if your team already has strong experience with them and there is a good operational reason.
+- **Avoid plain host-based stacks as your default** for larger Drupal projects, especially when multiple developers, extra services, or environment parity matter.
+
+#### Why these are the options worth listing
+
+These are the local-development approaches that still have meaningful relevance for current Drupal work:
+
+- Drupal.org now explicitly recommends **DDEV** for local development.
+- Drupal.org still maintains a broader page covering Docker-based local environments such as **Lando**, **Docksal**, and **Docker4Drupal**.
+- Lando’s current Drupal plugin explicitly supports **Drupal 11**.
+- Docksal and Docker4Drupal are still viable, but they are less often the first recommendation for new Drupal teams than DDEV.
+- Plain local PHP stacks and tools like XAMPP/MAMP/WAMP still exist, but for non-trivial Drupal projects they are usually a step backward in reproducibility and team consistency.
 
 ### Composer
 
