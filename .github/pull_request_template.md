@@ -16,6 +16,7 @@ Explain why this change improves the repository.
 
 - [ ] I checked for duplicate issues / PRs
 - [ ] I kept the repository’s curated, modern-Drupal focus in mind
+- [ ] I used Conventional Commits for my commit message(s) where practical
 - [ ] I verified any added links
 - [ ] I updated related wording if my change affected nearby sections
 

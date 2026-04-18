@@ -104,6 +104,23 @@ For list items:
 - avoid copy that sounds vague, inflated, or generic
 - keep category placement sensible and predictable
 
+## Commit messages
+
+Please use [Conventional Commits](https://www.conventionalcommits.org/) for commit messages where practical.
+
+Examples:
+
+- `docs: update README intro`
+- `docs: refresh troubleshooting section`
+- `chore: add GitHub issue templates`
+- `fix: replace broken Drupal.org link`
+
+For this repository, the most common types will likely be:
+
+- `docs:` for README, CONTRIBUTING, and other documentation content
+- `fix:` for broken links or incorrect references
+- `chore:` for repository metadata, templates, and small maintenance tasks
+
 ## Sorting and consistency
 
 Where items are presented as lists of resources, keep them tidy and consistent.
