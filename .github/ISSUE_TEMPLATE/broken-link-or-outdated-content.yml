@@ -1,0 +1,62 @@
+name: Broken link or outdated content
+description: Report a dead link, stale recommendation, or outdated section in the reference
+title: "[Content] "
+labels:
+  - outdated content
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for helping keep the Ultimate Drupal Reference current.
+
+        Use this template for:
+        - broken links
+        - outdated recommendations
+        - stale Drupal guidance
+        - resources that are no longer relevant
+
+  - type: input
+    id: section
+    attributes:
+      label: Affected section
+      description: Which part of the README is affected?
+      placeholder: e.g. Troubleshooting, Themes, Composer, Learning resources
+    validations:
+      required: true
+
+  - type: textarea
+    id: current_content
+    attributes:
+      label: What is currently wrong?
+      description: Paste the current text, link, or describe the outdated recommendation.
+      placeholder: The current link is dead / This recommendation is outdated because...
+    validations:
+      required: true
+
+  - type: textarea
+    id: suggested_fix
+    attributes:
+      label: Suggested fix
+      description: What should be changed instead?
+      placeholder: Replace X with Y, remove this item, update this section to...
+    validations:
+      required: false
+
+  - type: input
+    id: source
+    attributes:
+      label: Source or replacement link
+      description: If you have a better current source, put it here.
+      placeholder: https://...
+    validations:
+      required: false
+
+  - type: checkboxes
+    id: checks
+    attributes:
+      label: Before submitting
+      options:
+        - label: I checked that this is about the repository content itself, not general Drupal support
+          required: true
+        - label: I checked whether a similar issue already exists
+          required: true

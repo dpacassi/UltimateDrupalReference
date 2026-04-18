@@ -1,0 +1,76 @@
+name: Suggest an improvement
+description: Suggest a new section, resource, structural improvement, or better recommendation
+title: "[Suggestion] "
+labels:
+  - suggestion
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for helping improve the Ultimate Drupal Reference.
+
+        Use this template for:
+        - suggesting a new section
+        - proposing a better resource
+        - recommending a module, theme, distribution, or article
+        - improving structure, clarity, or prioritization
+
+  - type: dropdown
+    id: type
+    attributes:
+      label: Type of suggestion
+      options:
+        - New resource
+        - Replace an existing resource
+        - New section
+        - Improve wording / clarity
+        - Structural improvement
+        - Other
+    validations:
+      required: true
+
+  - type: input
+    id: area
+    attributes:
+      label: Relevant area
+      description: Which part of the repository does this affect?
+      placeholder: e.g. Modules > Search, Theming, Learning resources
+    validations:
+      required: true
+
+  - type: textarea
+    id: suggestion
+    attributes:
+      label: Suggestion
+      description: Describe what you want to add, change, or improve.
+      placeholder: I suggest adding/replacing/removing...
+    validations:
+      required: true
+
+  - type: textarea
+    id: why
+    attributes:
+      label: Why this would improve the repository
+      description: Explain why this is a better fit for a curated modern Drupal reference.
+      placeholder: This is more current because... / This is more useful because...
+    validations:
+      required: true
+
+  - type: input
+    id: source
+    attributes:
+      label: Link or source
+      description: Add the relevant project page, article, or documentation link if applicable.
+      placeholder: https://...
+    validations:
+      required: false
+
+  - type: checkboxes
+    id: checks
+    attributes:
+      label: Before submitting
+      options:
+        - label: I checked whether a similar suggestion already exists
+          required: true
+        - label: I understand this repository is curated and not intended to list everything in the Drupal ecosystem
+          required: true
