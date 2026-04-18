@@ -1,6 +1,6 @@
 [![GitHub stars](https://img.shields.io/github/stars/dpacassi/UltimateDrupalReference?style=flat-square)](https://github.com/dpacassi/UltimateDrupalReference/stargazers)
-[![GitHub last commit](https://img.shields.io/github/last-commit/dpacassi/UltimateDrupalReference?style=flat-square)](https://github.com/dpacassi/UltimateDrupalReference/commits/master)
-[![License: MIT](https://img.shields.io/github/license/dpacassi/UltimateDrupalReference?style=flat-square)](https://github.com/dpacassi/UltimateDrupalReference/blob/master/LICENSE)
+[![GitHub last commit](https://img.shields.io/github/last-commit/dpacassi/UltimateDrupalReference?style=flat-square)](https://github.com/dpacassi/UltimateDrupalReference/commits/main)
+[![License: MIT](https://img.shields.io/github/license/dpacassi/UltimateDrupalReference?style=flat-square)](https://github.com/dpacassi/UltimateDrupalReference/blob/main/LICENSE)
 [![PRs welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](CONTRIBUTING.md)
 [![Curated for modern Drupal](https://img.shields.io/badge/Focus-curated%20modern%20Drupal-0a7ea4?style=flat-square)](https://www.drupal.org/)
 
