@@ -1,543 +1,619 @@
-[![GitHub last commit](https://img.shields.io/github/last-commit/dpacassi/UltimateDrupalReference.svg)](https://github.com/dpacassi/UltimateDrupalReference)
-[![GitHub contributors](https://img.shields.io/github/contributors/dpacassi/UltimateDrupalReference.svg)](https://github.com/dpacassi/UltimateDrupalReference)
-[![license](https://img.shields.io/github/license/dpacassi/UltimateDrupalReference.svg)](https://github.com/dpacassi/UltimateDrupalReference/blob/master/LICENSE)
-[![Twitter URL](https://img.shields.io/twitter/url/http/shields.io.svg?style=social&logo=twitter)](https://twitter.com/intent/tweet?text=Starting+with+%23Drupal%3F+Or+simply+just+stuck%3F+Have+a+look+at+the+%23UltimateDrupalReference+on+https%3A%2F%2Fgithub.com%2Fdpacassi%2FUltimateDrupalReference%2C+it+might+help+you+out%21)
+[![GitHub stars](https://img.shields.io/github/stars/dpacassi/UltimateDrupalReference?style=flat-square)](https://github.com/dpacassi/UltimateDrupalReference/stargazers)
+[![GitHub last commit](https://img.shields.io/github/last-commit/dpacassi/UltimateDrupalReference?style=flat-square)](https://github.com/dpacassi/UltimateDrupalReference/commits/master)
+[![License: MIT](https://img.shields.io/github/license/dpacassi/UltimateDrupalReference?style=flat-square)](https://github.com/dpacassi/UltimateDrupalReference/blob/master/LICENSE)
+[![PRs welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](CONTRIBUTING.md)
+[![Curated for modern Drupal](https://img.shields.io/badge/Focus-curated%20modern%20Drupal-0a7ea4?style=flat-square)](https://www.drupal.org/)
 
 # Ultimate Drupal Reference
-When it comes to [Drupal](https://www.drupal.org/), there are a lot of videos, blog posts and general how-to's out there.  
-While some of them are good, others are in need of improvement and a few of them are simply outdated.
 
-This project will try to list you the **best, most promising and most efficient** resources that you might need when developing a Drupal site.  
+Drupal is powerful, flexible, and absolutely worth learning seriously.
 
-## Contribution guidelines
-This project lives through new and up-to-date resources from the community, from **you**!  
-If you would like to add a resource or contribute in any other kind of way, be sure to read our [contribution guidelines](CONTRIBUTING.md).
+It is also one of those ecosystems where newcomers can lose a lot of time on outdated advice, abandoned modules, old tutorials, historical workflows, and recommendations that were correct once but no longer reflect how modern Drupal projects are built.
+
+This repository exists to reduce that noise.
+
+It is a curated, opinionated reference for people who want to get productive with Drupal faster — especially developers and site builders who want a practical map of the ecosystem, not just a giant archive of links.
+
+If this README helps you avoid a dead end, onboard faster, or make a better architectural decision, please **star the repository**.
+That helps more people discover it and signals that keeping it updated is worth the effort.
+
+## Why this repository exists
+
+This guide is here to help you:
+
+- get oriented in the Drupal ecosystem faster
+- understand how a modern Drupal project is typically set up
+- avoid outdated tooling and bad defaults
+- find relevant modules, themes, and distributions that still matter
+- debug problems more methodically
+- discover where to learn next once the basics are no longer enough
+
+## Who this is for
+
+This reference is mainly written for:
+
+- developers starting with Drupal or returning after a few years
+- site builders who want a stronger overview of the current ecosystem
+- agencies and freelancers onboarding new Drupal team members
+- technical leads who want a concise reference they can hand to others
+
+## What this repository is not
+
+To stay useful, this project is intentionally **not** trying to be:
+
+- a complete list of every Drupal module, theme, or distribution
+- a historical archive of everything that mattered in older Drupal versions
+- a replacement for official Drupal.org documentation
+- a place where dead links and abandoned recommendations are kept “for completeness”
+
+The goal is signal, not size.
+
+## A few principles behind this guide
+
+- The wording stays **Drupal-version-agnostic**, but the content is maintained to be valid for **modern Drupal projects**.
+- This README prefers **fewer, better recommendations** over giant historical lists.
+- If something is outdated, unmaintained, or no longer a sensible default, it should not stay here just because it used to matter.
+- Official Drupal.org documentation comes first. Community resources come second.
+- The goal is usefulness, not completeness.
+
+## How to use this README
+
+Depending on where you are, start here:
+
+- **New to Drupal?** Start with [Getting started with Drupal](#getting-started-with-drupal), then [How to think about Drupal](#how-to-think-about-drupal), then [Site building](#site-building).
+- **Already building Drupal sites?** Jump to [Modules](#modules), [Themes](#themes), and [Troubleshooting](#troubleshooting).
+- **Returning after a few years?** Read [Installing Drupal locally](#installing-drupal-locally), [Composer](#composer), [Drush](#drush), and [Recipes and site templates](#recipes-and-site-templates) first.
+- **Want to contribute?** See [Contributing](#contributing) and help keep the dynamic sections current.
+
+## Contributing
+
+This project gets better through real-world feedback from people actually building Drupal sites.
+
+If you notice an outdated recommendation, a broken link, a missing section, or a module, theme, distribution, article, or learning resource that deserves to be listed here, please open an issue or submit a pull request.
+
+Before contributing, read the [contribution guidelines](CONTRIBUTING.md).
+
+A particularly helpful contribution is not just “add more links”, but improving the signal quality of the list:
+
+- remove outdated resources
+- replace weaker links with better current ones
+- improve categorization
+- add context for why something is still worth using
+
+---
 
 ## Table of contents
-- [Installing Drupal](#installing-drupal)
-  - [Evaluate Drupal projects without installing Drupal](#evaluate-drupal-projects-without-installing-drupal)
-  - [Drupal requirements](#drupal-requirements)
-  - [Official installation page](#official-installation-page)
-  - [Drupal VMs](#drupal-vms)
+
+- [Getting started with Drupal](#getting-started-with-drupal)
+  - [Try Drupal without installing anything](#try-drupal-without-installing-anything)
+  - [System requirements](#system-requirements)
+  - [Installing Drupal locally](#installing-drupal-locally)
   - [Composer](#composer)
-  - [Drupal CLI's](#drupal-clis)
-  - [IDE's](#ides)
-- [Site building with Drupal](#site-building-with-drupal)
-- [Theming in Drupal](#theming-in-drupal)
+  - [Drush](#drush)
+  - [Recipes and site templates](#recipes-and-site-templates)
+  - [IDEs and editors](#ides-and-editors)
+- [How to think about Drupal](#how-to-think-about-drupal)
+- [Site building](#site-building)
+- [Theming](#theming)
 - [Distributions](#distributions)
 - [Modules](#modules)
+  - [Administration and developer experience](#administration-and-developer-experience)
+  - [Content modeling and editorial experience](#content-modeling-and-editorial-experience)
   - [Commerce](#commerce)
-  - [Content](#content)
-  - [Developer tools](#developer-tools)
   - [Forms](#forms)
-  - [Media](#media)
   - [Migration](#migration)
-  - [Multilingualism](#multilingualism)
-  - [Multisite](#multisite)
-  - [Performance](#performance)
-  - [SEO / Analytics](#seo--analytics)
+  - [Search](#search)
+  - [SEO](#seo)
   - [Security](#security)
-  - [Site building](#site-building)
-  - [Site navigation](#site-navigation)
-  - [Social media](#social-media)
-  - [User & Roles management](#user--roles-management)
-  - [Views](#views)
 - [Themes](#themes)
-  - [Frontend themes](#frontend-themes)
   - [Admin themes](#admin-themes)
+  - [Frontend themes](#frontend-themes)
 - [Troubleshooting](#troubleshooting)
-  - [Update to the latest stable release](#update-to-the-latest-stable-release)
-  - [Read the project's description](#read-the-projects-description)
-  - [Issue queue](#issue-queue)
-  - [Drupal Answers](#drupal-answers)
-  - [Google](#google)
-  - [IRC / Slack support](#irc--slack-support)
-- [Contributing to Drupal](#contributing-to-drupal)
-- [Video tutorials](#video-tutorials)
-  - [Beginner training series](#beginner-training-series)
-  - [General](#general)
-  - [Modules](#modules-1)
-  - [Theming](#theming)
-- [Blog posts](#blog-posts)
-- [Further resources](#further-resources)
-- [Drupal PaaS](#drupal-paas)
-- [Get in touch with the Drupal community](#get-in-touch-with-the-drupal-community)
+- [Learning resources](#learning-resources)
+- [Get involved with the Drupal community](#get-involved-with-the-drupal-community)
 - [Credits](#credits)
 - [License](#license)
 
-## Installing Drupal
-There are different ways of installing Drupal.
-You can either install it directly on your local machine (or any server) or you can also work with a VM if you prefer.  
-If you really just want to catch a *quick glimpse* about a specific Drupal distribution, module or theme, then you don't even
-need to install anything! Check out the next section for details.
+---
 
-If you want to run Drupal locally (and directly) on your Mac machine, check out this [great tutorial](https://getgrav.org/blog/macos-mojave-apache-multiple-php-versions).
+## Getting started with Drupal
 
-### Evaluate Drupal projects without installing Drupal
-No further information needed. Simply visit [simplytest.me](https://simplytest.me/) and launch your custom sandbox!
+### Try Drupal without installing anything
 
-### Drupal requirements
-In order to be able to run Drupal on your machine (or any server), you need a web server with PHP and a SQL database server.
-Please check the [official requirements page](https://www.drupal.org/docs/8/system-requirements) for more details.
+If you just want to evaluate Drupal, a module, a theme, or a distribution quickly, use [SimplyTest](https://simplytest.me/).
+It is excellent for fast experiments, issue reproduction, and quick reviews.
 
-### Official installation page
-Up-to-date and detailed instructions can be found on the [official installation page](https://www.drupal.org/docs/8/install).
+### System requirements
 
-### Drupal VMs
-If you prefer working with a VM, check out following alternatives:
-- [Docker](https://hub.docker.com/_/drupal/)
-- [Drupal VM](https://www.drupalvm.com/)
+Before starting a real project, always check the current official requirements:
+
+- [Drupal system requirements](https://www.drupal.org/docs/getting-started/system-requirements)
+- [Installing Drupal](https://www.drupal.org/docs/getting-started/installing-drupal)
+
+### Installing Drupal locally
+
+For modern local Drupal development, **DDEV** is the default recommendation.
+It is reproducible, team-friendly, Composer-friendly, and widely used across the Drupal ecosystem.
+
+Start here:
+
+- [Install Drupal using DDEV for local development](https://www.drupal.org/docs/getting-started/installing-drupal/install-drupal-using-ddev-for-local-development)
+- [Local Development Guide](https://www.drupal.org/docs/official_docs/local-development-guide)
+- [DDEV documentation](https://docs.ddev.com/)
+
+A typical new-project flow looks like this:
+
+```bash
+composer create-project drupal/recommended-project my_site_name_dir
+cd my_site_name_dir
+ddev config --project-type=drupal --docroot=web
+ddev start
+ddev launch
+```
+
+A few practical notes:
+
+- Keep your project Composer-managed from day one.
+- Commit your `.ddev/` config when it is part of the team workflow.
+- Prefer a setup that everyone on the project can reproduce easily.
 
 ### Composer
-While not required, it's **highly recommended** that you set up your Drupal project with [Composer](https://getcomposer.org/),
-regardless of your technical setup.  
-Check the [Composer template for Drupal projects](https://github.com/drupal-composer/drupal-project) to install Drupal quickly via Composer.
 
-#### Composer prestissimo
-If you want to speed up Composer, have a look at [prestissimo](https://github.com/hirak/prestissimo).  
-You can install it globally (no project dependency) to speed up Composer installations by a lot!  
-Simply run `composer global require hirak/prestissimo` and you're good to go.  
-Read more about prestissimo in its [project page](https://github.com/hirak/prestissimo).
+Composer is standard for modern Drupal development.
+Use it to manage core, contributed modules, themes, Drush, and PHP dependencies.
 
-### Converting a non-Composer Drupal codebase to use Composer
-Jeff Geerling wrote a nice [blog post](https://www.jeffgeerling.com/blog/2018/converting-non-composer-drupal-codebase-use-composer) about
-convertig a non-Composer Drupal codebase to use Composer.  
-Check it out and benefit from Composer!
+Start here:
 
-### Drupal CLI's
-When it comes to developing custom modules, themes or simply automate certain tasks with scripts/cronjobs, there are two
-major Drupal CLI's which can be a huge help for you:
-- [Drupal Console](https://drupalconsole.com/)
-- [Drush](http://www.drush.org/)
+- [Using Composer](https://www.drupal.org/docs/develop/using-composer)
+- [Using Composer to install Drupal and manage dependencies](https://www.drupal.org/docs/develop/using-composer/manage-dependencies)
+- [Starting a site using Drupal Composer project templates](https://www.drupal.org/docs/develop/using-composer/starting-a-site-using-drupal-composer-project-templates)
+- [Using Drupal's Composer Scaffold](https://www.drupal.org/docs/develop/using-composer/using-drupals-composer-scaffold)
 
-## IDE's
-There are lots of different IDE's and editors for PHP. But *most* Drupal developers tend to use [PhpStorm](https://www.jetbrains.com/phpstorm/).  
-Do you use any other IDE or editor? Please let me know!
+If you are dealing with an older non-Composer codebase, moving it to Composer is still worth it:
 
-## Site building with Drupal
-Once you have Drupal set up and running, it's time for site building.  
-Have a look at the great documentation on drupal.org about [site building](https://www.drupal.org/site-building)
-as well as as understanding the [concepts of Drupal](https://www.drupal.org/docs/8/understanding-drupal-8/overview).
+- [Add Composer to an existing site](https://www.drupal.org/docs/installing-drupal/add-composer-to-an-existing-site)
 
-## Theming in Drupal
-- [Twig Documentation](https://twig.symfony.com/doc/2.x/) - Twig is the templating language used in building a Drupal theme
-- [Debugging Twig Templates](https://www.drupal.org/docs/8/theming/twig/debugging-twig-templates) - This will allow you to see which templates are in use on a page, which template is used to render each item on the page, any hooks for that template, and give you suggestions for naming your new templates
-- [Drupal 8 Theming Fundamentals, Part 1](https://www.lullabot.com/articles/drupal-8-theming-fundamentals-part-1) and [Part 2](https://www.lullabot.com/articles/drupal-8-theming-fundamentals-part-2) - An overview of creating and working in a Drupal 8 theme
-- [Drupal.org Theming Guide for Drupal 8](https://www.drupal.org/docs/8/theming) - The official guide to Drupal 8 theming. Not always the easiest to understand but very helpful for reference on many topics.
+### Drush
+
+For command-line Drupal work, **Drush** is the standard tool.
+If you work on Drupal seriously, learn it early.
+
+Start here:
+
+- [Drush](https://www.drush.org/)
+- [Install Drush](https://www.drush.org/13.x/install/)
+- [Drush on Drupal.org](https://www.drupal.org/docs/develop/development-tools/drush)
+
+A few commands worth knowing right away:
+
+```bash
+drush status
+drush cr
+drush updb -y
+drush cex -y
+drush cim -y
+drush uli
+```
+
+### Recipes and site templates
+
+Recipes matter now.
+If you learned Drupal years ago, this is one of the areas worth updating in your mental model.
+
+Recipes automate module installation and configuration on an existing Drupal site.
+They are a lighter, more composable alternative to the old “everything is a distribution” mindset.
+
+Start here:
+
+- [Drupal Recipes](https://www.drupal.org/docs/extending-drupal/drupal-recipes)
+- [How to download and apply Drupal Recipes](https://www.drupal.org/docs/extending-drupal/drupal-recipes/how-to-download-and-apply-drupal-recipes)
+- [Recipes Cookbook](https://www.drupal.org/docs/extending-drupal/contributed-modules/contributed-module-documentation/distributions-and-recipes-initiative/recipes-cookbook)
+
+### IDEs and editors
+
+There is no single required editor, but many Drupal developers use **PhpStorm**.
+A good setup should give you strong PHP support, YAML and Twig handling, Composer awareness, and Git integration.
+
+A few useful references:
+
+- [PhpStorm](https://www.jetbrains.com/phpstorm/)
+- [Drupal API documentation](https://api.drupal.org/api/drupal)
+- [Drupal APIs guide](https://www.drupal.org/docs/develop/drupal-apis)
+
+---
+
+## How to think about Drupal
+
+A lot of frustration with Drupal comes from approaching it like a simple page builder or a generic PHP CMS.
+
+Drupal becomes much easier once you understand that it is really a **structured content platform** with a strong configuration system and a powerful extension model.
+
+A few concepts are worth understanding early:
+
+- entities and fields
+- bundles and content types
+- display modes and form modes
+- configuration management
+- permissions and roles
+- Views
+- cacheability metadata
+- plugins, services, events, and hooks
+
+Start with:
+
+- [Drupal User Guide](https://www.drupal.org/docs/user_guide/en/index.html)
+- [Developer documentation](https://www.drupal.org/docs/develop)
+- [Documentation overview](https://www.drupal.org/documentation)
+
+---
+
+## Site building
+
+If you are more on the site-building side, these are good places to start:
+
+- [Drupal site building](https://www.drupal.org/community/contributor-guide/skill/drupal-site-building)
+- [Drupal User Guide](https://www.drupal.org/docs/user_guide/en/index.html)
+- [Drupal Recipes](https://www.drupal.org/docs/extending-drupal/drupal-recipes)
+
+What good site building usually means in Drupal:
+
+- model content first
+- avoid overfitting content types too early
+- use Views before writing custom listing code
+- keep editorial UX in mind from the beginning
+- keep configuration deployable
+- do not solve everything with custom code if a well-maintained contrib module already solves it cleanly
+
+---
+
+## Theming
+
+For theming, start with the official docs and learn Twig properly.
+If you are building custom frontend systems, also pay attention to Starterkit and Single Directory Components in core.
+
+Start here:
+
+- [Theming Drupal](https://www.drupal.org/docs/develop/theming-drupal)
+- [Starterkit theme](https://www.drupal.org/docs/core-modules-and-themes/core-themes/starterkit-theme)
+- [Drupal theme folder structure](https://www.drupal.org/docs/develop/theming-drupal/drupal-theme-folder-structure)
+- [Twig documentation](https://twig.symfony.com/)
+
+A few practical recommendations:
+
+- Prefer a custom theme or a clean subtheme over heavy random override chains.
+- Keep templates, preprocess logic, and CSS architecture readable.
+- Use Twig debug in development.
+- Treat accessibility and performance as part of theming, not as “later”.
+
+---
 
 ## Distributions
-While Drupal 8+ core comes with lots of functionality already, the strength of Drupal lies in its extensibility.  
-Distributions are full copies of Drupal that include Drupal Core, along with additional software such as themes, modules, libraries, and installation profiles.  
-They're handy if you *really* just want to have a quick start with Drupal.
-- [Druppio](https://www.drupal.org/project/druppio_small_business_distribution) - A small business distribution with demo content.
-- [Lighting](https://www.drupal.org/project/lightning) - Lightning is a solid Drupal starter kit that enables developers to create great authoring experiences and empower editorial teams.
-- [Open Social](https://www.drupal.org/project/social) - Open Social is a out of the box solution for online communities.
-- [Thunder](https://www.drupal.org/project/thunder) - Thunder is a Drupal 8 distribution for professional publishing.
-- [Varbase](https://www.drupal.org/project/varbase) - Varbase is an enhanced Drupal distribution packed with adaptive functionalities and essential modules, that speed up your development, and provides you with standardized configurations.
-- .. and many more on [drupal.org](https://www.drupal.org/project/project_distribution)
+
+Distributions are no longer the only way to package opinionated Drupal solutions, but they are still relevant in some cases — especially when a project offers a real productized starting point rather than just a demo install profile.
+
+Below is a curated list of currently relevant options worth knowing.
+
+- [Open Social](https://www.drupal.org/project/social) — community platform and engagement platform for member communities, collaboration, and knowledge sharing.
+- [Varbase](https://www.drupal.org/project/varbase) — a CMS starter kit and distribution focused on giving teams a strong structured starting point.
+
+---
 
 ## Modules
 
+The list below is intentionally curated.
+It is not trying to be a complete directory of Drupal modules.
+It is trying to be a good shortlist of modules that are still relevant and sensible to know.
+
+### Administration and developer experience
+
+- [Admin Toolbar](https://www.drupal.org/project/admin_toolbar) — improves the default Toolbar by turning it into a drop-down administration menu for faster navigation.
+- [Configuration Split](https://www.drupal.org/project/config_split) — helps separate environment-specific configuration while still working cleanly with Drupal configuration management.
+- [Devel](https://www.drupal.org/project/devel) — classic developer toolbox for debugging, inspecting, generating content, and general development convenience.
+- [Environment Indicator](https://www.drupal.org/project/environment_indicator) — adds strong visual environment markers so you do not confuse local, staging, and production.
+
+### Content modeling and editorial experience
+
+- [ECA](https://www.drupal.org/project/eca) — a no-code automation engine for Drupal workflows.
+- [Field Group](https://www.drupal.org/project/field_group) — groups fields together in forms and displays using wrappers such as tabs, details, accordions, and fieldsets.
+- [Linkit](https://www.drupal.org/project/linkit) — rich-text linking helper with autocomplete for internal and external links.
+- [Paragraphs](https://www.drupal.org/project/paragraphs) — structured modular content components for richer editorial layouts.
+- [Token](https://www.drupal.org/project/token) — placeholder variables and token browsing used across many other modules and workflows.
+
 ### Commerce
-- [Drupal Commerce](https://www.drupal.org/project/commerce) - Drupal Commerce is used to build eCommerce websites and applications of all sizes.
-  - Also make sure to check out the [commerce documentation](https://docs.drupalcommerce.org/).
-- [Commerce Registration](https://www.drupal.org/project/commerce_registration) - Provides Drupal Commerce with the ability to sell registrations via the Entity Registration module.
 
-### Content
-- [Address](https://www.drupal.org/project/address) - Provides functionality for storing, validating and displaying international postal addresses.
-- [Automatic Entity Label](https://www.drupal.org/project/auto_entitylabel) - Automatic Entity Label is a small and efficient module that allows hiding of entity label fields. To prevent empty labels it can be configured to generate the label automatically by a given pattern.
-- [COOKiES Consent Management](https://www.drupal.org/project/cookies) - User consent management module for Drupal.
-- [Corresponding Entity References](https://www.drupal.org/project/cer) - CER keeps reference fields in sync. If you have two entities that refer to each other using Entity Reference (or some other kind of reference field), it saves you the trouble of double-editing your entities in order to have them point at each other.
-- [CSV Importer](https://www.drupal.org/project/csv_importer) - The module provides a powerful and flexible solution for importing data from CSV files into Drupal. Designed to handle various use cases, it allows administrators to map CSV columns to entity fields seamlessly, enabling the bulk creation or updating of content, users, or other entities.
-- [Custom Field](https://www.drupal.org/project/custom_field) - Defines a new Custom Field field type that lets you create simple inline multiple-value fields without having to use referenced entities.
-- [Date Timepicker](https://www.drupal.org/project/timepicker) - Integrates the most popular timepicker jQuery plugins into Drupal.
-- [Default Content for D8](https://www.drupal.org/project/default_content) - The Default content module gives your module and install profile a way to ship default content as well as configuration.
-- [Diff](https://www.drupal.org/project/diff) - This module adds a tab for sufficiently permissioned users. The tab shows all revisions like standard Drupal but it also allows pretty viewing of all added/changed/deleted words between revisions.
-- [Disable Messages](https://www.drupal.org/project/disable_messages) - Gives a site owner options to disable specific messages shown to end users.
-- [Download All Files](https://www.drupal.org/project/download_all_files) - This module provides a field formatter for the field type 'file' called `Table of files with download all link` . The format which will allow you to "Download all files" through single click. The files will be zipped as single file.
-- [D8 Editor Advanced link](https://www.drupal.org/project/editor_advanced_link) - Enhances the link Dialog in D8 CKEditor.
-- [Editoria11y Accessibility Checker](https://www.drupal.org/project/editoria11y) - Editoria11y ("editorial accessibility ally") is built around three key needs for ongoing content quality assurance.
-- [Entity Clone](https://www.drupal.org/project/entity_clone) - This module add a new entity operation which allows to clone many of the entities (config & content) provided by the Drupal core.
-- [Entity Redirect](https://www.drupal.org/project/entity_redirect) - Adds a configurable redirect after saving a node or other entity. The redirect is configurable per bundle.
-- [Entity Share](https://www.drupal.org/project/entity_share) - Entity Share is a collection of modules allowing you to share content entities like nodes, taxonomy terms, medias etc. between different Drupal instances.
-- [Entityqueue](https://www.drupal.org/project/entityqueue) - Allows users to create lists of any "entity" (content, users, etc). Each queue is implemented as an entity reference that can hold a single entity type. Items in each list can be manually reordered.
-- [External Links](https://www.drupal.org/project/extlink) - External Links is a small module used to differentiate between internal and external links.
-- [Field Formatter Class](https://www.drupal.org/project/field_formatter_class) - Allows site administrators to add classes to the outer HTML wrapper for any field display, so that CSS and Javascript can target them.
-- [Iframe](https://www.drupal.org/project/iframe) - A custom field, which lets you add a complete iframe to your content types; including Src-URL, setting width and height, optionally a title above, and optionally a target attribute.
-- [Image formatter link to image style](https://www.drupal.org/project/image_formatter_link_to_image_style) - This module provides an additional formatter for image core field, to link to an image style.
-- [Image styles generator](https://www.drupal.org/project/image_styles_generator) - This module provides a drush command capable of regenerating all images with all image styles defined on the site.
-- [JSON Field](https://www.drupal.org/project/json_field) - This module allows you to store data, probably coming from some 3rd party source, as pure JSON.
-- [MaxLength](https://www.drupal.org/project/maxlength) - MaxLength allows a soft or hard character limit to be set on titles, text fields and link fields. A character count displays for authors, helping them write concise content.
-- [Office Hours](https://www.drupal.org/project/office_hours) - Defines a 'weekly office hours' field type, allowing you to specify when a location is open or closed.
-- [Quick Node Clone](https://www.drupal.org/project/quick_node_clone) - Quick Node Clone is meant as a way in Drupal 8 to clone nodes. It currently supports cloning of most field types including Inline Entity Form and Field Collection.
-- [Quicklink](https://www.drupal.org/project/quicklink) - This module provides an implementation of Google Chrome Lab's Quicklink library for Drupal.
-- [Scheduled Transitions](https://www.drupal.org/project/scheduled_transitions) - Users may select a specific revision, and it will be changed to a different moderation state at a specified date.
-- [Scheduled Updates](https://www.drupal.org/project/scheduled_updates) - The Scheduled Updates module allows scheduling updates at a specific date and time to entities such as Content(nodes), Users, Terms, Files and many more.
-- [Scheduler](https://www.drupal.org/project/scheduler) - Scheduler gives content editors the ability to schedule nodes to be published and unpublished at specified dates and times in the future.
-- [Sitemap](https://www.drupal.org/project/sitemap) - The Sitemap module displays one or more human-readable lists of links on a page.
-- [State Machine](https://www.drupal.org/project/state_machine) - Provides code-driven workflow functionality. It's also being used in Drupal Commerce to define checkout workflows.
-  - This blog post is very helpful to get started with State Machine: [Set up workflows with State machine on Drupal 8](https://www.flocondetoile.fr/blog/set-workflows-state-machine-drupal-8).
-- [TacJS](https://www.drupal.org/project/tacjs) - Comply to the European cookie law using tarteaucitron.js.
-- [Time Field Picker](https://www.drupal.org/project/time_picker) - Time Field Picker for Drupal 8 module provides a two field for displaying and submitting time and time-range for Drupal site.
-- [Trash](https://www.drupal.org/project/trash) - This module adds a trash bin for all content entities.
-- [Voting API](https://www.drupal.org/project/votingapi) - VotingAPI helps developers who want to use a standardized API and schema for storing, retrieving and tabulating votes for Drupal content.
-
-### Developer tools
-- [Config Ignore](https://www.drupal.org/project/config_ignore) - This module is a tool to let you keep the configuration you want, in place.
-- [Configuration Split](https://www.drupal.org/project/config_split) - Enables you to create different configuration sets for a site.
-- [Devel](https://www.drupal.org/project/devel) - A suite of modules containing fun for module developers and themers.
-- [Environment Indicator](https://www.drupal.org/project/environment_indicator) - This module will help you to keep sane while working on your different environments by adding a configurable color bar to each one of your environments.
-- [Hacked!](https://www.drupal.org/project/hacked) - This module scans the currently installed Drupal, contributed modules and themes, re-downloads them and determines if they have been changed.
-- [Reverse Proxy Header](https://www.drupal.org/project/reverse_proxy_header) - This module is the simplest way to use the specific HTTP header name to determine the client IP.
-- [Stage File Proxy](https://www.drupal.org/project/stage_file_proxy) - Stage File Proxy saves you time and disk space by sending requests to your development environment's files directory to the production environment and making a copy of the production file in your development site.
+- [Drupal Commerce](https://www.drupal.org/project/commerce) — the framework-first ecommerce solution for Drupal.
 
 ### Forms
-- [Antibot](https://www.drupal.org/project/antibot) - Antibot is an extremely lightweight module designed to eliminate robotic form submissions on your website in an innovative-fashion.
-- [Autocomplete Deluxe](https://www.drupal.org/project/autocomplete_deluxe) - This is an enhanced autocomplete element, that uses the jQuery UI autocomplete. It will also implement a widget for taxonomy.
-- [Better Login](https://www.drupal.org/project/betterlogin) - Fancy and extendable login forms for Drupal.
-- [CAPTCHA](https://www.drupal.org/project/captcha) - A CAPTCHA is a challenge-response test most often placed within web forms to determine whether the user is human.
-- [Chosen](https://www.drupal.org/project/chosen) - Chosen uses the Chosen jQuery plugin to make your `<select>` elements more user-friendly.
-- [Client-side hierarchical select](https://www.drupal.org/project/cshs) - A simple client-side hierarchical select widget for taxonomy terms.
-- [Clientside Validation](https://www.drupal.org/project/clientside_validation) - This module adds clientside validation to all forms and webforms.
-- [Date all day](https://www.drupal.org/project/date_all_day) - Provides a field widget and a set of field formatters for date range field types to allow editors to set that a date has no time, meaning that it place all the day.
-- [Entity Form Steps](https://www.drupal.org/project/entity_form_steps) - Create multistep forms using field groups on entity form displays.
-- [Form Placeholder](https://www.drupal.org/project/form_placeholder) - This module creates the possibility to quickly add placeholders to all textfields of any form on the site.
-- [Honeypot](https://www.drupal.org/project/honeypot) - Honeypot uses both the honeypot and timestamp methods of deterring spam bots from completing forms on your Drupal site.
-- [Prepopulate](https://www.drupal.org/project/prepopulate) - The Prepopulate module allows fields in most forms to be pre-populated from the $_REQUEST variable.
-- [reCAPTCHA](https://www.drupal.org/project/recaptcha) - Uses the Google reCAPTCHA web service to improve the CAPTCHA system. It is tough on bots and easy on humans.
-- [Smart Date](https://www.drupal.org/project/smart_date) - This module attempts to provide a more user-friendly date field, by upgrading the functionality of core in a number of ways.
-- [Spam Master](https://www.drupal.org/project/spammaster) - Spam Master protects Drupal based websites from millions of known spam emails, domains, ip's and words by blocking user rregistrations, comments, messages, contacts, feedbacks or threads.
-- [Webform](https://www.drupal.org/project/webform) - Webform is the module for making forms and surveys in Drupal.
-  - [Webform videos on Drupal.org](https://www.drupal.org/docs/8/modules/webform/webform-videos) - A series of videos by the makers of Webform explaining features and tutorials for installing and using the Webform module.
 
-### Media
-- [Blazy](https://www.drupal.org/project/blazy) - Provides integration with bLazy to lazy load and multi-serve images to save bandwidth and server requests. The user will have faster load times and save data usage if they don't browse the whole page.
-- [Image Optimize (or ImageAPI Optimize)](https://www.drupal.org/project/imageapi_optimize) - This is a toolkit for ImageAPI. It requires imageapi_gd or imageapi_imagemagick or any ImageAPI toolkit to work.
-- [Media](https://www.drupal.org/project/media) - The Media module provides an extensible framework for managing files and multimedia assets, regardless of whether they are hosted on your own site or a 3rd party site - it is commonly referred to as a 'file browser to the internet'.
-- [Media Bulk Upload](https://www.drupal.org/project/media_bulk_upload) - This is the Drupal 8 module to bulk upload files and create the media
-entities automatically for them. It uses DropzoneJS to quickly upload multiple files.
-- [Media entity Instagram](https://www.drupal.org/project/media_entity_instagram) - This module adds an Instagram integration to Drupals media system.
-- [Media entity Twitter](https://www.drupal.org/project/media_entity_twitter) - Twitter integration for Media entity module.
-- [PhotoSwipe](https://www.drupal.org/project/photoswipe) - Use PhotoSwipe to display picture galleries on your Drupal website. This Javascript lightbox library offers very nice mobile browsing features (in particular swiping to the next picture)!
-  - Note: As for the `1.0-beta3` release, it needs to be [patched](https://www.drupal.org/files/issues/path-capitals-for-composer-2855483-2.patch) when installed with Composer.
-- [Slick Carousel](https://www.drupal.org/project/slick) - Slick is a powerful and performant slideshow/carousel solution leveraging Ken Wheeler's Slick carousel.
-  - Also make sure to check out it's sub modules such as e.g. [Slick Paragraphs](https://www.drupal.org/project/slick_paragraphs) or [Slick Entity Reference](https://www.drupal.org/project/slick_entityreference).
-- [Video](https://www.drupal.org/project/video) - Video module allows you to upload video in any format, play video in any format, transcode video to H.246, Theora, VP8(Web compatible formats) using Zencoder or FFMPEG automatically creates video thumbnails, copy and deliver videos from cloud file systems like Amazon S3.
-- [Video Embed Field](https://www.drupal.org/project/video_embed_field) - Video Embed field creates a simple field type that allows you to embed videos from YouTube and Vimeo and show their thumbnail previews simply by entering the video's url.
+- [Honeypot](https://www.drupal.org/project/honeypot) — lightweight anti-spam protection using honeypot and timestamp techniques.
+- [Webform](https://www.drupal.org/project/webform) — the go-to form builder for anything from simple contact forms to large multi-step workflows.
 
 ### Migration
-- [Migrate Plus](https://www.drupal.org/project/migrate_plus) - The migrate_plus project provides extensions to core migration framework functionality, as well as examples.
-- [Migrate Source CSV](https://www.drupal.org/project/migrate_source_csv) - This project allows you to import CSV files using Drupal Migration.
-- [Migrate Tools](https://www.drupal.org/project/migrate_tools) - The Migrate Tools module provides tools for running and managing Drupal migrations.
-- [Migrate Wizard](https://www.drupal.org/project/migrate_wizard) - The module provides a user-friendly solution for seamless content migration.
 
-### Multilingualism
-- [Language Cookie](https://www.drupal.org/project/language_cookie) - Adds an extra "Cookie" field to the Language Negotiation settings, allowing the language to be set according to a cookie.
-
-### Multisite
-- [Domain Access](https://www.drupal.org/project/domain) - The Domain Access project is a suite of modules that provide tools for running a group of affiliated sites from one Drupal installation and a single shared database.
-
-### Performance
-- [Advanced CSS/JS Aggregation](https://www.drupal.org/project/advagg) - AdvAgg allows you to improve the frontend performance of your site.
-- [CDN](https://www.drupal.org/project/cdn) - This module provides easy Content Delivery Network integration for Drupal sites. It changes file URLs, so that files (CSS, JS, images, fonts, videos …) are downloaded from a CDN instead of your web server.
-- [DB Maintenance](https://www.drupal.org/project/db_maintenance) - DB maintenance optimizes administrator-selected tables in the database during regular cron.php executions.
-- [Memcache API and Integration](https://www.drupal.org/project/memcache) - This module provides integration between Drupal and Memcached.
+- [Migrate Plus](https://www.drupal.org/project/migrate_plus) — extends core migration with extra plugins, configuration entities, and examples.
+- [Migrate Tools](https://www.drupal.org/project/migrate_tools) — Drush tooling and helpers for running and controlling migrations.
 
 ### Search
-- [Custom Search](https://www.drupal.org/project/custom_search) - This module alters the default search box in many ways. If you need to have options available like in advanced search, but directly in the search box, this module is for you.
-- [Elasticsearch Connector](https://www.drupal.org/project/elasticsearch_connector) - Elasticsearch Connector is a set of modules designed to build a full Elasticsearch eco system in Drupal.
-- [Search API](https://www.drupal.org/project/search_api) - This module provides a framework for easily creating searches on any entity known to Drupal, using any kind of search engine.
-- [Search API Solr Search](https://www.drupal.org/project/search_api_solr) - This module provides a Solr backend for the Search API module.
-- [Search Autocomplete](https://www.drupal.org/project/search_autocomplete) - This module allows you to add autocomplete functionality to virtually any fields of a Drupal site. During the input, the field will be expanded and offers a list of suggestions before you start the search.
+
+- [Facets](https://www.drupal.org/project/facets) — facet and filter UI for search-driven experiences, especially with Search API.
+- [Search API](https://www.drupal.org/project/search_api) — the standard framework for building serious search experiences in Drupal.
+- [Search API Solr](https://www.drupal.org/project/search_api_solr) — Apache Solr backend for Search API when you need more advanced search capabilities.
+
+### SEO
+
+- [Metatag](https://www.drupal.org/project/metatag) — structured metadata and social sharing tags.
+- [Pathauto](https://www.drupal.org/project/pathauto) — automatic URL alias generation based on configurable token patterns.
+- [Redirect](https://www.drupal.org/project/redirect) — manual redirects and canonical path control.
+- [Simple XML sitemap](https://www.drupal.org/project/simple_sitemap) — XML sitemap generation, including multilingual support.
 
 ### Security
-- [Automatic Updates](https://www.drupal.org/project/automatic_updates) - A project for organizing the Auto Updates Initiative efforts, as proposed in this idea.
-- [Better Passwords](https://www.drupal.org/project/better_passwords) - Better Passwords attempts to help users create better passwords by adhering to current recommendations from the US National Institute of Standards and Technology (NIST).
-- [Key](https://www.drupal.org/project/key) - Key provides the ability to improve Drupal security by managing sensitive keys (such as API and encryption keys). It gives site administrators the ability to define how and where keys are stored, which allows the option of a high level of security and allows sites to meet regulatory or compliance requirements.
-- [Password Reset Landing Page (PRLP)](https://www.drupal.org/project/prlp) - The Password Reset Landing Page "PRLP" module enhances the original password reset landing page by letting a user set their new password at the same time they "log in" using the one-time-login link.
-- [Password Strength](https://www.drupal.org/project/password_strength) - The Password Strength module provides realistic password strength measurement and server-side enforcement for Drupal sites using pattern-matching and entropy calculation.
-- [Persistent Login](https://www.drupal.org/project/persistent_login) - The Persistent Login module provides a "Remember Me" option on the user login form.
-- [Protected Pages](https://www.drupal.org/project/protected_pages) - Protected Pages modules allows the administrator to secure any page in your website by password.
-- [Rabbit Hole](https://www.drupal.org/project/rabbit_hole) - Rabbit Hole is a module that adds the ability to control what should happen when an entity is being viewed at its own page.
-- [Security Kit](https://www.drupal.org/project/seckit) - SecKit provides Drupal with various security-hardening options.
-- [Shield](https://www.drupal.org/project/shield) - PHP Authentication shield. It creates a simple shield for the site with Apache authentication.
 
-### SEO / Analytics
-- [Google Analytics](https://www.drupal.org/project/google_analytics) - Adds the Google Analytics web statistics tracking system to your website.
-- [Metatag](https://www.drupal.org/project/metatag) - The Metatag module allows you to automatically provide structured metadata, aka "meta tags", about a website.
-- [Pathauto](https://www.drupal.org/project/pathauto) - The Pathauto module automatically generates URL/path aliases for various kinds of content (nodes, taxonomy terms, users) without requiring the user to manually specify the path alias.
-- [Piwik Web Analytics](https://www.drupal.org/project/piwik) - Adds the Piwik web statistics tracking system to your website.
-- [Redirect](https://www.drupal.org/project/redirect) - Manage custom site redirects.
-- [SEO Checklist](https://www.drupal.org/project/seo_checklist) - The Drupal SEO Checklist uses best practices to check your website for proper search engine optimization. It eliminates guesswork by creating a functional to-do list of modules and tasks that remain.
-- [Simple XML sitemap](https://www.drupal.org/project/simple_sitemap) - Every webpage needs an automatic XML sitemap generator for SEO reasons. This module aims to be a replacement for the xmlsitemap module for Drupal.
+- [Security Kit](https://www.drupal.org/project/seckit) — security hardening options for headers and related protections.
 
-### Site building
-- [AI (Artificial Intelligence)](https://www.drupal.org/project/ai) - The Drupal AI module provides a framework for easily integrating Artificial Intelligence on any Drupal site using any kind of AI (from multiple vendors).
-- [@font-your-face](https://www.drupal.org/project/fontyourface) - @font-your-face provides an administrative interface for browsing and applying web fonts (using CSS @font-face, supported in all popular browsers) from a variety of sources.
-- [Admin Toolbar](https://www.drupal.org/project/admin_toolbar) - The Admin Toolbar intends to improve the default Drupal Toolbar (the administration menu at the top of your site) to transform it into a drop-down menu, providing a fast access to all administration pages.
-- [Block Group](https://www.drupal.org/project/blockgroup) - This module extends the standard Drupal block system with block groups. Each block group provides a new block as well as a corresponding region. Child blocks can be moved into any group region.
-- [Block Visibility Groups](https://www.drupal.org/project/block_visibility_groups) - Block Visibility Groups allows the site administrator to easily manage complex visibility settings that apply to any block placed in a visibility group.
-- [ECA](https://www.drupal.org/project/eca) - ECA is a powerful, versatile, and user-friendly rules engine for Drupal. The core module is a processor that validates and executes event-condition-action plugins.
-- [Easy Breadcrumb](https://www.drupal.org/project/easy_breadcrumb) - The Easy Breadcrumb module provides a plug-and-play block to be embedded in your pages, typically at some place near the page's header.
-- [Entity Browser](https://www.drupal.org/project/entity_browser) - The goal of this module is to provide a generic entity browser/picker/selector.
-- [Entity Registration](https://www.drupal.org/project/registration) - Entity Registration is a flexible module for allowing and tracking user registrations for events, or just about anything you want people to sign up for.
-- [Field Group](https://www.drupal.org/project/field_group) - Fieldgroup will, as the name implies, group fields together. All fieldable entities will have the possibility to add groups to wrap their fields together.
-- [GraphQL](https://www.drupal.org/project/graphql) - This module lets you craft and expose a GraphQL schema for Drupal.
-- [Linkit - Enriched linking experience](https://www.drupal.org/project/linkit) - Linkit provides an easy interface for internal and external linking with wysiwyg editors by using an autocomplete field.
-- [Menu Breadcrumb](https://www.drupal.org/project/menu_breadcrumb) - This module allows you to use the menu the current page belongs to for the breadcrumb, generating breadcrumbs from the titles of parent menus.
-- [Menu Item Extras](https://www.drupal.org/project/menu_item_extras) - Menu Item Extras provides extra fields for menu items without using additional entities.
-- [Menu Link Attributes](https://www.drupal.org/project/menu_link_attributes) - This module allows you to add attributes to your menu links.
-- [Menu Link Weight](https://www.drupal.org/project/menu_link_weight) - This module replaces the standard numeric weight dropdown widget for menu links in the node form with a tabledrag widget that lists all children for the selected parent.
-- [Menu Trail By Path](https://www.drupal.org/project/menu_trail_by_path) - Menu Trail By Path sets the active-trail on menu items according to the current url.
-- [Paragraphs](https://www.drupal.org/project/paragraphs) - Paragraphs is the new way of content creation! It allows you — Site Builders — to make things cleaner so that you can give more editing power to your end-users.
-  - Also check out [Paragraphs Edit](https://www.drupal.org/project/paragraphs_edit)
-  - .. and this [blog post](https://www.ostraining.com/blog/drupal/paragraphs-module/)
-- [Reroute Email](https://www.drupal.org/project/reroute_email) - This module intercepts all outgoing emails from a Drupal site and reroutes them to a predefined configurable email address.
-- [Simple hierarchical select](https://www.drupal.org/project/shs) - Simple hierarchical select defines a new form widget for taxonomy fields to select a term by "browsing" through the vocabularies hierarchy.
-- [SVG Image Field](https://www.drupal.org/project/svg_image_field) - This module adds a new field, widget and formatter, which allows `.svg` file extension to be uploaded.
-- [Token](https://www.drupal.org/project/token) - Provides additional tokens not supported by core (most notably fields), as well as a UI for browsing tokens.
-- [Vertical Tabs Config](https://www.drupal.org/project/vertical_tabs_config) - This module allows you to hide and re-order vertical tabs on add/edit node pages depending on content type and role.
-
-### Site navigation
-- [Responsive and off-canvas menu](https://www.drupal.org/project/responsive_menu) - This module integrates the mmenu jQuery plugin with Drupal's menu system with the aim of having an off-canvas mobile menu and a horizontal menu at wider widths.
-
-### Social media
-- [AddToAny Share Buttons](https://www.drupal.org/project/addtoany) - Share buttons for Drupal including the AddToAny universal share button, Facebook, Twitter, Google+, Pinterest, WhatsApp and many more.
-- [Ridiculously Responsive Social Sharing Buttons](https://www.drupal.org/project/rrssb) - Social sharing buttons that you can drop into any website with attractive SVG-based icons, small download, and browser compatibility. No 3rd-party scripts.
-
-### User & Roles management
-- [Access code](https://www.drupal.org/project/access_code) - The Access code module allows site visitors to log in using an access code instead of entering username and password.
-- [Auth0 Single Sign On](https://www.drupal.org/project/auth0) - Single Sign On for Enterprises + Social Login + User/Passwords. For all your Drupal instances. Powered by Auth0.
-- [Email Registration](https://www.drupal.org/project/email_registration) - Allow users to register and login using only an email address. Users can then log-in using their email address and password for authentication.
-- [Group](https://www.drupal.org/project/group) - The Group module allows you to create arbitrary collections of your content and users on your site and grant access control permissions on those collections.
-- [Menu Per Role](https://www.drupal.org/project/menu_per_role) - This module allows you to restrict access to menu items based on user roles.
-- [One Time Password](https://www.drupal.org/project/one_time_password) - One Time Password is an opinionated, lightweight, near zero-configuration module with 100% test coverage. It provides two factor authentication to users by way of the Time-based One-time Password Algorithm (RFC 6238).
-- [Permissions by Term](https://www.drupal.org/project/permissions_by_term) - The Permissions by Term module extends Drupal by functionality for restricting access to single nodes via taxonomy terms.
-- [Remove username](https://www.drupal.org/project/remove_username) - This simple module is removing the 'name' (username) field from the user management forms (create/register/edit accounts) by making the 'email' field required and copying the email address into the username field.
-- [RoleAssign](https://www.drupal.org/project/roleassign) - RoleAssign specifically allows site administrators to further delegate the task of managing user's roles while withholding the Administer permissions permission.
-- [Role Delegation](https://www.drupal.org/project/role_delegation) - This module allows site administrators to grant specific roles the authority to assign selected roles to users, without them needing the administer permissions permission.
-- [Role Expire](https://www.drupal.org/project/role_expire) - Role Expire is a simple module that allows administrators to set and control expiry dates of user roles. A common use case for this module is to implement magazine style subscriptions where somebody purchases or receives access for a fixed period of time.
-- [Taxonomy access fix](https://www.drupal.org/project/taxonomy_access_fix) - This module adds more specific Taxonomy permissions.
-- [User Expire](https://www.drupal.org/project/user_expire) - This module allows an administrator to define a date on which to expire a specific user account or to define a period at a role level where inactive accounts will be locked.
-
-### Views
-- [Better Exposed Filters](https://www.drupal.org/project/better_exposed_filters) - The Better Exposed Filters module replaces the Views' default single- or multi-select boxes with radio buttons or checkboxes, respectively.
-- [DraggableViews](https://www.drupal.org/project/draggableviews) - DraggableViews makes rows of a view "draggable" which means that they can be rearranged by Drag'n'Drop.
-- [Views Conditional](https://www.drupal.org/project/views_conditional) - Views Conditional is a simple module that allows you to define conditionals (if xxx then yyy) with fields in views.
-- [Views Infinite Scroll](https://www.drupal.org/project/views_infinite_scroll) - Views infinite scroll allows you to load and display pages of any view inline, using AJAX (this has been called infinite scrolling, load more, autopaging, endless pages and more).
-- [Views Reference Field](https://www.drupal.org/project/viewsreference) - This field in conjunction with the Paragraphs module, makes for a very powerful content management system, allowing addition of just about any kind of content into an entity page.
-- [Views year filter](https://www.drupal.org/project/views_year_filter) - This module add the possibility to expose date/date time filter with year (format CCYY) instead of using full date (format CCYY-MM-DD HH:MM:SS) or offset from the current time.
+---
 
 ## Themes
 
-### Frontend themes
-- [AdaptiveTheme](https://www.drupal.org/project/adaptivetheme) - Adaptivetheme for Drupal is a base theme designed for people who don’t code, or for those who only want to write a bit of CSS but still want a sleek and sophisticated theme for todays mobile web - and beyond.
-- [Bootstrap](https://www.drupal.org/project/bootstrap) - This base theme bridges the gap between Drupal and the Bootstrap Framework.
-- [Drupal8 Zymphonies Theme](https://www.drupal.org/project/drupal8_zymphonies_theme) - Drupal8 Zymphonies Theme is the first Zymphonies Drupal Free Responsive Theme which has many new features.
-- [ZURB Foundation](https://www.drupal.org/project/zurb_foundation) - Zurb Foundation for Drupal is the official implementation of the framework by the same name.
+This section keeps the list short on purpose.
+In modern Drupal projects, I would usually rather see a thoughtful custom theme or subtheme than a giant dependency stack chosen just because it looked convenient on day one.
 
 ### Admin themes
-- [Gin Admin Theme](https://www.drupal.org/project/gin) - A completely redesigned UI layout, enhanced with features like Darkmode, brings a fresh new look to your Drupal Admin interface. Built on the solid foundation of Claro, it comes from one of the lead designers of the Claro theme and the Drupal Design System.
-- [Adminimal - Responsive Administration Theme](https://www.drupal.org/project/adminimal_theme) - A modern and minimalist design that makes administration an easy and fun experience.
-  - Also install [Adminimal Admin Toolbar](https://www.drupal.org/project/adminimal_admin_toolbar) when using this theme.
+
+- [Gin Admin Theme](https://www.drupal.org/project/gin) — a modern admin experience built around a cleaner editorial and administrative UI.
+
+### Frontend themes
+
+- [Bootstrap5](https://www.drupal.org/project/bootstrap5) — a Bootstrap 5-based theme that can be used directly or as a subtheme base.
+- [Radix](https://www.drupal.org/project/radix) — a component-oriented Bootstrap-based theme aimed at more structured frontend workflows.
+
+---
 
 ## Troubleshooting
-Every software has bugs. At least if it does more than simply printing out a `Hello World`.
-While we're not able to write bugless software, we can still try to handle bugfixing as smooth as possible.  
-So, what do you do when you find a bug in a module, theme or maybe even Drupal core?
-Or if you simply just need a little help? Let's try figuring this out in the next sections.
 
-### Update to the latest stable release
-This step is extremely obvious, but maybe there has been a newer **stable** release of the module since your installation.  
-Check if you have the newest stable version of the project, the bug might have been fixed in the meantime.
+Every Drupal developer eventually hits the same wall:
 
-### Read the project's description
-The second step might be obvious too but I still want to point it out. Everyone is free to contribute to Drupal and while
-most Drupal-related things happen on Drupal.org itself, there are a few exceptions. So read the project's description
-carefully! [Drupal console](https://www.drupal.org/project/console) e.g. chose to handle bug reports/feature requests
-on GitHub. [Drupal commerce](https://www.drupal.org/project/commerce) offers contribution support on [IRC](#get-in-touch-with-the-drupal-community).
+> “This should work. Why is this not working?”
 
-### Issue queue
-Drupal projects normally work with *issue queues* (if nothing else defined), meaning that every project (Drupal core/module/theme/distribution/etc.) has it's
-own issue queue. An issue can be everything from a bug report, task, feature request, support request, or just a plan.  
-You can read more about issue queues on [drupal.org](https://www.drupal.org/issue-queue).  
+Good troubleshooting in Drupal is less about random guesses and more about following a disciplined process.
 
-So, if you've found a bug in a project, there's a high chance that the bug was already reported or maybe even fixed.
-On a project's page, search for `All issues` and click on the `x open` (x = number of open issues) link.  
-This link will take you to the project's issue queue.  
+### 1. Confirm that the problem is reproducible
 
-**Important:** Drupal core is a Drupal project itself. It has it's own issue queue and release pages.  
-See the Drupal core project's page on [Drupal.org](https://www.drupal.org/project/drupal).
+Before anything else:
 
-#### Finding your issue in the queue
-In the issue queue the first thing you want to do, is filtering the issues by a major version.  
-If the module has been around since Drupal 6/7/maybe even longer, you're less interested in the legacy issues.  
-So change the **Version** filter to e.g. `- 8.x issues -`.
+- reproduce the problem twice
+- write down the exact steps
+- identify whether it happens for all users or only some users
+- identify whether it is environment-specific
+- identify whether it is content-specific or configuration-specific
 
-If you still didn't find your issue, try changing the **Status** from `- Open issues -` to `- Any -`.  
-It's possible that the issue has already been fixed but not released yet.
+If you cannot reproduce it clearly, debugging gets much harder.
 
-#### Creating an issue
-If you didn't find your issue, you can create a new one. Make sure to be **as precise and specific as possible**.  
-Include the exact version of Drupal and the exact module/theme/distribution version.
-Write how to reproduce the bug on a **fresh Drupal installation**. Speaking about, you might want to check if the
-bug also occurs on a fresh Drupal installation with only the needed modules/themes installed.  
-Maybe it's a bug that only occurs when certain other modules/themes are installed?  
+### 2. Check whether you are using a supported release
 
-Keep in mind that many projects are being contributed by developers in their free time. A project maintainer
-might respond very quickly to a new issue but sometimes it can take weeks or even months until you get a reply.
-In the meantime, you can try to get in touch with other Drupal developers who might be able to help you out.
-Check the next sections for more information.
+This sounds obvious, but it saves a lot of time.
 
-### Drupal Answers
-As a developer, you probably came around Stack Overflow when trying to fix an issue.  
-**Good news:** There's a Stack Exchange for Drupal as well! It's called **Drupal Answers**, [have a look](https://drupal.stackexchange.com/).
+- Verify the installed version of the module, theme, or core package.
+- Check the project page for release status and compatibility.
+- Read the release notes if the problem appeared after an update.
+- Check Drupal security advisories if the update story matters.
 
-### Google
-If you were unlucky finding answers via the issue queue/Drupal Answers, maybe someone wrote a blog post or a tutorial
-which could help you in solving your issue.  
-Now before you go on something like "But Googling is obvious", let me give you **one important tip**:
+Useful links:
 
-- Limit your search results to a specific time frame!
+- [Security advisories](https://www.drupal.org/security)
+- [Drupal core security advisories](https://www.drupal.org/security/core)
+- [Contributed project security advisories](https://www.drupal.org/security/contrib)
+- [Updating Drupal core via Composer](https://www.drupal.org/docs/updating-drupal/updating-drupal-core-via-composer)
 
-If you search for a commerce issue for example, the probability is high to find solutions to the Drupal 7 version of it.
-But if you're interested in a solution for the Drupal 8+ versions, you're better off limiting the search results by e.g.
-publish date and only show results from the past year on.  
-The date limitation is only one thing you can do, there are a lot of articles on how to google efficiently out there, read them!
+### 3. Read the project page properly
 
-### IRC / Slack support
-If you still weren't able to find a solution to your issue, you can write to other Drupal developers via IRC or Slack.  
-Check the [Get in touch with the Drupal community](#get-in-touch-with-the-drupal-community) section on how to connect to them.
+A surprising number of issues come from using a project against its intended architecture.
 
-When asking for help, keep in mind that it's not self-evident to help many other people in complicated matters.
-Be friendly, try describing your issue as precisely as possible and maybe a good fellow will help you out.
+Read:
 
-## Contributing to Drupal
-Are you happy with Drupal and would you like to give back? That's **great**!
-There are many different way on how to contribute back. You can improve documentation, add translations, create
-new contrib projects or simply donate.  
-Please follow the *Ways to Get Involved* guide on [Drupal.org](https://www.drupal.org/contribute).
+- the project description
+- requirements
+- installation instructions
+- release notes
+- known issues
+- linked documentation
 
-One important tip though: Starting to contribute *can* be a little bit tough and difficult in the beginning.
-If you have the chance to visit A Drupal camp or conference or maybe even just a meetup, try to get some guided help there.
-Some things are a little bit complicated but every experienced Drupal developer will most-likely try in helping you out.  
-**Don't** be afraid to ask for help! I quote from Drupal:
-> Come for the Code, Stay for the Community.
+Do not skip this step.
 
-## Video tutorial
-Find below a few video resources that are really worth your time.  
-**Important:** There's also [Drupal.tv](https://drupal.tv/), check it out!
+### 4. Search the issue queue before opening a new issue
 
-### Beginner training series
-- [Drupal 8 Beginner Tutorials](https://www.youtube.com/playlist?list=PLtaXuX0nEZk9MKY_ClWcPkGtOEGyLTyCO) - A 63 video training course by OSTraining introducing the basics of Drupal 8. Designed for absolute beginners, it assumes no prior experience with Drupal and does a great job of explaining the basics.
-- [Build Your First Drupal 8 Site in 1 Hour](https://www.youtube.com/playlist?list=PLtaXuX0nEZk-Mer_a_P1sp0mroJGVs6TK) - An 11 video course by OSTraining that goes over "how to create content, use Views, add contact forms and choose themes".
-- [How To Install Drupal 8 Sites](https://www.youtube.com/playlist?list=PLtaXuX0nEZk99zgSc19Li8EsM9jkicDQj) - A 5 video course by OSTraining going over the basics on how to download, install and set up a Drupal 8 site.
-- [How to Update Drupal 8 Sites, Modules, Themes](https://www.youtube.com/playlist?list=PLtaXuX0nEZk-_lYMB0ehySQEfssaCU1jZ) - A 5 video course by OSTraining explaining how to update Drupal 8 sites, modules and themes.
-- [How to Backup and Restore Drupal 8 Sites](https://www.youtube.com/playlist?list=PLtaXuX0nEZk_y_xlcAv_Ub_xLCfvF8TSs) - A 5 video course by OSTraining explaining how to backup the files and database for a site as well as restore them.
+For contrib work, the issue queue is often the best source of truth after the documentation.
 
-### General
-- [Rendering & caching: a journey through the layers](https://www.youtube.com/watch?v=MQGUzubY35I) - Understand the basics of the Render and Cache API.
+Useful links:
 
-### Modules
-- Webform
-  - [Videos on Drupal.org](https://www.drupal.org/docs/8/modules/webform/webform-videos) - A series of videos by the makers of Webform explaining features and tutorials for installing and using the Webform module.
+- [Drupal project issues documentation](https://www.drupal.org/docs/develop/issues)
+- [Find the issues for a project](https://www.drupal.org/community/contributor-guide/reference-information/quick-info/find-the-issues-for-a-project)
+- [Searching for issues](https://www.drupal.org/docs/develop/issues/issue-procedures-and-etiquette/searching-for-issues)
+- [Drupal core issue queue](https://www.drupal.org/project/issues/drupal)
 
-### Theming
-- [Decouple your Twig from PHP and make Frontenders happy!](https://www.youtube.com/watch?v=Z4gMLSD5MAU) - A talk about using Drupal + Fractal + Node.js.
-- [Building your first Drupal 8 Theme](https://www.youtube.com/watch?v=5GxsmuWFV3M) - A guide helping you to create your first Drupal theme step by step.
+When searching, include:
 
-## Blog posts
-- [Drupal 8: Hooks, Events, and Event Subscribers](https://www.daggerhart.com/drupal-8-hooks-events-event-subscribers/)
-- [Set Required and Optional Address Inputs for Address Field in Drupal 8](https://timonweb.com/posts/set-required-and-optional-address-inputs-for-address-field-in-drupal-8/)
-- [How to Change the Default Text Strings in Drupal 8](https://www.ostraining.com/blog/drupal/translate-drupal-8-strings/)
-- [Stop Waiting for Feeds Module: How to Import RSS in Drupal 8](https://ohthehugemanatee.org/blog/2017/06/07/stop-waiting-for-feeds-module-how-to-import-remote-feeds-in-drupal-8/)
-- [Using Responsive Images in Drupal 8](https://www.bluecoda.com/blog/using-responsive-images-drupal-8)
-- [Set up workflows with State machine on Drupal 8](https://www.flocondetoile.fr/blog/set-workflows-state-machine-drupal-8)
-- [Converting a non-Composer Drupal codebase to use Composer](https://www.jeffgeerling.com/blog/2018/converting-non-composer-drupal-codebase-use-composer)
-- [Drupal 8 Add Cache Metadata to Render Arrays](https://weknowinc.com/blog/drupal-8-add-cache-metadata-render-arrays)
-- [Integrate Webform and Google Sheets using Zapier in Drupal 8](https://www.webwash.net/integrate-webform-and-google-sheets-using-zapier-in-drupal-8/)
-- [How to Set a Voting System in Drupal 8](https://www.ostraining.com/blog/drupal/voting-system/)
-- [The Ultimate Tutorial for Drupal's Paragraphs Module](https://www.ostraining.com/blog/drupal/paragraphs-module/)
-- [Drupal 8’s mail sending opportunities](https://internetdevels.com/blog/mail-sending-drupal-8)
-- [Top 2018 Drupal Modules using Artificial Intelligence](https://opensenselabs.com/blog/tech/top-2018-drupal-modules-using-artificial-intelligence)
-- [Using partial Twig templates](https://befused.com/drupal/partial-twig)
-- [Visual Regression Testing with BackstopJS](https://www.davidneedham.me/drupaleu2018/)
-- [Composer Best Practices for Updating Drupal 8 Core and Modules](https://www.grazitti.com/blog/why-composer-is-the-best-practices-for-updating-drupal-8-core-and-modules/)
-- [Testing the 'Add user' and 'Edit account' forms in Drupal 8 with Behat](https://www.jeffgeerling.com/blog/2018/testing-add-user-and-edit-account-forms-drupal-8-behat)
-- [Simple Guzzle API mocking for functional testing in Drupal 8](https://www.webomelette.com/simple-guzzle-api-mocking-functional-testing-drupal-8)
-- [Decoupled Drupal Authentication with JSON Web Tokens](https://dev.acquia.com/blog/decoupled-drupal-authentication-json-web-tokens)
-- [Automatic removal of .git directories from Composer dependencies](https://www.drupaleasy.com/quicktips/automatic-removal-git-directories-composer-dependencies)
-- [Make composer operations with Drupal way faster and easier on RAM](https://www.jeffgeerling.com/blog/2018/make-composer-operations-drupal-way-faster-and-easier-on-ram)
-- [How to Create a Node in Drupal 8 using REST](https://www.agiledrop.com/blog/how-create-node-drupal-8-using-rest)
-- [Provide a custom mode form to entities with Drupal 8](https://www.flocondetoile.fr/blog/provide-custom-mode-form-entities-drupal-8)
-- [Drupal 8 Configuration Management with Config Split](https://www.daggerhart.com/drupal-8-configuration-management-with-config-split/)
-- [Writing Automated Tests in Drupal 8, Part 1: Test types and set up](https://deninet.com/blog/2018/12/31/writing-automated-tests-drupal-8-part-1-test-types-and-set)
-- [Writing Automated Tests in Drupal 8, Part 2: Functional tests](https://deninet.com/blog/2019/01/13/writing-automated-tests-drupal-8-part-2-functional-tests)
-- [Writing Automated Tests in Drupal 8, Part 3: Unit tests](https://deninet.com/blog/2019/01/27/writing-automated-tests-drupal-8-part-3-unit-tests)
-- [Keeping your Drupal 8 modules, themes and custom code continually up to date, preparing for Drupal 9](http://hojtsy.hu/blog/2019-feb-06/keeping-your-drupal-8-modules-themes-and-custom-code-continually-date-preparing)
-- [How to Create a Product Catalog with Search API, Solr and Facets](https://blog.acromedia.com/how-to-create-a-product-catalog-with-search-api-solr-and-facets)
-- [Reuse readme.md in hook_help() with Parsedown](https://colorfield.be/blog/reuse-readmemd-hookhelp-parsedown)
-- [Controlling multiple sites with Drush 9](http://www.noreiko.com/blog/controlling-multiple-sites-drush-9)
-- [Doping for editors: Put the fun in Paragraphs](https://www.undpaul.de/en/blog/2019/04/12/doping-editors-put-fun-in-paragraphs)
-- [Recognizing Insecure Drupal Code](https://thinkshout.com/blog/2019/05/recognizing-insecure-drupal-code)
-- [Using Config Split and Config Ignore to Fine-Tune Your Configuration Management Process](https://www.o8.agency/blog/tips-dev-team-using-config-split-and-config-ignore-fine-tune-your-configuration-management)
-- [Migrate from a CSV to Content Entities with Paragraphs](https://colorfield.be/blog/migrate-csv-to-content-entities-with-paragraphs)
-- [Migrating files and images into Drupal](https://agaric.coop/blog/migrating-files-and-images-drupal)
-- [Migrating data into Drupal subfields](https://agaric.coop/blog/migrating-data-drupal-subfields)
-- [Invalidate the page cache according to a duration with Drupal 8](https://www.flocondetoile.fr/blog/invalidate-page-cache-according-duration-drupal-8)
-- [Customise scaffold files the right way](https://www.computerminds.co.uk/articles/customise-scaffold-files-right-way)
-- [Automatically remove the Drupal core README (and other) scaffolding files](https://www.drupaleasy.com/quicktips/automatically-remove-drupal-core-readme-and-other-scaffolding-files)
-- [Customizing a CSV export with Entity Export CSV on Drupal 8](https://www.flocondetoile.fr/blog/customizing-csv-export-entity-export-csv-drupal-8)
-- [How to Test Your Drupal Site's Accessibility](https://evolvingweb.ca/blog/how-test-your-drupal-sites-accessibility)
-- [Drupal 8 content migrations from CSV or spreadsheet](https://atendesigngroup.com/articles/drupal-8-content-migrations-csv-spreadsheet)
-- [How To Add Filter Effects to Images on your website with Image effects module](https://drudesk.com/blog/image-effects-module-for-drupal-8)
-- [How to Import External Feeds into your Drupal 9 Website with the Feeds Module](https://www.specbee.com/blogs/how-import-external-feeds-your-drupal-9-website-feeds-module)
-- [Drupal 9 Multisite setup in Lando](https://imalabya.co/setup-multisite-drupal-9-lando)
-- [Using Drupal API To Create A Cross-Platform Menu](https://www.axelerant.com/resources/team-blog/using-drupal-api-create-cross-platform-menu)
-- [Most Popular Drupal 9 Modules to Enhance Website Performance](https://www.thedroptimes.com/9325/most-popular-drupal-9-modules-enhance-website-performance)
-- [Integrate your eCommerce website with these must-have Drupal Modules](https://www.specbee.com/blogs/integrate-ecommerce-website-with-drupal-modules)
-- [Top Security Modules for Your Drupal 9 Website](https://www.thedroptimes.com/9316/top-security-modules-your-drupal-9-website)
-- [Create a shipping method with Drupal commerce 2](https://www.flocondetoile.fr/blog/create-shipping-method-drupal-commerce-2)
-- [Drupal 9: Altering Routes With The Route Subscriber Service](https://www.hashbangcode.com/article/drupal-9-altering-routes-route-subscriber-service)
-- [How to Create Charts in Drupal with the Charts and Charts Twig Modules?](https://www.droptica.com/blog/how-create-charts-drupal-charts-and-charts-twig-modules/)
-- [Understanding the Difference Between Cache Keys and Cache Tags in Drupal](https://drupalize.me/blog/understanding-difference-between-cache-keys-and-cache-tags-drupal)
-- [10 Twig Tricks for Better Drupal Theming](https://www.vardot.com/en/ideas/blog/10-twig-tricks-better-drupal-theming)
-- [Getting Started with Search API in Drupal](https://www.webwash.net/getting-started-with-search-api-in-drupal/)
-- [Indexing PDF Docs using Search API and Solr in Drupal](https://www.webwash.net/indexing-pdf-docs-search-api-and-solr-in-drupal/)
-- [Getting Started with DDEV for Drupal Development](https://www.webwash.net/getting-started-ddev-drupal-development/)
+- exact error messages
+- module name
+- core version
+- PHP version
+- “update”, “cache”, “ajax”, “migration”, “Solr”, and similar qualifiers where relevant
 
-## Further resources
-- [Comparison of Node/Entity Ordering Modules](https://www.drupal.org/node/398508)
-- [Drupal Pitch Deck](https://www.drupal.org/community/agency-marketing/pitch-deck)
+### 5. Check logs before touching code
 
-## Drupal PaaS
-When it comes to hosting a Drupal site, you can always use any server which supports the system requirements.
-However, there are a few Drupal specialized PaaS hosting options you might want to consider as well.
+Look in:
 
-- [Acquia Cloud](https://cloud.acquia.com/)
-- [amazee.io](https://www.amazee.io/)
-- [Pantheon](https://pantheon.io/)
-- [Platform.sh](https://platform.sh/)
+- Drupal reports (`/admin/reports/dblog`) if DB logging is enabled
+- web server logs
+- PHP error logs
+- browser console
+- network requests
 
-## Get in touch with the Drupal community
-If you wish to get more involved with the Drupal community, or want to get in contact with Drupal developers, you can use one of the following platforms.
-- [DrupalChat](https://drupalchat.eu/) - An open source ([Rocket.Chat](https://rocket.chat/)) alternative to Slack.
-- [Drupical](https://www.drupical.com/) - Find Drupal events with ease in a map! Note: The list is not complete but can give you a rough overview of Drupal events around the world.
-- [IRC](https://www.drupal.org/ircchat) - Chat with the Drupal Community on IRC!
-- [Meetups](https://www.meetup.com/topics/drupal/) - Participate in local Drupal meetups in your area and meet the community face to face.
-- [Reddit](https://www.reddit.com/r/drupal/) - The Drupal community on Reddit. They have weekly rotating posts!
-- [Slack](https://www.drupal.org/slack) - A list of Drupal Slack spaces and channels.
-- [Twitter](https://twitter.com/) - Yes, a lot of us are on Twitter too! `#drupal`
+For CLI-based debugging, Drush is your friend:
 
-## Drupal newsletter
-Get the best Drupal news, tutorials and articles once a week without hours of browsing.  
-Check out the [TheWeeklyDrop](http://www.theweeklydrop.com/).
+```bash
+drush status
+drush cr
+drush watchdog:show
+drush config:get system.site
+drush pm:list --status=enabled
+```
+
+### 6. Rebuild caches, then ask whether cacheability is the real issue
+
+Many “Drupal bugs” are actually one of these:
+
+- stale render cache
+- wrong cache tags
+- missing cache contexts
+- broken max-age assumptions
+- configuration imported but old markup is still cached somewhere
+
+If a page behaves differently across users, languages, roles, query parameters, or routes, think about **cache contexts** early.
+
+### 7. Reduce the problem
+
+Try to isolate the issue by asking:
+
+- Does it happen in a minimal View?
+- Does it happen with one module disabled?
+- Does it happen with the default theme?
+- Does it happen with custom code removed?
+- Does it happen with a fresh content entity?
+
+A smaller reproduction almost always gets you to the answer faster.
+
+### 8. Check change records when something “used to work”
+
+If a behavior changed after a core update, change records matter.
+They are the official record of important core changes.
+
+Useful links:
+
+- [Change records for Drupal core](https://www.drupal.org/list-changes/drupal)
+- [Change records policy](https://www.drupal.org/about/core/policies/core-change-policies/change-records)
+
+### 9. Ask in the right place
+
+When you still need help, ask with enough context.
+
+Good places:
+
+- [Drupal Answers](https://drupal.stackexchange.com/)
+- [Drupal Slack](https://www.drupal.org/join-slack)
+- [Drupal forums](https://www.drupal.org/forum)
+
+A good support request usually includes:
+
+- what you expected
+- what happened instead
+- exact error message
+- steps to reproduce
+- relevant module or theme versions
+- environment details
+- what you already tried
+
+### 10. For custom code: think like a Drupal maintainer
+
+Before writing more code, ask yourself:
+
+- Is there already a Drupal API for this?
+- Is this a plugin, service, event subscriber, form alter, or entity access problem?
+- Am I fighting core behavior instead of extending it cleanly?
+- Would this still make sense six months from now?
+
+That question alone prevents a lot of technical debt.
+
+---
+
+## Learning resources
+
+A good Drupal learning path mixes official docs with practical examples.
+
+### Official documentation first
+
+- [Documentation overview](https://www.drupal.org/documentation)
+- [Drupal User Guide](https://www.drupal.org/docs/user_guide/en/index.html)
+- [Developer documentation](https://www.drupal.org/docs/develop)
+- [Drupal APIs guide](https://www.drupal.org/docs/develop/drupal-apis)
+- [Drupal API documentation](https://api.drupal.org/api/drupal)
+
+### Video and talks
+
+- [Drupal.tv](https://drupal.tv/)
+- [Drupalize.Me](https://drupalize.me/)
+
+### Community learning
+
+- [Drupal events](https://www.drupal.org/community/events)
+- [Find an event to attend](https://www.drupal.org/community/contributor-guide/reference-information/quick-info/find-an-event-to-attend)
+
+### Selected articles and community reads
+
+This section is intentionally small and curated.
+The goal is not to collect hundreds of links again.
+The goal is to keep a short list of articles that are still genuinely useful for people working on modern Drupal projects.
+
+A good rule for future additions:
+
+- prefer evergreen articles over trend pieces
+- prefer technical depth over SEO content
+- drop articles once they become version-confusing or operationally outdated
+- if an official Drupal.org page covers the topic well, prefer that first
+
+Current picks:
+
+- [Drupal 11: What's New and What's Next](https://www.lullabot.com/articles/drupal-11-whats-new-and-whats-next)
+- [Drupal Release Planning in the Enterprise](https://www.lullabot.com/articles/drupal-release-planning-enterprise)
+- [Entity API Overview](https://drupalize.me/tutorial/entity-api-overview)
+- [Introduction to Migrations with Drupal](https://drupalize.me/tutorial/introduction-migrations-drupal)
+- [Build Content Workflows in Drupal](https://www.webwash.net/build-content-workflows-in-drupal/)
+- [Lazy Loading in Drupal](https://www.specbee.com/blogs/lazy-loading-in-drupal)
+
+### Keeping this README maintainable
+
+To keep this repository useful over time, maintain the dynamic sections with a few simple rules:
+
+- review article links occasionally and remove dead or clearly outdated ones
+- keep the article list short
+- prefer replacing weak links over endlessly growing the section
+- use pull requests to suggest better current resources
+
+---
+
+## Get involved with the Drupal community
+
+One of Drupal’s biggest strengths is still its community.
+
+A few good places to connect:
+
+- [Drupal community overview](https://www.drupal.org/community)
+- [Drupal Slack](https://www.drupal.org/join-slack)
+- [Drupal events](https://www.drupal.org/community/events)
+- [Drupal Groups](https://groups.drupal.org/)
+- [Upcoming Drupal events](https://www.drupal.org/community/events/upcoming-events)
+- [Reddit /r/drupal](https://www.reddit.com/r/drupal/)
+- [Drupical](https://www.drupical.com/)
+
+If you want to contribute to Drupal itself, start here:
+
+- [Ways to get involved](https://www.drupal.org/contribute)
+- [Finding an issue to work on](https://www.drupal.org/community/contributor-guide/reference-information/quick-info/finding-an-issue-to-work-on)
+
+> Come for the code. Stay for the community.
+
+---
 
 ## Credits
-- [David Pacassi Torrico](https://www.drupal.org/u/dpacassi) - Project maintainer
+
+Maintained by [David Pacassi Torrico](https://www.drupal.org/u/dpacassi).
+
+If you find outdated content, missing modern best practices, or better current references, contributions are welcome.
+
+---
 
 ## License
-```
+
+```text
 MIT License
 
 Copyright (c) 2018 David Pacassi Torrico
